@@ -1,0 +1,96 @@
+/* Racine du design : variables copiees du CSS compile de l'origine. */
+:root {
+  --serif: var(--font-display), Georgia, 'Times New Roman', serif;
+  --sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  --mono: ui-monospace, 'SF Mono', Menlo, monospace;
+
+  --gutter: clamp(1.5rem, 4.5vw, 4rem);
+  --mast-pad: clamp(1.1rem, 2.4vw, 1.9rem);
+
+  --paper: #faf8f2;
+  --ink: #22251e;
+  --ink-2: #4c5243;
+  --ink-3: #6a7060;
+  --ink-soft: #8b9080;
+  --red: #b8431f;
+  --gold: #f6e3c4;
+  --line: #ddd9cb;
+  --surface: #faf8f2;
+
+  --ease-standard: cubic-bezier(0.4, 0, 0.2, 1);
+  --ease-out: cubic-bezier(0, 0, 0.2, 1);
+  --duration-slower: 0.6s;
+}
+
+.hero {
+  position: fixed;
+  inset-block-start: clamp(4.5rem, 13vh, 8rem);
+  inset-inline: 0;
+  z-index: 0;
+  display: grid;
+  justify-items: center;
+  padding-inline: var(--gutter);
+  text-align: center;
+  pointer-events: none;
+}
+
+.hero a,
+.hero button {
+  pointer-events: auto;
+  cursor: pointer;
+}
+
+.hero__word {
+  position: relative;
+  margin: 0;
+  font-family: var(--serif);
+  font-size: clamp(1.7rem, 7.4vw, 5.3rem);
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: -0.028em;
+  font-variation-settings: 'wght' 340, 'opsz' 12, 'SOFT' 0, 'WONK' 1;
+  white-space: nowrap;
+}
+
+.hero__word .ch {
+  font-kerning: none;
+  font-variant-ligatures: none;
+}
+
+.hero__row {
+  display: inline;
+  white-space: nowrap;
+}
+
+.hero__word .no {
+  color: var(--red);
+  font-size: 0.5em;
+  font-style: italic;
+}
+
+.hero__blurb {
+  position: relative;
+  max-inline-size: 26rem;
+  margin: 1.7rem 0 0;
+  color: var(--ink-2);
+  font-size: clamp(0.95rem, 1.05vw, 1.0625rem);
+  line-height: 1.6;
+  text-wrap: pretty;
+}
+
+.hero__go {
+  margin-block-start: 2.1rem;
+}
+
+/* entrée du héros : la séquence d'origine */
+.clearing.is-entering .hero > *,
+.clearing.is-entering .track {
+  opacity: 0;
+}
+
+.clearing .hero > *,
+.clearing .track {
+  opacity: 1;
+  translate: none;
+  transition: opacity var(--duration-slower, 0.6s) var(--ease-standard, cubic-bezier(0.2, 0.7, 0.2, 1));
+}

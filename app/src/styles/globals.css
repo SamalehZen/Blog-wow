@@ -1,0 +1,35 @@
+@import 'tailwindcss';
+@import './tokens.css';
+@import './site.css';
+
+@theme {
+  --font-sans: 'GeistSans', 'GeistSans Fallback', ui-sans-serif, system-ui, sans-serif;
+  --font-display: 'Fraunces', 'Fraunces Fallback', Georgia, 'Times New Roman', serif;
+}
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: var(--paper, #faf8f2);
+    color: var(--ink, #22251e);
+  }
+
+  body {
+    font-family: var(--font-sans);
+    font-feature-settings: 'ss01' 1, 'cv01' 1;
+    margin: 0;
+  }
+
+  ::selection {
+    background: var(--gold, #f6e3c4);
+    color: var(--ink, #14181c);
+  }
+
+  audio { width: 100%; }
+}
+
+@layer utilities {
+  .measure { max-width: 38rem; }
+  .measure-wide { max-width: 46rem; }
+}

@@ -1,0 +1,23 @@
+# dependances
+node_modules/
+
+# build
+dist/
+
+# assets copies depuis le clone (npm run assets) : non commites
+public/_next/
+public/sky/
+public/art/
+public/posts/
+public/islands/
+public/favicon.ico
+public/icon.svg
+public/apple-icon.png
+public/manifest.webmanifest
+
+# stubs generes
+public/d8cfe6e103a22d0b/
+public/02e71e65b966ffac/
+
+*.log
+.DS_Store
