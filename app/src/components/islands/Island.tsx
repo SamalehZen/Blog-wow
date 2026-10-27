@@ -53,7 +53,7 @@ export function Island({ name, className = '', height = 'viewport', titre }: Isl
   return (
     <iframe
       ref={ref}
-      src={'/islands/' + name + '.html'}
+      src={import.meta.env.BASE_URL + 'islands/' + name + '.html'}
       title={titre}
       loading="lazy"
       className={
