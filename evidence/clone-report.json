@@ -1,0 +1,81 @@
+[
+ {
+  "route": "/",
+  "width": 1440,
+  "status": "200",
+  "height": 900,
+  "elements": 340,
+  "title": "The Boring Blog — art, engineering and AI",
+  "shot": "timeout",
+  "errors": 0,
+  "failed": []
+ },
+ {
+  "route": "/posts",
+  "width": 1440,
+  "status": "200",
+  "height": 900,
+  "elements": 401,
+  "title": "Posts — The Boring Blog",
+  "shot": "timeout",
+  "errors": 0,
+  "failed": []
+ },
+ {
+  "route": "/lab",
+  "width": 1440,
+  "status": "200",
+  "height": 4720,
+  "elements": 391,
+  "title": "Lab — The Boring Blog",
+  "shot": "ok",
+  "errors": 0,
+  "failed": []
+ },
+ {
+  "route": "/posts/making-stylized-grass",
+  "width": 1440,
+  "status": "200",
+  "height": 900,
+  "elements": 1106,
+  "title": "Making stylized grass — The Boring Blog",
+  "shot": "ok",
+  "errors": 0,
+  "failed": []
+ },
+ {
+  "route": "/posts/eskiz-number-input/transcript",
+  "width": 1440,
+  "status": "200",
+  "height": 6416,
+  "elements": 408,
+  "title": "Transcript: Building Eskiz, chapter one: the ",
+  "shot": "ok",
+  "errors": 0,
+  "failed": []
+ },
+ {
+  "route": "/lab/mow",
+  "width": 1440,
+  "status": "200",
+  "height": 999,
+  "elements": 128,
+  "title": "Lab — The Boring Blog",
+  "shot": "timeout",
+  "errors": 0,
+  "failed": []
+ },
+ {
+  "route": "/no-such-route",
+  "width": 1440,
+  "status": "404",
+  "height": 900,
+  "elements": 162,
+  "title": "Not here — The Boring Blog",
+  "shot": "ok",
+  "errors": 1,
+  "failed": [
+   "404 /no-such-route"
+  ]
+ }
+]

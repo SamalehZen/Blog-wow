@@ -1,0 +1,416 @@
+[
+ {
+  "route": "/404-probe-does-not-exist",
+  "file": "404-probe-does-not-exist/index.html",
+  "slug": "404-probe-does-not-exist",
+  "title": "Not here — The Boring Blog",
+  "strings": 11,
+  "visible": 7,
+  "payload": 4
+ },
+ {
+  "route": "/",
+  "file": "index.html",
+  "slug": "accueil",
+  "title": "The Boring Blog — art, engineering and AI",
+  "strings": 15,
+  "visible": 10,
+  "payload": 5
+ },
+ {
+  "route": "/lab/companion",
+  "file": "lab/companion/index.html",
+  "slug": "lab__companion",
+  "title": "Lab — The Boring Blog",
+  "strings": 25,
+  "visible": 21,
+  "payload": 4
+ },
+ {
+  "route": "/lab/contact-sheet",
+  "file": "lab/contact-sheet/index.html",
+  "slug": "lab__contact-sheet",
+  "title": "Lab — The Boring Blog",
+  "strings": 24,
+  "visible": 20,
+  "payload": 4
+ },
+ {
+  "route": "/lab/dial-is-a-day",
+  "file": "lab/dial-is-a-day/index.html",
+  "slug": "lab__dial-is-a-day",
+  "title": "Lab — The Boring Blog",
+  "strings": 24,
+  "visible": 20,
+  "payload": 4
+ },
+ {
+  "route": "/lab/focus-pull",
+  "file": "lab/focus-pull/index.html",
+  "slug": "lab__focus-pull",
+  "title": "Lab — The Boring Blog",
+  "strings": 24,
+  "visible": 20,
+  "payload": 4
+ },
+ {
+  "route": "/lab/footprints",
+  "file": "lab/footprints/index.html",
+  "slug": "lab__footprints",
+  "title": "Lab — The Boring Blog",
+  "strings": 25,
+  "visible": 21,
+  "payload": 4
+ },
+ {
+  "route": "/lab/growing-type",
+  "file": "lab/growing-type/index.html",
+  "slug": "lab__growing-type",
+  "title": "Lab — The Boring Blog",
+  "strings": 25,
+  "visible": 22,
+  "payload": 4
+ },
+ {
+  "route": "/lab/horizon-menu",
+  "file": "lab/horizon-menu/index.html",
+  "slug": "lab__horizon-menu",
+  "title": "Lab — The Boring Blog",
+  "strings": 25,
+  "visible": 21,
+  "payload": 4
+ },
+ {
+  "route": "/lab/idle",
+  "file": "lab/idle/index.html",
+  "slug": "lab__idle",
+  "title": "Lab — The Boring Blog",
+  "strings": 23,
+  "visible": 19,
+  "payload": 4
+ },
+ {
+  "route": "/lab/impression",
+  "file": "lab/impression/index.html",
+  "slug": "lab__impression",
+  "title": "Lab — The Boring Blog",
+  "strings": 23,
+  "visible": 19,
+  "payload": 4
+ },
+ {
+  "route": "/lab",
+  "file": "lab/index.html",
+  "slug": "lab",
+  "title": "Lab — The Boring Blog",
+  "strings": 118,
+  "visible": 107,
+  "payload": 11
+ },
+ {
+  "route": "/lab/leaning-field",
+  "file": "lab/leaning-field/index.html",
+  "slug": "lab__leaning-field",
+  "title": "Lab — The Boring Blog",
+  "strings": 24,
+  "visible": 20,
+  "payload": 4
+ },
+ {
+  "route": "/lab/letters-in-the-grass",
+  "file": "lab/letters-in-the-grass/index.html",
+  "slug": "lab__letters-in-the-grass",
+  "title": "Lab — The Boring Blog",
+  "strings": 24,
+  "visible": 20,
+  "payload": 4
+ },
+ {
+  "route": "/lab/local-sky",
+  "file": "lab/local-sky/index.html",
+  "slug": "lab__local-sky",
+  "title": "Lab — The Boring Blog",
+  "strings": 25,
+  "visible": 21,
+  "payload": 4
+ },
+ {
+  "route": "/lab/loupe",
+  "file": "lab/loupe/index.html",
+  "slug": "lab__loupe",
+  "title": "Lab — The Boring Blog",
+  "strings": 27,
+  "visible": 24,
+  "payload": 4
+ },
+ {
+  "route": "/lab/marginalia",
+  "file": "lab/marginalia/index.html",
+  "slug": "lab__marginalia",
+  "title": "Lab — The Boring Blog",
+  "strings": 24,
+  "visible": 21,
+  "payload": 4
+ },
+ {
+  "route": "/lab/misregistration",
+  "file": "lab/misregistration/index.html",
+  "slug": "lab__misregistration",
+  "title": "Lab — The Boring Blog",
+  "strings": 25,
+  "visible": 22,
+  "payload": 4
+ },
+ {
+  "route": "/lab/mow",
+  "file": "lab/mow/index.html",
+  "slug": "lab__mow",
+  "title": "Lab — The Boring Blog",
+  "strings": 28,
+  "visible": 24,
+  "payload": 4
+ },
+ {
+  "route": "/lab/page-turn",
+  "file": "lab/page-turn/index.html",
+  "slug": "lab__page-turn",
+  "title": "Lab — The Boring Blog",
+  "strings": 29,
+  "visible": 25,
+  "payload": 4
+ },
+ {
+  "route": "/lab/planted",
+  "file": "lab/planted/index.html",
+  "slug": "lab__planted",
+  "title": "Lab — The Boring Blog",
+  "strings": 24,
+  "visible": 20,
+  "payload": 4
+ },
+ {
+  "route": "/lab/plates",
+  "file": "lab/plates/index.html",
+  "slug": "lab__plates",
+  "title": "Lab — The Boring Blog",
+  "strings": 25,
+  "visible": 22,
+  "payload": 4
+ },
+ {
+  "route": "/lab/reflow",
+  "file": "lab/reflow/index.html",
+  "slug": "lab__reflow",
+  "title": "Lab — The Boring Blog",
+  "strings": 24,
+  "visible": 21,
+  "payload": 4
+ },
+ {
+  "route": "/lab/registration",
+  "file": "lab/registration/index.html",
+  "slug": "lab__registration",
+  "title": "Lab — The Boring Blog",
+  "strings": 24,
+  "visible": 20,
+  "payload": 4
+ },
+ {
+  "route": "/lab/ribbon",
+  "file": "lab/ribbon/index.html",
+  "slug": "lab__ribbon",
+  "title": "Lab — The Boring Blog",
+  "strings": 25,
+  "visible": 21,
+  "payload": 4
+ },
+ {
+  "route": "/lab/seasons",
+  "file": "lab/seasons/index.html",
+  "slug": "lab__seasons",
+  "title": "Lab — The Boring Blog",
+  "strings": 22,
+  "visible": 18,
+  "payload": 4
+ },
+ {
+  "route": "/lab/stamp",
+  "file": "lab/stamp/index.html",
+  "slug": "lab__stamp",
+  "title": "Lab — The Boring Blog",
+  "strings": 25,
+  "visible": 21,
+  "payload": 4
+ },
+ {
+  "route": "/lab/tab-index",
+  "file": "lab/tab-index/index.html",
+  "slug": "lab__tab-index",
+  "title": "Lab — The Boring Blog",
+  "strings": 25,
+  "visible": 21,
+  "payload": 4
+ },
+ {
+  "route": "/lab/the-grid",
+  "file": "lab/the-grid/index.html",
+  "slug": "lab__the-grid",
+  "title": "Lab — The Boring Blog",
+  "strings": 24,
+  "visible": 21,
+  "payload": 4
+ },
+ {
+  "route": "/lab/type-in-the-field",
+  "file": "lab/type-in-the-field/index.html",
+  "slug": "lab__type-in-the-field",
+  "title": "Lab — The Boring Blog",
+  "strings": 24,
+  "visible": 20,
+  "payload": 4
+ },
+ {
+  "route": "/lab/walk-in",
+  "file": "lab/walk-in/index.html",
+  "slug": "lab__walk-in",
+  "title": "Lab — The Boring Blog",
+  "strings": 25,
+  "visible": 21,
+  "payload": 4
+ },
+ {
+  "route": "/lab/weather",
+  "file": "lab/weather/index.html",
+  "slug": "lab__weather",
+  "title": "Lab — The Boring Blog",
+  "strings": 24,
+  "visible": 20,
+  "payload": 4
+ },
+ {
+  "route": "/lab/wet-ink",
+  "file": "lab/wet-ink/index.html",
+  "slug": "lab__wet-ink",
+  "title": "Lab — The Boring Blog",
+  "strings": 24,
+  "visible": 20,
+  "payload": 4
+ },
+ {
+  "route": "/posts/agent-replay",
+  "file": "posts/agent-replay/index.html",
+  "slug": "posts__agent-replay",
+  "title": "Agent Replay: a calmer way to review code — The Boring Blog",
+  "strings": 61,
+  "visible": 60,
+  "payload": 5
+ },
+ {
+  "route": "/posts/agent-replay/transcript",
+  "file": "posts/agent-replay/transcript/index.html",
+  "slug": "posts__agent-replay__transcript",
+  "title": "Transcript: Agent Replay: a calmer way to review code — The Boring Blog",
+  "strings": 60,
+  "visible": 87,
+  "payload": 9
+ },
+ {
+  "route": "/posts/eskiz-number-input",
+  "file": "posts/eskiz-number-input/index.html",
+  "slug": "posts__eskiz-number-input",
+  "title": "Building Eskiz, chapter one: the number input — The Boring Blog",
+  "strings": 161,
+  "visible": 184,
+  "payload": 5
+ },
+ {
+  "route": "/posts/eskiz-number-input/transcript",
+  "file": "posts/eskiz-number-input/transcript/index.html",
+  "slug": "posts__eskiz-number-input__transcript",
+  "title": "Transcript: Building Eskiz, chapter one: the number input — The Boring Blog",
+  "strings": 94,
+  "visible": 145,
+  "payload": 14
+ },
+ {
+  "route": "/posts/gtm-engineering-explained-badly",
+  "file": "posts/gtm-engineering-explained-badly/index.html",
+  "slug": "posts__gtm-engineering-explained-badly",
+  "title": "GTM engineering, explained badly — The Boring Blog",
+  "strings": 101,
+  "visible": 119,
+  "payload": 5
+ },
+ {
+  "route": "/posts/gtm-engineering-explained-badly/transcript",
+  "file": "posts/gtm-engineering-explained-badly/transcript/index.html",
+  "slug": "posts__gtm-engineering-explained-badly__transcript",
+  "title": "Transcript: GTM engineering, explained badly — The Boring Blog",
+  "strings": 169,
+  "visible": 291,
+  "payload": 16
+ },
+ {
+  "route": "/posts",
+  "file": "posts/index.html",
+  "slug": "posts",
+  "title": "Posts — The Boring Blog",
+  "strings": 38,
+  "visible": 34,
+  "payload": 5
+ },
+ {
+  "route": "/posts/it-was-supposed-to-be-a-small-change",
+  "file": "posts/it-was-supposed-to-be-a-small-change/index.html",
+  "slug": "posts__it-was-supposed-to-be-a-small-change",
+  "title": "Why is 3D modeling still so complicated? — The Boring Blog",
+  "strings": 226,
+  "visible": 243,
+  "payload": 5
+ },
+ {
+  "route": "/posts/it-was-supposed-to-be-a-small-change/transcript",
+  "file": "posts/it-was-supposed-to-be-a-small-change/transcript/index.html",
+  "slug": "posts__it-was-supposed-to-be-a-small-change__transcript",
+  "title": "Transcript: Why is 3D modeling still so complicated? — The Boring Blog",
+  "strings": 142,
+  "visible": 235,
+  "payload": 17
+ },
+ {
+  "route": "/posts/making-stylized-grass",
+  "file": "posts/making-stylized-grass/index.html",
+  "slug": "posts__making-stylized-grass",
+  "title": "Making stylized grass — The Boring Blog",
+  "strings": 151,
+  "visible": 300,
+  "payload": 5
+ },
+ {
+  "route": "/posts/making-stylized-grass/transcript",
+  "file": "posts/making-stylized-grass/transcript/index.html",
+  "slug": "posts__making-stylized-grass__transcript",
+  "title": "Transcript: Making stylized grass — The Boring Blog",
+  "strings": 104,
+  "visible": 161,
+  "payload": 16
+ },
+ {
+  "route": "/posts/the-boring-state-of-artificial-intelligence",
+  "file": "posts/the-boring-state-of-artificial-intelligence/index.html",
+  "slug": "posts__the-boring-state-of-artificial-intelligence",
+  "title": "The boring state of artificial intelligence — The Boring Blog",
+  "strings": 239,
+  "visible": 254,
+  "payload": 5
+ },
+ {
+  "route": "/posts/the-boring-state-of-artificial-intelligence/transcript",
+  "file": "posts/the-boring-state-of-artificial-intelligence/transcript/index.html",
+  "slug": "posts__the-boring-state-of-artificial-intelligence__transcript",
+  "title": "Transcript: The boring state of artificial intelligence — The Boring Blog",
+  "strings": 176,
+  "visible": 289,
+  "payload": 24
+ }
+]

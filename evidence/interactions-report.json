@@ -1,0 +1,23 @@
+{
+ "navigation": {
+  "url": "http://127.0.0.1:4180/posts",
+  "title": "(n/a)",
+  "failed": []
+ },
+ "keyboard": {
+  "stage": true,
+  "aria": "A field you can turn. Left and right arrows turn it one step.",
+  "styleChanged": false,
+  "before": "pointer-events: none;",
+  "after": "pointer-events: none;"
+ },
+ "subscribe": {
+  "buttonFound": true,
+  "detail": ""
+ },
+ "audio": {
+  "found": false,
+  "played": false,
+  "failed": []
+ }
+}

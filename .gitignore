@@ -1,0 +1,10 @@
+# Build : reproductible avec "npm run build"
+dist/
+
+# Journaux d'acquisition
+logs/*.log
+
+# Divers
+node_modules/
+.DS_Store
+*.tmp

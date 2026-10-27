@@ -1,0 +1,16 @@
+{
+  "name": "photographer",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Clone fidele de www.theboringblog.ai (niveau 2 : miroir + couche de contenu). Sans dependance npm.",
+  "scripts": {
+    "acquire": "node tools/collect-assets.mjs",
+    "extract": "node tools/extract-content.mjs",
+    "build": "node tools/build.mjs && node tools/apply-content.mjs",
+    "verify": "node tools/verify.mjs",
+    "serve": "node tools/serve.mjs 4180",
+    "publish": "sh deploy/publish.sh"
+  },
+  "engines": { "node": ">=20" }
+}

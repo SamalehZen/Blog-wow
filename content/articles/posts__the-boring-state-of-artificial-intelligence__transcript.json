@@ -1,0 +1,905 @@
+{
+ "_lisezMoi": [
+  "Fichier de contenu de la page /posts/the-boring-state-of-artificial-intelligence/transcript",
+  "",
+  "Chaque entree de \"chaines\" se lit :",
+  "  { \"en\": \"texte d origine\", \"fr\": \"nouveau texte\", \"remplacer\": true }",
+  "  - remplacer: true  -> \"fr\" remplace \"en\" PARTOUT (HTML visible et payload RSC)",
+  "  - remplacer: false -> la chaine reste intacte",
+  "Vous pouvez ajouter, supprimer ou reordonner les entrees librement.",
+  "Puis : npm run build && npm run verify"
+ ],
+ "route": "/posts/the-boring-state-of-artificial-intelligence/transcript",
+ "title": {
+  "en": "Transcript: The boring state of artificial intelligence — The Boring Blog",
+  "fr": null,
+  "remplacer": false
+ },
+ "description": {
+  "en": "The conversation adapting “The boring state of artificial intelligence”, as text: every line, who said it and when. Synthetic voices; a dialogue adaptation of the article, not a verbatim reading.",
+  "fr": null,
+  "remplacer": false
+ },
+ "chaines": [
+  {
+   "en": "Back to the post",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "Posts",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "Subscribe",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "Transcript",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "The boring state of artificial intelligence",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "Synthetic voices · A dialogue adaptation of this article, not a verbatim reading.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "Narrator & Maya",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "Read the article",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "A bet at work",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "Narrator",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->A colleague bet I'd fall for the AI hype within six months. Slightly delusional colleague. I responded with a blog post. Several thousand words. He probably just wanted to finish his lunch.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "Maya",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->Was a simple 'no' available?",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->Apparently not. I'm Khalil. This is Maya. And we're going back to April seventeenth, twenty twenty-three, when I wrote The boring state of artificial intelligence.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->Back to those models, those experiments. I want that on the record before you start predicting the future.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->Fair. I'd been working in data science and engineering for about six years. Enough to have questions. Also enough to get very attached to my own answers. You'll hear some of that.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->All right. Let's see what annoyed you enough to interrupt lunch.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "This part of the article",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "The hype",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->First diagnosis: Wikipedia scientist syndrome. You read two articles, develop three opinions, and suddenly you're qualified to supervise the future of civilization.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->Only two articles? I've been overtraining.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->Reading matters. But reading about painting doesn't teach your hand to paint. You have to draw, fail, notice why, and try again. The problem gets louder when shallow certainty comes with a very large audience.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->Have you tried the thing before explaining it to everyone?",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->That would help. Then there's the other habit: a demo works, and suddenly we're discussing sentience. Flying cars! The end of work! Meanwhile, my actual car is still in traffic.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->And your own certainty?",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->Oh, inspect mine too. I have several thousand words of evidence. Take the opinions with salt. Keep a glass of water nearby.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "What is AI?",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->Let's give ourselves something small enough to understand. In this article, I'm mostly talking about neural networks. Under suitable conditions, they're universal approximators. That's the universal approximation theorem, with foundational work by George Cybenko, and by Kurt Hornik, Maxwell Stinchcombe and Halbert White, in 1989. Definitely not something I came up with.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->That's it? The robot uprising is a function?",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->With suitable activation functions and enough capacity, a network can approximate continuous functions on a closed, bounded domain as closely as we like. That doesn't guarantee training will find the right answer. Start with inputs and outputs: the network learns a relationship between them. We'll try it with two numbers in a minute.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->Good, because universal sounds suspiciously like it comes with a lifetime warranty.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->No warranty. And for the art discussion, I'm mostly looking at two-dimensional images. Otherwise we'll still be here tomorrow.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "The artist",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->Let's start with art. My three ingredients were technical skill, creativity, and control. Technical skill includes lighting, color, composition, form, and anatomy. All the quiet decisions that make an image work.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->I know where this is going. Hands.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->Hands. Beautiful portrait, lovely light, one finger doing something deeply independent. That's all anyone sees. Now, an artist can distort anatomy deliberately. But knowing what you're changing makes a difference.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->You can break the rules on purpose. You still need to know where they were.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->Look at Michelangelo's anatomical studies in the article. There's so much patient observation there. That's the part I wanted to talk about: all the work behind being able to choose what goes on the page.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "Creativity and control",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->Technical skill is one ingredient. What do creativity and control add?",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->Creativity brings your imagination and your taste. Control lets you put them into the image. Move the light a little. Change the posture. Make the room feel uncomfortable, although nothing obviously terrible is happening.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->So a happy accident is welcome. It just shouldn't be the entire management team.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->Look at Piotr Jablonski's work here, then Alfred Broge's Morning Sunlight. One feels unsettling. The other gives you this quiet, sunlit room. The lighting and composition help create those feelings.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->One makes you admire the light. The other makes you check whether something is standing behind you.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->And they get there by choosing what matters in each picture. Which makes grading the machine a little awkward.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "Evaluating Midjourney",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->Could Midjourney be an artist? My article initially says yes, and then spends quite a while arguing with itself. What impressed me was the lighting, color, and composition of its images.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->You wrote both sides of the argument? Efficient.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->I guessed at parts of the training process too: curated images, loss functions. Guesses. I didn't have access to Midjourney's internals. What I could see was lovely lighting alongside anatomy and structure that sometimes fell apart.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->And imagination? Surely artists also learn from things they've seen.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->They do. I described that as a visual library. Artists study animals, objects, light, and scenery, then combine and transform what they've learned. An image model has an enormous collection of learned visual patterns to work with.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->Then I'm still stuck on intention. Who decides what the picture is trying to do?",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->The person using it brings that intention. I could see a remarkable tool for trying out ideas. Calling the model itself an artist, with a purpose of its own... that's where I hesitated. Other people can reasonably draw that line elsewhere.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "Artistic choices",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->Look at Nathan Fawkes. He can simplify structure and give all that attention to color and light. Steve Huston might put anatomy and gesture at the center. You don't have to demonstrate every skill in every painting.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->So your three-ingredient recipe isn't a spreadsheet for giving paintings a performance review.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->Please don't give paintings quarterly targets. The point is choice. An artist can leave a detail out because it doesn't serve the work. That differs from losing the detail because the system didn't hold it together.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->Okay, I see what you're getting at. Did you choose to leave it out, or could you not make it work?",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->That's what I wanted to ask. A beautiful result alone doesn't answer it. Now, about intelligence. Surely we'll agree on that in thirty seconds.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->I'll cancel my afternoon.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "Sparks of AGI?",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->The essay responds to Sparks of Artificial General Intelligence, the early GPT-four experiments. Instead of treating intelligence as one agreed score, I proposed a working definition: using existing information in new ways, and extending what we know.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->Your working definition. I'm keeping a pencil next to it.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->Please do. Think about fire. You notice it. Then you learn to control it, cook with it, use it for something you couldn't do before. That's the kind of step I was interested in.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->Humanity: sees a dangerous burning object, asks whether dinner could be improved.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->Dinner is a strong research incentive. The diagram here draws possible information as a big space, human knowledge as a region inside it, and individuals as little dots. It's a sketch to think with. I haven't measured anybody's brain.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->So show me a small version. What does learning actually look like?",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "A simple neural network",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->Let's build the world's least threatening AI. Two numbers go in. Their sum comes out. At first, the network's adjustable weights aren't set to produce the answer we want.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->Two numbers. Good. I can supervise.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->We supply examples with known answers. The network makes a prediction. A loss function measures how far that prediction is from the target. Training adjusts the weights to reduce that error across the examples.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->So 'loss' is just a measure of the mistake. Nobody inside the laptop is having a bad day.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->Correct. Now ask it to multiply. We trained this little setup for addition; multiplication wasn't part of the job. We need to specify the operation and train for that too. Doing well on our examples doesn't promise it will handle every new input.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->I may have promoted it too early.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->Universal approximation tells us what suitable networks can represent under certain assumptions. It doesn't promise that this network, with this training, learns the right thing. Also, I got bored of drawing the diagrams at this point. The next one exists in spirit.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "A calculator that talks",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->Now we change the interface. Instead of entering two numbers, we ask, could you please add twelve and thirty-five? The answer comes back as a sentence. Forty-seven, with excellent manners.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->Does saying please improve the arithmetic?",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->It improves the atmosphere. My argument was that a language interface is useful even without treating it as proof of general intelligence. You can bring summarization, translation, classification, and other tasks behind the same conversational doorway.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->I'd still use that. I spend half my day finding the right menu.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->Me too. That's useful. Then there's the confident wrong answer. I suggested interference inside networks as an explanation in the essay, but that was an intuition. It doesn't explain every hallucination.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->Let's give the very polite calculator a calculation.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "Let’s try some arithmetic",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->The screenshots here are from the March twenty-third version of ChatGPT in twenty twenty-three. I gave it a long decimal addition problem. It got the result wrong. Then I simplified the operation and tried again in a fresh session.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->Go on. Did it get the answer?",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->It got it wrong. Confidently. The screenshots have the exact decimals; I'll spare you the audio version of a bank statement. I tried a simpler operation as well. Still, the explanation sounded much better than the arithmetic.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->But a wrong answer doesn't tell you, by itself, why the model was wrong.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->Right. I blamed things like overfitting and limited reasoning. A few screenshots don't establish those causes. What we can do is check the answer, change the problem, and see whether it still works.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->Please check before the bow. The bow makes it worse.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "A banana, a guitar, and a Strogbunroftak",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->Next, a nose, a guitar, a banana, a chinchilla, and a Strogbunroftak. I asked a stacking question. The reply wandered into ethics, banana-related insects, and concern for a creature whose name I'd made up.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->Ooh. What's a Strogbunroftak?",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->I made it up.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->And it was worried about it? That's rather sweet.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->Sweet, yes. Useful... less so. It had filled in a whole situation I hadn't described. My question got buried under advice about that invented situation.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->It could have asked me what the word meant. I'd quite like to know too.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->A small 'I don't know' would have saved everyone a lot of banana-related concern.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "Predicting the next word",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->Underneath this conversation is next-token prediction. A token is a chunk of text, sometimes a word, sometimes part of one. The model generates a continuation from the context, then continues from that larger context.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->It's choosing what could come next. Where does checking the facts happen?",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->That prediction alone isn't a fact check. The training text includes reliable claims, mistakes, opinions, all sorts. You can get a very convincing continuation that's false. That's what my simplified examples were trying to show.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->And there's more to the finished chatbot than that one step, of course.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->Yes. The original article says so too. Then it brings back my Wikipedia scientist joke. I seem to have learned one pattern particularly well.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->At least you remembered your source.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "The age problem",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->Next came a father-and-son age problem. The initial answer looked impressive. So naturally I declared humanity doomed, then made the question a little more complicated.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->Before lunch again?",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->The later answers were less convincing. I tried a fresh session too. The screenshots matter because the argument isn't just that the text sounds intelligent. It's whether the relationships in the problem stay consistent when the setup changes.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->Change one condition. See if the family ages still make sense. I can follow that test.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->And keep the conclusion tied to the test. I was broader, and more skeptical, in the article. Those screenshots tell us what that version did on those questions. They can't answer for every future model.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "The information domain",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->This leads to the information domain. With a narrow model, its boundaries are obvious: it summarizes text, for example. With a chatbot that answers almost anything, the boundary is harder to see.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->You can ask it almost anything. It's hard to tell when you've walked past what it can handle.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->Yes. I called that its information domain. I was trying to distinguish combining patterns it had learned from extending knowledge. The image styles and the little arithmetic network were my way into that question.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->But you can't find the exact boundary from those few examples.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->No. And when I wrote that models could 'never' do certain things, I went further than those examples justified. Give them a new situation. See what transfers. That's a question we can test.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->I'd keep 'never' in pencil too. We're getting through a lot of pencils.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "Cats and chocolate",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->To explore combining ideas, I asked for a poem about two things I love: cats and chocolate. I expected charm. I received something considerably darker.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->Oh no. Cats and chocolate. I can already hear the warning.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->I wasn't giving chocolate to a cat! I wanted a poem. But the answer seemed to follow that familiar warning instead of the mood I was asking for.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->It found the association. Missed the occasion.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->Then I went back to fire. Suppose a model only had information from before we discovered it. Could it reach cooking? I didn't run that experiment; I was asking where a new discovery comes from. How far can combining what you know take you?",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->For the next poem, could we try cats and fish? Give the poor thing a chance.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "Outside the dataset",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->The stakes become less funny outside the dataset. A driving system trained in one setting may struggle with different roads and habits. A face-recognition system can perform unevenly when its data represents some people much better than others.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->Which people and situations did the examples leave out?",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->That's the question. I also pushed back on 'humans use eyes, so cameras are enough to drive like a human.' That skips a lot. I wanted the discussion to take perception and other sources of information seriously.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->Then test the actual car, in the actual conditions. The analogy won't drive it home.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->And ask who carries the cost when it fails. A system working beautifully for one group tells you very little about someone the evaluation left out. That deserves time and careful testing.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "A tool to augment us",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->I have to ask. Is there anything here you actually like?",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->Yes! Terrible news for my title. Tell a computer what you need, in normal language, and have it help you do it. Less time remembering which application hides the button.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->You'd miss hunting through six menus?",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->I'd recover. There are plenty of repetitive jobs I'd happily hand over. Doing them isn't what makes me intelligent, or makes the work meaningful. I'd rather spend that time making something I care about.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->And changing people's jobs still has consequences. Even when the tool is useful.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->Of course. I want useful tools and an honest conversation about what changes. That's where I was trying to get, underneath all the complaining.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "Conclusion",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->I ended up imagining an operating system you could talk to. Describe what you need, have it work across the applications. That was one direction I was excited about.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->Plus a few predictions. You did have room left on the internet.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->A few. I questioned scale alone as a route to intelligence, wondered about Epic Games and three-dimensional generation, and pointed to AlphaTensor, AlphaCode, and Segment Anything. Those were things I wanted to watch in April twenty twenty-three.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->We'll leave the predictions as you wrote them. No quietly correcting the exam after getting it back.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->Agreed. Which leaves the goat playing a guitar at the end. An impressive performance. Quite a lot still to ask before declaring it a musician.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->Let it finish the solo first.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->Fair. Thanks for spending the time with us. The original experiments and images are there if you want a closer look. And if you disagree, pick a particular claim. That's where the interesting conversation starts.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->One particular claim, then. Did your colleague win the bet?",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->I didn't put the result in the article. After all those words... I left out the result.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "Until next time",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->Thanks for listening. Follow along for more articles, experiments, and things that worked on my machine.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->Some of them might even work on yours.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->No promises. Have a lovely day. Go make something.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->Preferably a cup of tea first. Bye!",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "1:\"$Sreact.fragment\"\n2:I[39266,[\"/_next/static/chunks/2hw39_eluoaeu.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\"],\"\"]\n3:I[16085,[\"/_next/static/chunks/2lmlkwkj_6x80.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"/_next/static/chunks/3ainre9bxx0ob.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\"],\"default\"]\n4:I[37027,[\"/_next/static/chunks/2lmlkwkj_6x80.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"/_next/static/chunks/3ainre9bxx0ob.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\"],\"default\"]\n5:I[89329,[\"/_next/static/chunks/2hw39_eluoaeu.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"/_next/static/chunks/1ypjhuq8-wket.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"/_next/static/chunks/0x3yu6y8gv9bv.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"/_next/static/chunks/420bf9zpcuklx.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"/_next/static/chunks/0ajkf_ww7o4ah.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\"],\"HomeMark\"]\n6:I[91626,[\"/_next/static/chunks/2hw39_eluoaeu.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"/_next/static/chunks/13c5hw1fzq3t4.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"/_next/static/chunks/0x3yu6y8gv9bv.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"/_next/static/chunks/0ajkf_ww7o4ah.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"/_next/static/chunks/420bf9zpcuklx.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\"],\"MastEnd\"]\n7:I[81831,[\"/_next/static/chunks/2hw39_eluoaeu.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"/_next/static/chunks/1ypjhuq8-wket.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"/_next/static/chunks/0x3yu6y8gv9bv.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"/_next/static/chunks/420bf9zpcuklx.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"/_next/static/chunks/0ajkf_ww7o4ah.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\"],\"Button\"]\n8:I[49043,[\"/_next/static/chunks/2hw39_eluoaeu.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"/_next/static/chunks/13c5hw1fzq3t4.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"/_next/static/chunks/0x3yu6y8gv9bv.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"/_next/static/chunks/0ajkf_ww7o4ah.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"/_next/static/chunks/420bf9zpcuklx.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\"],\"\"]\n9:I[35415,[\"/_next/static/chunks/2hw39_eluoaeu.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\"],\"Analytics\"]\na:I[1367,[\"/_next/static/chunks/2hw39_eluoaeu.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\"],\"SpeedInsights\"]\n11:I[29671,[\"/_next/static/chunks/2hw39_eluoaeu.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\"],\"default\",1]\n14:I[14499,[\"/_next/static/chunks/2lmlkwkj_6x80.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"/_next/static/chunks/3ainre9bxx0ob.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\"],\"OutletBoundary\"]\n15:\"$Sreact.suspense\"\n18:I[14499,[\"/_next/static/chunks/2lmlkwkj_6x80.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"/_next/static/chunks/3ainre9bxx0ob.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\"],\"ViewportBoundary\"]\n1a:I[14499,[\"/_next/static/chunks/2lmlkwkj_6x80.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"/_next/static/chunks/3ainre9bxx0ob.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\"],\"MetadataBoundary\"]\n1d:I[91626,[\"/_next/static/chunks/2hw39_eluoaeu.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"/_next/static/chunks/13c5hw1fzq3t4.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"/_next/static/chunks/0x3yu6y8gv9bv.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"/_next/static/chunks/0ajkf_ww7o4ah.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"/_next/static/chunks/420bf9zpcuklx.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\"],\"MastBack\"]\n33:I[48381,[\"/_next/static/chunks/2lmlkwkj_6x80.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"/_next/static/chunks/3ainre9bxx0ob.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\"],\"IconMark\"]\n:HL[\"/_next/static/chunks/2tf0yppvs3g3p.css?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"style\"]\n:HL[\"/_next/static/chunks/2cjnoq3jgy7c6.css?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"style\"]\n:HL[\"/_next/static/media/54fc36028e2bb174-s.p.20jfceqj9zyw9.woff2?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/media/66b33cc02d8f8b9d-s.p.3slq8sz4zhb1g.woff2?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/media/Geist_Variable",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "0:{\"P\":null,\"c\":[\"\",\"posts\",\"the-boring-state-of-artificial-intelligence\",\"transcript\"],\"q\":\"\",\"i\":false,\"f\":[[[\"\",{\"children\":[\"posts\",{\"children\":[[\"slug\",\"the-boring-state-of-artificial-intelligence\",\"d\",null],{\"children\":[\"transcript\",{\"children\":[\"__PAGE__\",{}]}]}]}]},\"$undefined\",\"$undefined\",16],[[\"$\",\"$1\",\"c\",{\"children\":[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/chunks/2tf0yppvs3g3p.css?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}],[\"$\",\"link\",\"1\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/chunks/2cjnoq3jgy7c6.css?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}],[\"$\",\"script\",\"script-0\",{\"src\":\"/_next/static/chunks/2hw39_eluoaeu.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"async\":true,\"nonce\":\"$undefined\"}]],[\"$\",\"html\",null,{\"lang\":\"en\",\"className\":\"geistsans_d5a4f12f-module__7QEr8W__variable fraunces_3053e531-module__RZoG-q__variable\",\"suppressHydrationWarning\":true,\"children\":[\"$\",\"body\",null,{\"children\":[[\"$\",\"script\",null,{\"id\":\"sun\",\"dangerouslySetInnerHTML\":{\"__html\":\"(function(){try{var t=localStorage.getItem('bb-theme');if(t!=='day'&&t!=='night')t='day';if(t==='night'){var r=document.documentElement;r.classList.add('dark');r.style.setProperty('--night','1');r.style.setProperty('--gold','0');}}catch(e){}})()\"}}],[\"$\",\"script\",null,{\"id\":\"letter\",\"dangerouslySetInnerHTML\":{\"__html\":\"(function(){try{var k=JSON.parse(localStorage.getItem(\\\"bb-letter\\\")||'null');if(k&&typeof k.email==='string'&&k.email.indexOf('@')>=0)document.documentElement.setAttribute('data-letter','kept')}catch(e){}})()\"}}],[\"$\",\"$L2\",null,{\"id\":\"uncover\",\"strategy\":\"beforeInteractive\",\"children\":\"window.__uncover=setTimeout(function(){document.querySelector('.clearing')?.classList.remove('is-entering')},4000)\"}],[\"$\",\"$L3\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L4\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":[[[\"$\",\"header\",null,{\"className\":\"mast\",\"data-veiled\":true,\"data-route\":true,\"children\":[[\"$\",\"$L5\",null,{}],[\"$\",\"$L6\",null,{}]]}],[\"$\",\"main\",null,{\"className\":\"lost\",\"children\":[[\"$\",\"svg\",null,{\"className\":\"lost__tuft\",\"viewBox\":\"2.95 6.7 18 18\",\"aria-hidden\":\"true\",\"children\":[[\"$\",\"path\",null,{\"d\":\"M12 22c0-5.4.9-9.4 2.6-12.1\"}],[\"$\",\"path\",null,{\"d\":\"M12 22c0-4.6-1.1-8-3.2-10.4\"}],[\"$\",\"path\",null,{\"d\":\"M12 22c1.3-3.6 3.6-6.2 6.9-7.8\"}],[\"$\",\"path\",null,{\"d\":\"M12 22c-1.5-3.1-3.9-5.2-7-6.4\"}],[\"$\",\"path\",null,{\"d\":\"M12 22V9.4\"}]]}],[\"$\",\"p\",null,{\"className\":\"lost__kicker\",\"children\":\"404\"}],[\"$\",\"h1\",null,{\"className\":\"lost__title\",\"children\":\"Nothing grows here.\"}],[\"$\",\"p\",null,{\"className\":\"lost__lede\",\"children\":\"The page you were after is not on this blog. It may have moved, or it may not be written yet.\"}],[\"$\",\"div\",null,{\"className\":\"lost__actions\",\"children\":[[\"$\",\"$L7\",null,{\"asChild\":true,\"variant\":\"primary\",\"seam\":\"pill\",\"travel\":\"0.35em\",\"children\":[\"$\",\"$L8\",null,{\"href\":\"/\",\"children\":[[\"$\",\"svg\",null,{\"viewBox\":\"0 0 12 12\",\"fill\":\"none\",\"stroke\":\"currentColor\",\"strokeWidth\":1.25,\"strokeLinecap\":\"round\",\"strokeLinejoin\":\"round\",\"aria-hidden\":\"true\",\"style\":\"$undefined\",\"children\":[\"$\",\"path\",null,{\"d\":\"M10 6H2M5 3 2 6l3 3\"}]}],\"Back to the field\"]}]}],[\"$\",\"$L7\",null,{\"asChild\":true,\"variant\":\"outline\",\"children\":[\"$\",\"$L8\",null,{\"href\":\"/posts\",\"children\":\"All posts\"}]}]]}]]}]],[]],\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}],[\"$\",\"$L9\",null,{}],[\"$\",\"$La\",null,{}]]}]}]]}],{\"children\":[[\"$\",\"$1\",\"c\",{\"children\":[null,[\"$\",\"$L3\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L4\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]]}],{\"children\":[[\"$\",\"$1\",\"c\",{\"children\":[null,[\"$\",\"$L3\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L4\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]]}],{\"children\":[[\"$\",\"$1\",\"c\",{\"children\":[null,[\"$\",\"$L3\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L4\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]]}],{\"children\":[[\"$\",\"$1\",\"c\",{\"children\":[\"$Lb\",[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/chunks/3ivigp5zxji8c.css?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}],[\"$\",\"script\",\"script-0\",{\"src\":\"/_next/static/chunks/13c5hw1fzq3t4.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"async\":true,\"nonce\":\"$undefined\"}],[\"$\",\"script\",\"script-1\",{\"src\":\"/_next/static/chunks/0x3yu6y8gv9bv.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"async\":true,\"nonce\":\"$undefined\"}],\"$Lc\",\"$Ld\"],\"$Le\"]}],{},null,false,null]},null,false,\"$@f\"]},null,false,\"$@f\"]},null,false,\"$@f\"]},null,false,null],\"$L10\",false]],\"m\":\"$undefined\",\"G\":[\"$11\",[\"$L12\",\"$L13\"]],\"S\":false,\"h\":null,\"s\":\"$undefined\",\"l\":\"$undefined\",\"p\":\"$undefined\",\"d\":\"$undefined\"}\n",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "c:[\"$\",\"script\",\"script-2\",{\"src\":\"/_next/static/chunks/0ajkf_ww7o4ah.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"async\":true,\"nonce\":\"$undefined\"}]\nd:[\"$\",\"script\",\"script-3\",{\"src\":\"/_next/static/chunks/420bf9zpcuklx.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"async\":true,\"nonce\":\"$undefined\"}]\ne:[\"$\",\"$L14\",null,{\"children\":[\"$\",\"$15\",null,{\"name\":\"Next.MetadataOutlet\",\"children\":\"$@16\"}]}]\n17:[]\nf:\"$W17\"\n10:[\"$\",\"$1\",\"h\",{\"children\":[null,[\"$\",\"$L18\",null,{\"children\":\"$L19\"}],[\"$\",\"div\",null,{\"hidden\":true,\"children\":[\"$\",\"$L1a\",null,{\"children\":[\"$\",\"$15\",null,{\"name\":\"Next.Metadata\",\"children\":\"$L1b\"}]}]}],[\"$\",\"meta\",null,{\"name\":\"next-size-adjust\",\"content\":\"\"}]]}]\n12:[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/chunks/2tf0yppvs3g3p.css?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}]\n13:[\"$\",\"link\",\"1\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/chunks/2cjnoq3jgy7c6.css?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}]\n1c:T42e,{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://www.theboringblog.ai/posts/the-boring-state-of-artificial-intelligence/transcript\",\"url\":\"https://www.theboringblog.ai/posts/the-boring-state-of-artificial-intelligence/transcript\",\"name\":\"Transcript: The boring state of artificial intelligence\",\"inLanguage\":\"en\",\"about\":{\"@id\":\"https://www.theboringblog.ai/posts/the-boring-state-of-artificial-intelligence#article\"},\"isPartOf\":{\"@id\":\"https://www.theboringblog.ai/#blog\"}},{\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"The Boring Blog\",\"item\":\"https://www.theboringblog.ai/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Posts\",\"item\":\"https://www.theboringblog.ai/posts\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"The boring state of artificial intelligence\",\"item\":\"https://www.theboringblog.ai/posts/the-boring-state-of-artificial-intelligence\"},{\"@type\":\"ListItem\",\"position\":4,\"name\":\"Transcript\",\"item\":\"https://www.theboringblog.ai/posts/the-boring-state-of-artificial-intelligence/transcript\"}]}]}",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "b:[[\"$\",\"script\",null,{\"type\":\"application/ld+json\",\"dangerouslySetInnerHTML\":{\"__html\":\"$1c\"}}],[\"$\",\"header\",null,{\"className\":\"mast\",\"data-veiled\":true,\"data-route\":true,\"children\":[[\"$\",\"$L1d\",null,{\"label\":\"Back to the post\",\"href\":\"/posts/the-boring-state-of-artificial-intelligence\"}],[\"$\",\"$L6\",null,{}]]}],[\"$\",\"main\",null,{\"className\":\"sheet transcript\",\"children\":[\"$\",\"div\",null,{\"className\":\"sheet__body\",\"children\":[[\"$\",\"p\",null,{\"className\":\"head__kicker\",\"children\":\"Transcript\"}],[\"$\",\"h1\",null,{\"className\":\"head__title\",\"children\":\"The boring state of artificial intelligence\"}],[\"$\",\"p\",null,{\"className\":\"head__lede\",\"children\":\"Synthetic voices · A dialogue adaptation of this article, not a verbatim reading.\"}],[\"$\",\"p\",null,{\"className\":\"head__meta\",\"children\":[\"Narrator & Maya\",\" · \",\"16:43\",\" ·\",\" \",[\"$\",\"$L8\",null,{\"href\":\"/posts/the-boring-state-of-artificial-intelligence\",\"children\":\"Read the article\"}]]}],[[\"$\",\"section\",\"a-friendly-bet\",{\"className\":\"transcript__part\",\"children\":[[\"$\",\"h2\",null,{\"className\":\"transcript__heading\",\"children\":[[\"$\",\"span\",null,{\"className\":\"transcript__no\",\"children\":\"01\"}],\"A bet at work\",[\"$\",\"time\",null,{\"className\":\"transcript__at\",\"dateTime\":\"PT0S\",\"children\":\"0:00\"}]]}],[[\"$\",\"p\",\"0.06\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Narrator\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"A colleague bet I'd fall for the AI hype within six months. Slightly delusional colleague. I responded with a blog post. Several thousand words. He probably just wanted to finish his lunch.\"]}],[\"$\",\"p\",\"11.38\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Maya\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"Was a simple 'no' available?\"]}],[\"$\",\"p\",\"13.8\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Narrator\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"Apparently not. I'm Khalil. This is Maya. And we're going back to April seventeenth, twenty twenty-three, when I wrote The boring state of artificial intelligence.\"]}],[\"$\",\"p\",\"23.72\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Maya\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"Back to those models, those experiments. I want that on the record before you start predicting the future.\"]}],[\"$\",\"p\",\"30.22\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Narrator\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"Fair. I'd been working in data science and engineering for about six years. Enough to have questions. Also enough to get very attached to my own answers. You'll hear some of that.\"]}],[\"$\",\"p\",\"40.76\",{\"className\":\"transcript__line\",\"children\":[\"$L1e\",\" \",\"All right. Let's see what annoyed you enough to interrupt lunch.\"]}]],\"$L1f\"]}],\"$L20\",\"$L21\",\"$L22\",\"$L23\",\"$L24\",\"$L25\",\"$L26\",\"$L27\",\"$L28\",\"$L29\",\"$L2a\",\"$L2b\",\"$L2c\",\"$L2d\",\"$L2e\",\"$L2f\",\"$L30\",\"$L31\",\"$L32\"]]}]}]]\n",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "20:[\"$\",\"section\",\"the-hype\",{\"className\":\"transcript__part\",\"children\":[[\"$\",\"h2\",null,{\"className\":\"transcript__heading\",\"children\":[[\"$\",\"span\",null,{\"className\":\"transcript__no\",\"children\":\"02\"}],\"The hype\",[\"$\",\"time\",null,{\"className\":\"transcript__at\",\"dateTime\":\"PT45S\",\"children\":\"0:45\"}]]}],[[\"$\",\"p\",\"45.22\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Narrator\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"First diagnosis: Wikipedia scientist syndrome. You read two articles, develop three opinions, and suddenly you're qualified to supervise the future of civilization.\"]}],[\"$\",\"p\",\"55.14\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Maya\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"Only two articles? I've been overtraining.\"]}],[\"$\",\"p\",\"58.42\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Narrator\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"Reading matters. But reading about painting doesn't teach your hand to paint. You have to draw, fail, notice why, and try again. The problem gets louder when shallow certainty comes with a very large audience.\"]}],[\"$\",\"p\",\"71.3\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Maya\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"Have you tried the thing before explaining it to everyone?\"]}],[\"$\",\"p\",\"74.26\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Narrator\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"That would help. Then there's the other habit: a demo works, and suddenly we're discussing sentience. Flying cars! The end of work! Meanwhile, my actual car is still in traffic.\"]}],[\"$\",\"p\",\"84.34\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Maya\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"And your own certainty?\"]}],[\"$\",\"p\",\"85.94\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Narrator\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"Oh, inspect mine too. I have several thousand words of evidence. Take the opinions with salt. Keep a glass of water nearby.\"]}]],[\"$\",\"$L8\",null,{\"className\":\"transcript__source\",\"href\":\"/posts/the-boring-state-of-artificial-intelligence#the-hype\",\"children\":\"This part of the article\"}]]}]\n",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "21:[\"$\",\"section\",\"what-is-ai\",{\"className\":\"transcript__part\",\"children\":[[\"$\",\"h2\",null,{\"className\":\"transcript__heading\",\"children\":[[\"$\",\"span\",null,{\"className\":\"transcript__no\",\"children\":\"03\"}],\"What is AI?\",[\"$\",\"time\",null,{\"className\":\"transcript__at\",\"dateTime\":\"PT94S\",\"children\":\"1:34\"}]]}],[[\"$\",\"p\",\"94.72\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Narrator\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"Let's give ourselves something small enough to understand. In this article, I'm mostly talking about neural networks. Under suitable conditions, they're universal approximators. That's the universal approximation theorem, with foundational work by George Cybenko, and by Kurt Hornik, Maxwell Stinchcombe and Halbert White, in 1989. Definitely not something I came up with.\"]}],[\"$\",\"p\",\"117.2\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Maya\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"That's it? The robot uprising is a function?\"]}],[\"$\",\"p\",\"121.04\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Narrator\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"With suitable activation functions and enough capacity, a network can approximate continuous functions on a closed, bounded domain as closely as we like. That doesn't guarantee training will find the right answer. Start with inputs and outputs: the network learns a relationship between them. We'll try it with two numbers in a minute.\"]}],[\"$\",\"p\",\"139.04\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Maya\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"Good, because universal sounds suspiciously like it comes with a lifetime warranty.\"]}],[\"$\",\"p\",\"144.56\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Narrator\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"No warranty. And for the art discussion, I'm mostly looking at two-dimensional images. Otherwise we'll still be here tomorrow.\"]}]],[\"$\",\"$L8\",null,{\"className\":\"transcript__source\",\"href\":\"/posts/the-boring-state-of-artificial-intelligence#what-is-ai\",\"children\":\"This part of the article\"}]]}]\n",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "22:[\"$\",\"section\",\"the-artist\",{\"className\":\"transcript__part\",\"children\":[[\"$\",\"h2\",null,{\"className\":\"transcript__heading\",\"children\":[[\"$\",\"span\",null,{\"className\":\"transcript__no\",\"children\":\"04\"}],\"The artist\",[\"$\",\"time\",null,{\"className\":\"transcript__at\",\"dateTime\":\"PT152S\",\"children\":\"2:32\"}]]}],[[\"$\",\"p\",\"152.54\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Narrator\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"Let's start with art. My three ingredients were technical skill, creativity, and control. Technical skill includes lighting, color, composition, form, and anatomy. All the quiet decisions that make an image work.\"]}],[\"$\",\"p\",\"167.82\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Maya\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"I know where this is going. Hands.\"]}],[\"$\",\"p\",\"171.1\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Narrator\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"Hands. Beautiful portrait, lovely light, one finger doing something deeply independent. That's all anyone sees. Now, an artist can distort anatomy deliberately. But knowing what you're changing makes a difference.\"]}],[\"$\",\"p\",\"185.74\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Maya\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"You can break the rules on purpose. You still need to know where they were.\"]}],[\"$\",\"p\",\"190.14\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Narrator\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"Look at Michelangelo's anatomical studies in the article. There's so much patient observation there. That's the part I wanted to talk about: all the work behind being able to choose what goes on the page.\"]}]],[\"$\",\"$L8\",null,{\"className\":\"transcript__source\",\"href\":\"/posts/the-boring-state-of-artificial-intelligence#the-artist\",\"children\":\"This part of the article\"}]]}]\n",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "23:[\"$\",\"section\",\"creativity-and-control\",{\"className\":\"transcript__part\",\"children\":[[\"$\",\"h2\",null,{\"className\":\"transcript__heading\",\"children\":[[\"$\",\"span\",null,{\"className\":\"transcript__no\",\"children\":\"05\"}],\"Creativity and control\",[\"$\",\"time\",null,{\"className\":\"transcript__at\",\"dateTime\":\"PT202S\",\"children\":\"3:22\"}]]}],[[\"$\",\"p\",\"202.71\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Maya\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"Technical skill is one ingredient. What do creativity and control add?\"]}],[\"$\",\"p\",\"207.83\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Narrator\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"Creativity brings your imagination and your taste. Control lets you put them into the image. Move the light a little. Change the posture. Make the room feel uncomfortable, although nothing obviously terrible is happening.\"]}],[\"$\",\"p\",\"221.67\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Maya\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"So a happy accident is welcome. It just shouldn't be the entire management team.\"]}],[\"$\",\"p\",\"226.87\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Narrator\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"Look at Piotr Jablonski's work here, then Alfred Broge's Morning Sunlight. One feels unsettling. The other gives you this quiet, sunlit room. The lighting and composition help create those feelings.\"]}],[\"$\",\"p\",\"240.03\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Maya\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"One makes you admire the light. The other makes you check whether something is standing behind you.\"]}],[\"$\",\"p\",\"245.59\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Narrator\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"And they get there by choosing what matters in each picture. Which makes grading the machine a little awkward.\"]}]],[\"$\",\"$L8\",null,{\"className\":\"transcript__source\",\"href\":\"/posts/the-boring-state-of-artificial-intelligence#creativity-and-control\",\"children\":\"This part of the article\"}]]}]\n",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "24:[\"$\",\"section\",\"midjourney\",{\"className\":\"transcript__part\",\"children\":[[\"$\",\"h2\",null,{\"className\":\"transcript__heading\",\"children\":[[\"$\",\"span\",null,{\"className\":\"transcript__no\",\"children\":\"06\"}],\"Evaluating Midjourney\",[\"$\",\"time\",null,{\"className\":\"transcript__at\",\"dateTime\":\"PT252S\",\"children\":\"4:12\"}]]}],[[\"$\",\"p\",\"252.64\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Narrator\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"Could Midjourney be an artist? My article initially says yes, and then spends quite a while arguing with itself. What impressed me was the lighting, color, and composition of its images.\"]}],[\"$\",\"p\",\"264.68\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Maya\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"You wrote both sides of the argument? Efficient.\"]}],[\"$\",\"p\",\"268.48\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Narrator\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"I guessed at parts of the training process too: curated images, loss functions. Guesses. I didn't have access to Midjourney's internals. What I could see was lovely lighting alongside anatomy and structure that sometimes fell apart.\"]}],[\"$\",\"p\",\"283.36\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Maya\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"And imagination? Surely artists also learn from things they've seen.\"]}],[\"$\",\"p\",\"287.92\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Narrator\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"They do. I described that as a visual library. Artists study animals, objects, light, and scenery, then combine and transform what they've learned. An image model has an enormous collection of learned visual patterns to work with.\"]}],[\"$\",\"p\",\"302\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Maya\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"Then I'm still stuck on intention. Who decides what the picture is trying to do?\"]}],[\"$\",\"p\",\"307.36\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Narrator\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"The person using it brings that intention. I could see a remarkable tool for trying out ideas. Calling the model itself an artist, with a purpose of its own... that's where I hesitated. Other people can reasonably draw that line elsewhere.\"]}]],[\"$\",\"$L8\",null,{\"className\":\"transcript__source\",\"href\":\"/posts/the-boring-state-of-artificial-intelligence#midjourney\",\"children\":\"This part of the article\"}]]}]\n",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "25:[\"$\",\"section\",\"artistic-choices\",{\"className\":\"transcript__part\",\"children\":[[\"$\",\"h2\",null,{\"className\":\"transcript__heading\",\"children\":[[\"$\",\"span\",null,{\"className\":\"transcript__no\",\"children\":\"07\"}],\"Artistic choices\",[\"$\",\"time\",null,{\"className\":\"transcript__at\",\"dateTime\":\"PT322S\",\"children\":\"5:22\"}]]}],[[\"$\",\"p\",\"322.01\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Narrator\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"Look at Nathan Fawkes. He can simplify structure and give all that attention to color and light. Steve Huston might put anatomy and gesture at the center. You don't have to demonstrate every skill in every painting.\"]}],[\"$\",\"p\",\"335.37\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Maya\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"So your three-ingredient recipe isn't a spreadsheet for giving paintings a performance review.\"]}],[\"$\",\"p\",\"340.57\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Narrator\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"Please don't give paintings quarterly targets. The point is choice. An artist can leave a detail out because it doesn't serve the work. That differs from losing the detail because the system didn't hold it together.\"]}],[\"$\",\"p\",\"353.45\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Maya\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"Okay, I see what you're getting at. Did you choose to leave it out, or could you not make it work?\"]}],[\"$\",\"p\",\"359.29\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Narrator\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"That's what I wanted to ask. A beautiful result alone doesn't answer it. Now, about intelligence. Surely we'll agree on that in thirty seconds.\"]}],[\"$\",\"p\",\"368.17\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Maya\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"I'll cancel my afternoon.\"]}]],[\"$\",\"$L8\",null,{\"className\":\"transcript__source\",\"href\":\"/posts/the-boring-state-of-artificial-intelligence#artistic-choices\",\"children\":\"This part of the article\"}]]}]\n",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "26:[\"$\",\"section\",\"sparks-of-agi\",{\"className\":\"transcript__part\",\"children\":[[\"$\",\"h2\",null,{\"className\":\"transcript__heading\",\"children\":[[\"$\",\"span\",null,{\"className\":\"transcript__no\",\"children\":\"08\"}],\"Sparks of AGI?\",[\"$\",\"time\",null,{\"className\":\"transcript__at\",\"dateTime\":\"PT371S\",\"children\":\"6:11\"}]]}],[[\"$\",\"p\",\"371.19\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Narrator\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"The essay responds to Sparks of Artificial General Intelligence, the early GPT-four experiments. Instead of treating intelligence as one agreed score, I proposed a working definition: using existing information in new ways, and extending what we know.\"]}],[\"$\",\"p\",\"387.75\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Maya\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"Your working definition. I'm keeping a pencil next to it.\"]}],[\"$\",\"p\",\"391.83\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Narrator\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"Please do. Think about fire. You notice it. Then you learn to control it, cook with it, use it for something you couldn't do before. That's the kind of step I was interested in.\"]}],[\"$\",\"p\",\"402.63\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Maya\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"Humanity: sees a dangerous burning object, asks whether dinner could be improved.\"]}],[\"$\",\"p\",\"408.39\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Narrator\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"Dinner is a strong research incentive. The diagram here draws possible information as a big space, human knowledge as a region inside it, and individuals as little dots. It's a sketch to think with. I haven't measured anybody's brain.\"]}],[\"$\",\"p\",\"422.87\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Maya\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"So show me a small version. What does learning actually look like?\"]}]],[\"$\",\"$L8\",null,{\"className\":\"transcript__source\",\"href\":\"/posts/the-boring-state-of-artificial-intelligence#sparks-of-agi\",\"children\":\"This part of the article\"}]]}]\n",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "27:[\"$\",\"section\",\"a-simple-network\",{\"className\":\"transcript__part\",\"children\":[[\"$\",\"h2\",null,{\"className\":\"transcript__heading\",\"children\":[[\"$\",\"span\",null,{\"className\":\"transcript__no\",\"children\":\"09\"}],\"A simple neural network\",[\"$\",\"time\",null,{\"className\":\"transcript__at\",\"dateTime\":\"PT427S\",\"children\":\"7:07\"}]]}],[[\"$\",\"p\",\"427.92\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Narrator\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"Let's build the world's least threatening AI. Two numbers go in. Their sum comes out. At first, the network's adjustable weights aren't set to produce the answer we want.\"]}],[\"$\",\"p\",\"438.56\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Maya\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"Two numbers. Good. I can supervise.\"]}],[\"$\",\"p\",\"441.6\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Narrator\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"We supply examples with known answers. The network makes a prediction. A loss function measures how far that prediction is from the target. Training adjusts the weights to reduce that error across the examples.\"]}],[\"$\",\"p\",\"454.4\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Maya\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"So 'loss' is just a measure of the mistake. Nobody inside the laptop is having a bad day.\"]}],[\"$\",\"p\",\"460.4\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Narrator\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"Correct. Now ask it to multiply. We trained this little setup for addition; multiplication wasn't part of the job. We need to specify the operation and train for that too. Doing well on our examples doesn't promise it will handle every new input.\"]}],[\"$\",\"p\",\"474.96\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Maya\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"I may have promoted it too early.\"]}],[\"$\",\"p\",\"477.2\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Narrator\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"Universal approximation tells us what suitable networks can represent under certain assumptions. It doesn't promise that this network, with this training, learns the right thing. Also, I got bored of drawing the diagrams at this point. The next one exists in spirit.\"]}]],[\"$\",\"$L8\",null,{\"className\":\"transcript__source\",\"href\":\"/posts/the-boring-state-of-artificial-intelligence#a-simple-network\",\"children\":\"This part of the article\"}]]}]\n",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "28:[\"$\",\"section\",\"a-talking-calculator\",{\"className\":\"transcript__part\",\"children\":[[\"$\",\"h2\",null,{\"className\":\"transcript__heading\",\"children\":[[\"$\",\"span\",null,{\"className\":\"transcript__no\",\"children\":\"10\"}],\"A calculator that talks\",[\"$\",\"time\",null,{\"className\":\"transcript__at\",\"dateTime\":\"PT492S\",\"children\":\"8:12\"}]]}],[[\"$\",\"p\",\"492.41\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Narrator\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"Now we change the interface. Instead of entering two numbers, we ask, could you please add twelve and thirty-five? The answer comes back as a sentence. Forty-seven, with excellent manners.\"]}],[\"$\",\"p\",\"504.73\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Maya\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"Does saying please improve the arithmetic?\"]}],[\"$\",\"p\",\"507.93\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Narrator\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"It improves the atmosphere. My argument was that a language interface is useful even without treating it as proof of general intelligence. You can bring summarization, translation, classification, and other tasks behind the same conversational doorway.\"]}],[\"$\",\"p\",\"522.61\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Maya\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"I'd still use that. I spend half my day finding the right menu.\"]}],[\"$\",\"p\",\"526.57\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Narrator\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"Me too. That's useful. Then there's the confident wrong answer. I suggested interference inside networks as an explanation in the essay, but that was an intuition. It doesn't explain every hallucination.\"]}],[\"$\",\"p\",\"539.93\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Maya\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"Let's give the very polite calculator a calculation.\"]}]],[\"$\",\"$L8\",null,{\"className\":\"transcript__source\",\"href\":\"/posts/the-boring-state-of-artificial-intelligence#a-talking-calculator\",\"children\":\"This part of the article\"}]]}]\n",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "29:[\"$\",\"section\",\"arithmetic\",{\"className\":\"transcript__part\",\"children\":[[\"$\",\"h2\",null,{\"className\":\"transcript__heading\",\"children\":[[\"$\",\"span\",null,{\"className\":\"transcript__no\",\"children\":\"11\"}],\"Let’s try some arithmetic\",[\"$\",\"time\",null,{\"className\":\"transcript__at\",\"dateTime\":\"PT543S\",\"children\":\"9:03\"}]]}],[[\"$\",\"p\",\"543.94\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Narrator\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"The screenshots here are from the March twenty-third version of ChatGPT in twenty twenty-three. I gave it a long decimal addition problem. It got the result wrong. Then I simplified the operation and tried again in a fresh session.\"]}],[\"$\",\"p\",\"557.38\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Maya\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"Go on. Did it get the answer?\"]}],[\"$\",\"p\",\"559.3\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Narrator\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"It got it wrong. Confidently. The screenshots have the exact decimals; I'll spare you the audio version of a bank statement. I tried a simpler operation as well. Still, the explanation sounded much better than the arithmetic.\"]}],[\"$\",\"p\",\"572.98\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Maya\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"But a wrong answer doesn't tell you, by itself, why the model was wrong.\"]}],[\"$\",\"p\",\"577.7\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Narrator\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"Right. I blamed things like overfitting and limited reasoning. A few screenshots don't establish those causes. What we can do is check the answer, change the problem, and see whether it still works.\"]}],[\"$\",\"p\",\"589.54\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Maya\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"Please check before the bow. The bow makes it worse.\"]}]],[\"$\",\"$L8\",null,{\"className\":\"transcript__source\",\"href\":\"/posts/the-boring-state-of-artificial-intelligence#arithmetic\",\"children\":\"This part of the article\"}]]}]\n",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "2a:[\"$\",\"section\",\"bananas\",{\"className\":\"transcript__part\",\"children\":[[\"$\",\"h2\",null,{\"className\":\"transcript__heading\",\"children\":[[\"$\",\"span\",null,{\"className\":\"transcript__no\",\"children\":\"12\"}],\"A banana, a guitar, and a Strogbunroftak\",[\"$\",\"time\",null,{\"className\":\"transcript__at\",\"dateTime\":\"PT593S\",\"children\":\"9:53\"}]]}],[[\"$\",\"p\",\"593.47\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Narrator\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"Next, a nose, a guitar, a banana, a chinchilla, and a Strogbunroftak. I asked a stacking question. The reply wandered into ethics, banana-related insects, and concern for a creature whose name I'd made up.\"]}],[\"$\",\"p\",\"608.59\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Maya\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"Ooh. What's a Strogbunroftak?\"]}],[\"$\",\"p\",\"611.71\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Narrator\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"I made it up.\"]}],[\"$\",\"p\",\"612.75\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Maya\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"And it was worried about it? That's rather sweet.\"]}],[\"$\",\"p\",\"616.43\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Narrator\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"Sweet, yes. Useful... less so. It had filled in a whole situation I hadn't described. My question got buried under advice about that invented situation.\"]}],[\"$\",\"p\",\"627.63\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Maya\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"It could have asked me what the word meant. I'd quite like to know too.\"]}],[\"$\",\"p\",\"631.39\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Narrator\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"A small 'I don't know' would have saved everyone a lot of banana-related concern.\"]}]],[\"$\",\"$L8\",null,{\"className\":\"transcript__source\",\"href\":\"/posts/the-boring-state-of-artificial-intelligence#bananas\",\"children\":\"This part of the article\"}]]}]\n",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "2b:[\"$\",\"section\",\"next-token\",{\"className\":\"transcript__part\",\"children\":[[\"$\",\"h2\",null,{\"className\":\"transcript__heading\",\"children\":[[\"$\",\"span\",null,{\"className\":\"transcript__no\",\"children\":\"13\"}],\"Predicting the next word\",[\"$\",\"time\",null,{\"className\":\"transcript__at\",\"dateTime\":\"PT637S\",\"children\":\"10:37\"}]]}],[[\"$\",\"p\",\"637\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Narrator\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"Underneath this conversation is next-token prediction. A token is a chunk of text, sometimes a word, sometimes part of one. The model generates a continuation from the context, then continues from that larger context.\"]}],[\"$\",\"p\",\"651.08\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Maya\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"It's choosing what could come next. Where does checking the facts happen?\"]}],[\"$\",\"p\",\"655.56\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Narrator\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"That prediction alone isn't a fact check. The training text includes reliable claims, mistakes, opinions, all sorts. You can get a very convincing continuation that's false. That's what my simplified examples were trying to show.\"]}],[\"$\",\"p\",\"669.56\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Maya\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"And there's more to the finished chatbot than that one step, of course.\"]}],[\"$\",\"p\",\"673\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Narrator\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"Yes. The original article says so too. Then it brings back my Wikipedia scientist joke. I seem to have learned one pattern particularly well.\"]}],[\"$\",\"p\",\"682.2\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Maya\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"At least you remembered your source.\"]}]],[\"$\",\"$L8\",null,{\"className\":\"transcript__source\",\"href\":\"/posts/the-boring-state-of-artificial-intelligence#next-token\",\"children\":\"This part of the article\"}]]}]\n",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "2c:[\"$\",\"section\",\"more-complex\",{\"className\":\"transcript__part\",\"children\":[[\"$\",\"h2\",null,{\"className\":\"transcript__heading\",\"children\":[[\"$\",\"span\",null,{\"className\":\"transcript__no\",\"children\":\"14\"}],\"The age problem\",[\"$\",\"time\",null,{\"className\":\"transcript__at\",\"dateTime\":\"PT684S\",\"children\":\"11:24\"}]]}],[[\"$\",\"p\",\"684.69\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Narrator\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"Next came a father-and-son age problem. The initial answer looked impressive. So naturally I declared humanity doomed, then made the question a little more complicated.\"]}],[\"$\",\"p\",\"694.21\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Maya\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"Before lunch again?\"]}],[\"$\",\"p\",\"695.73\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Narrator\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"The later answers were less convincing. I tried a fresh session too. The screenshots matter because the argument isn't just that the text sounds intelligent. It's whether the relationships in the problem stay consistent when the setup changes.\"]}],[\"$\",\"p\",\"708.93\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Maya\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"Change one condition. See if the family ages still make sense. I can follow that test.\"]}],[\"$\",\"p\",\"714.21\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Narrator\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"And keep the conclusion tied to the test. I was broader, and more skeptical, in the article. Those screenshots tell us what that version did on those questions. They can't answer for every future model.\"]}]],[\"$\",\"$L8\",null,{\"className\":\"transcript__source\",\"href\":\"/posts/the-boring-state-of-artificial-intelligence#more-complex\",\"children\":\"This part of the article\"}]]}]\n",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "2d:[\"$\",\"section\",\"information-domain\",{\"className\":\"transcript__part\",\"children\":[[\"$\",\"h2\",null,{\"className\":\"transcript__heading\",\"children\":[[\"$\",\"span\",null,{\"className\":\"transcript__no\",\"children\":\"15\"}],\"The information domain\",[\"$\",\"time\",null,{\"className\":\"transcript__at\",\"dateTime\":\"PT725S\",\"children\":\"12:05\"}]]}],[[\"$\",\"p\",\"725.9\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Narrator\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"This leads to the information domain. With a narrow model, its boundaries are obvious: it summarizes text, for example. With a chatbot that answers almost anything, the boundary is harder to see.\"]}],[\"$\",\"p\",\"738.54\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Maya\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"You can ask it almost anything. It's hard to tell when you've walked past what it can handle.\"]}],[\"$\",\"p\",\"744.22\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Narrator\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"Yes. I called that its information domain. I was trying to distinguish combining patterns it had learned from extending knowledge. The image styles and the little arithmetic network were my way into that question.\"]}],[\"$\",\"p\",\"756.54\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Maya\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"But you can't find the exact boundary from those few examples.\"]}],[\"$\",\"p\",\"760.06\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Narrator\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"No. And when I wrote that models could 'never' do certain things, I went further than those examples justified. Give them a new situation. See what transfers. That's a question we can test.\"]}],[\"$\",\"p\",\"772.62\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Maya\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"I'd keep 'never' in pencil too. We're getting through a lot of pencils.\"]}]],[\"$\",\"$L8\",null,{\"className\":\"transcript__source\",\"href\":\"/posts/the-boring-state-of-artificial-intelligence#information-domain\",\"children\":\"This part of the article\"}]]}]\n",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "2e:[\"$\",\"section\",\"cats-and-chocolate\",{\"className\":\"transcript__part\",\"children\":[[\"$\",\"h2\",null,{\"className\":\"transcript__heading\",\"children\":[[\"$\",\"span\",null,{\"className\":\"transcript__no\",\"children\":\"16\"}],\"Cats and chocolate\",[\"$\",\"time\",null,{\"className\":\"transcript__at\",\"dateTime\":\"PT777S\",\"children\":\"12:57\"}]]}],[[\"$\",\"p\",\"777.99\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Narrator\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"To explore combining ideas, I asked for a poem about two things I love: cats and chocolate. I expected charm. I received something considerably darker.\"]}],[\"$\",\"p\",\"789.35\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Maya\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"Oh no. Cats and chocolate. I can already hear the warning.\"]}],[\"$\",\"p\",\"794.31\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Narrator\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"I wasn't giving chocolate to a cat! I wanted a poem. But the answer seemed to follow that familiar warning instead of the mood I was asking for.\"]}],[\"$\",\"p\",\"803.51\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Maya\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"It found the association. Missed the occasion.\"]}],[\"$\",\"p\",\"806.87\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Narrator\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"Then I went back to fire. Suppose a model only had information from before we discovered it. Could it reach cooking? I didn't run that experiment; I was asking where a new discovery comes from. How far can combining what you know take you?\"]}],[\"$\",\"p\",\"822.15\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Maya\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"For the next poem, could we try cats and fish? Give the poor thing a chance.\"]}]],[\"$\",\"$L8\",null,{\"className\":\"transcript__source\",\"href\":\"/posts/the-boring-state-of-artificial-intelligence#cats-and-chocolate\",\"children\":\"This part of the article\"}]]}]\n",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "2f:[\"$\",\"section\",\"outside-the-dataset\",{\"className\":\"transcript__part\",\"children\":[[\"$\",\"h2\",null,{\"className\":\"transcript__heading\",\"children\":[[\"$\",\"span\",null,{\"className\":\"transcript__no\",\"children\":\"17\"}],\"Outside the dataset\",[\"$\",\"time\",null,{\"className\":\"transcript__at\",\"dateTime\":\"PT827S\",\"children\":\"13:47\"}]]}],[[\"$\",\"p\",\"827.84\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Narrator\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"The stakes become less funny outside the dataset. A driving system trained in one setting may struggle with different roads and habits. A face-recognition system can perform unevenly when its data represents some people much better than others.\"]}],[\"$\",\"p\",\"841.76\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Maya\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"Which people and situations did the examples leave out?\"]}],[\"$\",\"p\",\"845.2\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Narrator\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"That's the question. I also pushed back on 'humans use eyes, so cameras are enough to drive like a human.' That skips a lot. I wanted the discussion to take perception and other sources of information seriously.\"]}],[\"$\",\"p\",\"857.92\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Maya\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"Then test the actual car, in the actual conditions. The analogy won't drive it home.\"]}],[\"$\",\"p\",\"863.76\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Narrator\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"And ask who carries the cost when it fails. A system working beautifully for one group tells you very little about someone the evaluation left out. That deserves time and careful testing.\"]}]],[\"$\",\"$L8\",null,{\"className\":\"transcript__source\",\"href\":\"/posts/the-boring-state-of-artificial-intelligence#outside-the-dataset\",\"children\":\"This part of the article\"}]]}]\n",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "30:[\"$\",\"section\",\"a-tool\",{\"className\":\"transcript__part\",\"children\":[[\"$\",\"h2\",null,{\"className\":\"transcript__heading\",\"children\":[[\"$\",\"span\",null,{\"className\":\"transcript__no\",\"children\":\"18\"}],\"A tool to augment us\",[\"$\",\"time\",null,{\"className\":\"transcript__at\",\"dateTime\":\"PT875S\",\"children\":\"14:35\"}]]}],[[\"$\",\"p\",\"875.13\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Maya\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"I have to ask. Is there anything here you actually like?\"]}],[\"$\",\"p\",\"879.37\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Narrator\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"Yes! Terrible news for my title. Tell a computer what you need, in normal language, and have it help you do it. Less time remembering which application hides the button.\"]}],[\"$\",\"p\",\"889.93\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Maya\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"You'd miss hunting through six menus?\"]}],[\"$\",\"p\",\"892.49\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Narrator\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"I'd recover. There are plenty of repetitive jobs I'd happily hand over. Doing them isn't what makes me intelligent, or makes the work meaningful. I'd rather spend that time making something I care about.\"]}],[\"$\",\"p\",\"904.17\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Maya\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"And changing people's jobs still has consequences. Even when the tool is useful.\"]}],[\"$\",\"p\",\"909.53\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Narrator\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"Of course. I want useful tools and an honest conversation about what changes. That's where I was trying to get, underneath all the complaining.\"]}]],[\"$\",\"$L8\",null,{\"className\":\"transcript__source\",\"href\":\"/posts/the-boring-state-of-artificial-intelligence#a-tool\",\"children\":\"This part of the article\"}]]}]\n",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "31:[\"$\",\"section\",\"conclusion\",{\"className\":\"transcript__part\",\"children\":[[\"$\",\"h2\",null,{\"className\":\"transcript__heading\",\"children\":[[\"$\",\"span\",null,{\"className\":\"transcript__no\",\"children\":\"19\"}],\"Conclusion\",[\"$\",\"time\",null,{\"className\":\"transcript__at\",\"dateTime\":\"PT919S\",\"children\":\"15:19\"}]]}],[[\"$\",\"p\",\"919.19\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Narrator\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"I ended up imagining an operating system you could talk to. Describe what you need, have it work across the applications. That was one direction I was excited about.\"]}],[\"$\",\"p\",\"928.79\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Maya\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"Plus a few predictions. You did have room left on the internet.\"]}],[\"$\",\"p\",\"933.11\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Narrator\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"A few. I questioned scale alone as a route to intelligence, wondered about Epic Games and three-dimensional generation, and pointed to AlphaTensor, AlphaCode, and Segment Anything. Those were things I wanted to watch in April twenty twenty-three.\"]}],[\"$\",\"p\",\"948.15\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Maya\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"We'll leave the predictions as you wrote them. No quietly correcting the exam after getting it back.\"]}],[\"$\",\"p\",\"953.51\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Narrator\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"Agreed. Which leaves the goat playing a guitar at the end. An impressive performance. Quite a lot still to ask before declaring it a musician.\"]}],[\"$\",\"p\",\"961.99\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Maya\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"Let it finish the solo first.\"]}],[\"$\",\"p\",\"964.31\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Narrator\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"Fair. Thanks for spending the time with us. The original experiments and images are there if you want a closer look. And if you disagree, pick a particular claim. That's where the interesting conversation starts.\"]}],[\"$\",\"p\",\"975.83\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Maya\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"One particular claim, then. Did your colleague win the bet?\"]}],[\"$\",\"p\",\"979.51\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Narrator\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"I didn't put the result in the article. After all those words... I left out the result.\"]}]],[\"$\",\"$L8\",null,{\"className\":\"transcript__source\",\"href\":\"/posts/the-boring-state-of-artificial-intelligence#conclusion\",\"children\":\"This part of the article\"}]]}]\n",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "32:[\"$\",\"section\",\"follow\",{\"className\":\"transcript__part\",\"children\":[[\"$\",\"h2\",null,{\"className\":\"transcript__heading\",\"children\":[[\"$\",\"span\",null,{\"className\":\"transcript__no\",\"children\":\"20\"}],\"Until next time\",[\"$\",\"time\",null,{\"className\":\"transcript__at\",\"dateTime\":\"PT987S\",\"children\":\"16:27\"}]]}],[[\"$\",\"p\",\"987.19\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Narrator\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"Thanks for listening. Follow along for more articles, experiments, and things that worked on my machine.\"]}],[\"$\",\"p\",\"993.43\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Maya\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"Some of them might even work on yours.\"]}],[\"$\",\"p\",\"995.75\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Narrator\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"No promises. Have a lovely day. Go make something.\"]}],[\"$\",\"p\",\"999.99\",{\"className\":\"transcript__line\",\"children\":[[\"$\",\"b\",null,{\"children\":[\"Maya\",[\"$\",\"span\",null,{\"className\":\"transcript__colon\",\"children\":\":\"}]]}],\" \",\"Preferably a cup of tea first. Bye!\"]}]],false]}]\n19:[[\"$\",\"meta\",\"0\",{\"charSet\":\"utf-8\"}],[\"$\",\"meta\",\"1\",{\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1\"}],[\"$\",\"meta\",\"2\",{\"name\":\"theme-color\",\"content\":\"#faf8f2\",\"media\":\"(prefers-color-scheme: light)\"}],[\"$\",\"meta\",\"3\",{\"name\":\"theme-color\",\"content\":\"#14181c\",\"media\":\"(prefers-color-scheme: dark)\"}]]\n16:null\n",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "1b:[[\"$\",\"title\",\"0\",{\"children\":\"Transcript: The boring state of artificial intelligence — The Boring Blog\"}],[\"$\",\"meta\",\"1\",{\"name\":\"description\",\"content\":\"The conversation adapting “The boring state of artificial intelligence”, as text: every line, who said it and when. Synthetic voices; a dialogue adaptation of the article, not a verbatim reading.\"}],[\"$\",\"meta\",\"2\",{\"name\":\"application-name\",\"content\":\"The Boring Blog\"}],[\"$\",\"link\",\"3\",{\"rel\":\"author\",\"href\":\"https://www.linkedin.com/in/khalil-alami-006432a7/\"}],[\"$\",\"meta\",\"4\",{\"name\":\"author\",\"content\":\"Khalil Alami\"}],[\"$\",\"link\",\"5\",{\"rel\":\"manifest\",\"href\":\"/manifest.webmanifest\",\"crossOrigin\":\"$undefined\"}],[\"$\",\"meta\",\"6\",{\"name\":\"creator\",\"content\":\"Khalil Alami\"}],[\"$\",\"meta\",\"7\",{\"name\":\"publisher\",\"content\":\"Khalil Alami\"}],[\"$\",\"meta\",\"8\",{\"name\":\"robots\",\"content\":\"index, follow\"}],[\"$\",\"meta\",\"9\",{\"name\":\"googlebot\",\"content\":\"index, follow, max-image-preview:large\"}],[\"$\",\"link\",\"10\",{\"rel\":\"canonical\",\"href\":\"https://www.theboringblog.ai/posts/the-boring-state-of-artificial-intelligence/transcript\"}],[\"$\",\"link\",\"11\",{\"rel\":\"alternate\",\"type\":\"application/rss+xml\",\"href\":\"https://www.theboringblog.ai/feed.xml\",\"title\":\"The Boring Blog\"}],[\"$\",\"meta\",\"12\",{\"name\":\"format-detection\",\"content\":\"telephone=no, address=no, email=no\"}],[\"$\",\"meta\",\"13\",{\"property\":\"og:title\",\"content\":\"Transcript: The boring state of artificial intelligence\"}],[\"$\",\"meta\",\"14\",{\"property\":\"og:description\",\"content\":\"The conversation adapting “The boring state of artificial intelligence”, as text: every line, who said it and when. Synthetic voices; a dialogue adaptation of the article, not a verbatim reading.\"}],[\"$\",\"meta\",\"15\",{\"property\":\"og:url\",\"content\":\"https://www.theboringblog.ai/posts/the-boring-state-of-artificial-intelligence/transcript\"}],[\"$\",\"meta\",\"16\",{\"property\":\"og:site_name\",\"content\":\"The Boring Blog\"}],[\"$\",\"meta\",\"17\",{\"property\":\"og:locale\",\"content\":\"en_US\"}],[\"$\",\"meta\",\"18\",{\"property\":\"og:image\",\"content\":\"https://www.theboringblog.ai/posts/the-boring-state-of-artificial-intelligence/opengraph-image\"}],[\"$\",\"meta\",\"19\",{\"property\":\"og:image:width\",\"content\":\"1200\"}],[\"$\",\"meta\",\"20\",{\"property\":\"og:image:height\",\"content\":\"630\"}],[\"$\",\"meta\",\"21\",{\"property\":\"og:image:alt\",\"content\":\"The boring state of artificial intelligence\"}],[\"$\",\"meta\",\"22\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"$\",\"meta\",\"23\",{\"name\":\"twitter:card\",\"content\":\"summary_large_image\"}],[\"$\",\"meta\",\"24\",{\"name\":\"twitter:creator\",\"content\":\"@ALAMIKhalil1\"}],[\"$\",\"meta\",\"25\",{\"name\":\"twitter:title\",\"content\":\"Transcript: The boring state of artificial intelligence\"}],[\"$\",\"meta\",\"26\",{\"name\":\"twitter:description\",\"content\":\"The conversation adapting “The boring state of artificial intelligence”, as text: every line, who said it and when. Synthetic voices; a dialogue adaptation of the article, not a verbatim reading.\"}],[\"$\",\"meta\",\"27\",{\"name\":\"twitter:image\",\"content\":\"https://www.theboringblog.ai/posts/the-boring-state-of-artificial-intelligence/opengraph-image\"}],[\"$\",\"meta\",\"28\",{\"name\":\"twitter:image:alt\",\"content\":\"The boring state of artificial intelligence\"}],[\"$\",\"meta\",\"29\",{\"name\":\"twitter:image:width\",\"content\":\"1200\"}],[\"$\",\"meta\",\"30\",{\"name\":\"twitter:image:height\",\"content\":\"630\"}],[\"$\",\"link\",\"31\",{\"rel\":\"icon\",\"href\":\"/favicon.ico?favicon.3pvdrb0xj02ql.ico\",\"sizes\":\"48x48\",\"type\":\"image/x-icon\"}],[\"$\",\"link\",\"32\",{\"rel\":\"icon\",\"href\":\"/icon.svg?icon.20cku_k9b5npa.svg\",\"sizes\":\"any\",\"type\":\"image/svg+xml\"}],[\"$\",\"link\",\"33\",{\"rel\":\"apple-touch-icon\",\"href\":\"/apple-icon.png?apple-icon.1csk4f7xy577-.png\",\"sizes\":\"180x180\",\"type\":\"image/png\"}],[\"$\",\"$L33\",\"34\",{}]]\n",
+   "fr": null,
+   "remplacer": false
+  }
+ ]
+}

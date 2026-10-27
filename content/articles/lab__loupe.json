@@ -1,0 +1,160 @@
+{
+ "_lisezMoi": [
+  "Fichier de contenu de la page /lab/loupe",
+  "",
+  "Chaque entree de \"chaines\" se lit :",
+  "  { \"en\": \"texte d origine\", \"fr\": \"nouveau texte\", \"remplacer\": true }",
+  "  - remplacer: true  -> \"fr\" remplace \"en\" PARTOUT (HTML visible et payload RSC)",
+  "  - remplacer: false -> la chaine reste intacte",
+  "Vous pouvez ajouter, supprimer ou reordonner les entrees librement.",
+  "Puis : npm run build && npm run verify"
+ ],
+ "route": "/lab/loupe",
+ "title": {
+  "en": "Lab — The Boring Blog",
+  "fr": null,
+  "remplacer": false
+ },
+ "description": {
+  "en": "Fifteen sketches for the home page. None of them are the home page.",
+  "fr": null,
+  "remplacer": false
+ },
+ "chaines": [
+  {
+   "en": "The Boring Blog · lab",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "All fifteen",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "Home page",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "Lab",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "The loupe",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "The pointer is a printer's glass. What is under it resolves; what is not, does not.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "Try it",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "Glass",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->px",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "Screen ruling",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "How closely it follows",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "What is under the glass",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "halftone",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "separations",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "the grid",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "What this is asking",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "Does a cursor that reveals something make you move it around on purpose?",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "What it would take",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "Genuinely new — nothing in the repository does this yet.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->Effort",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- --> of 3.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "!-- -->Walk into the post",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "Registration marks",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "1:\"$Sreact.fragment\"\n2:I[39266,[\"/_next/static/chunks/2hw39_eluoaeu.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\"],\"\"]\n3:I[16085,[\"/_next/static/chunks/2lmlkwkj_6x80.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"/_next/static/chunks/3ainre9bxx0ob.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\"],\"default\"]\n4:I[37027,[\"/_next/static/chunks/2lmlkwkj_6x80.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"/_next/static/chunks/3ainre9bxx0ob.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\"],\"default\"]\n5:I[89329,[\"/_next/static/chunks/2hw39_eluoaeu.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"/_next/static/chunks/1ypjhuq8-wket.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"/_next/static/chunks/0x3yu6y8gv9bv.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"/_next/static/chunks/420bf9zpcuklx.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"/_next/static/chunks/0ajkf_ww7o4ah.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\"],\"HomeMark\"]\n6:I[91626,[\"/_next/static/chunks/2hw39_eluoaeu.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"/_next/static/chunks/1ypjhuq8-wket.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"/_next/static/chunks/0x3yu6y8gv9bv.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"/_next/static/chunks/420bf9zpcuklx.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"/_next/static/chunks/0ajkf_ww7o4ah.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\"],\"MastEnd\"]\n7:I[81831,[\"/_next/static/chunks/2hw39_eluoaeu.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"/_next/static/chunks/1ypjhuq8-wket.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"/_next/static/chunks/0x3yu6y8gv9bv.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"/_next/static/chunks/420bf9zpcuklx.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"/_next/static/chunks/0ajkf_ww7o4ah.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\"],\"Button\"]\n8:I[49043,[\"/_next/static/chunks/2hw39_eluoaeu.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"/_next/static/chunks/12swhg_iobbez.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\"],\"\"]\n9:I[35415,[\"/_next/static/chunks/2hw39_eluoaeu.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\"],\"Analytics\"]\na:I[1367,[\"/_next/static/chunks/2hw39_eluoaeu.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\"],\"SpeedInsights\"]\ne:I[29671,[\"/_next/static/chunks/2hw39_eluoaeu.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\"],\"default\",1]\n:HL[\"/_next/static/chunks/2tf0yppvs3g3p.css?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"style\"]\n:HL[\"/_next/static/chunks/2cjnoq3jgy7c6.css?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"style\"]\n:HL[\"/_next/static/chunks/3ivigp5zxji8c.css?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"style\"]\n:HL[\"/_next/static/chunks/2kx-3xls3toog.css?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"style\"]\n:HL[\"/_next/static/media/54fc36028e2bb174-s.p.20jfceqj9zyw9.woff2?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/media/66b33cc02d8f8b9d-s.p.3slq8sz4zhb1g.woff2?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/media/Geist_Variable-s.p.0mrjj4bg00-he.woff2?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "0:{\"P\":null,\"c\":[\"\",\"lab\",\"loupe\"],\"q\":\"\",\"i\":false,\"f\":[[[\"\",{\"children\":[\"lab\",{\"children\":[\"loupe\",{\"children\":[\"__PAGE__\",{}]}]}]},\"$undefined\",\"$undefined\",16],[[\"$\",\"$1\",\"c\",{\"children\":[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/chunks/2tf0yppvs3g3p.css?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}],[\"$\",\"link\",\"1\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/chunks/2cjnoq3jgy7c6.css?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}],[\"$\",\"script\",\"script-0\",{\"src\":\"/_next/static/chunks/2hw39_eluoaeu.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"async\":true,\"nonce\":\"$undefined\"}]],[\"$\",\"html\",null,{\"lang\":\"en\",\"className\":\"geistsans_d5a4f12f-module__7QEr8W__variable fraunces_3053e531-module__RZoG-q__variable\",\"suppressHydrationWarning\":true,\"children\":[\"$\",\"body\",null,{\"children\":[[\"$\",\"script\",null,{\"id\":\"sun\",\"dangerouslySetInnerHTML\":{\"__html\":\"(function(){try{var t=localStorage.getItem('bb-theme');if(t!=='day'&&t!=='night')t='day';if(t==='night'){var r=document.documentElement;r.classList.add('dark');r.style.setProperty('--night','1');r.style.setProperty('--gold','0');}}catch(e){}})()\"}}],[\"$\",\"script\",null,{\"id\":\"letter\",\"dangerouslySetInnerHTML\":{\"__html\":\"(function(){try{var k=JSON.parse(localStorage.getItem(\\\"bb-letter\\\")||'null');if(k&&typeof k.email==='string'&&k.email.indexOf('@')>=0)document.documentElement.setAttribute('data-letter','kept')}catch(e){}})()\"}}],[\"$\",\"$L2\",null,{\"id\":\"uncover\",\"strategy\":\"beforeInteractive\",\"children\":\"window.__uncover=setTimeout(function(){document.querySelector('.clearing')?.classList.remove('is-entering')},4000)\"}],[\"$\",\"$L3\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L4\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":[[[\"$\",\"header\",null,{\"className\":\"mast\",\"data-veiled\":true,\"data-route\":true,\"children\":[[\"$\",\"$L5\",null,{}],[\"$\",\"$L6\",null,{}]]}],[\"$\",\"main\",null,{\"className\":\"lost\",\"children\":[[\"$\",\"svg\",null,{\"className\":\"lost__tuft\",\"viewBox\":\"2.95 6.7 18 18\",\"aria-hidden\":\"true\",\"children\":[[\"$\",\"path\",null,{\"d\":\"M12 22c0-5.4.9-9.4 2.6-12.1\"}],[\"$\",\"path\",null,{\"d\":\"M12 22c0-4.6-1.1-8-3.2-10.4\"}],[\"$\",\"path\",null,{\"d\":\"M12 22c1.3-3.6 3.6-6.2 6.9-7.8\"}],[\"$\",\"path\",null,{\"d\":\"M12 22c-1.5-3.1-3.9-5.2-7-6.4\"}],[\"$\",\"path\",null,{\"d\":\"M12 22V9.4\"}]]}],[\"$\",\"p\",null,{\"className\":\"lost__kicker\",\"children\":\"404\"}],[\"$\",\"h1\",null,{\"className\":\"lost__title\",\"children\":\"Nothing grows here.\"}],[\"$\",\"p\",null,{\"className\":\"lost__lede\",\"children\":\"The page you were after is not on this blog. It may have moved, or it may not be written yet.\"}],[\"$\",\"div\",null,{\"className\":\"lost__actions\",\"children\":[[\"$\",\"$L7\",null,{\"asChild\":true,\"variant\":\"primary\",\"seam\":\"pill\",\"travel\":\"0.35em\",\"children\":[\"$\",\"$L8\",null,{\"href\":\"/\",\"children\":[[\"$\",\"svg\",null,{\"viewBox\":\"0 0 12 12\",\"fill\":\"none\",\"stroke\":\"currentColor\",\"strokeWidth\":1.25,\"strokeLinecap\":\"round\",\"strokeLinejoin\":\"round\",\"aria-hidden\":\"true\",\"style\":\"$undefined\",\"children\":[\"$\",\"path\",null,{\"d\":\"M10 6H2M5 3 2 6l3 3\"}]}],\"Back to the field\"]}]}],[\"$\",\"$L7\",null,{\"asChild\":true,\"variant\":\"outline\",\"children\":[\"$\",\"$L8\",null,{\"href\":\"/posts\",\"children\":\"All posts\"}]}]]}]]}]],[]],\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}],[\"$\",\"$L9\",null,{}],[\"$\",\"$La\",null,{}]]}]}]]}],{\"children\":[[\"$\",\"$1\",\"c\",{\"children\":[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/chunks/3ivigp5zxji8c.css?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}],[\"$\",\"link\",\"1\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/chunks/2kx-3xls3toog.css?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}],[\"$\",\"script\",\"script-0\",{\"src\":\"/_next/static/chunks/12swhg_iobbez.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"async\":true,\"nonce\":\"$undefined\"}]],[\"$\",\"div\",null,{\"className\":\"lab\",\"children\":[\"$\",\"div\",null,{\"className\":\"lab__wrap\",\"children\":[[\"$\",\"div\",null,{\"className\":\"lab__bar\",\"children\":[[\"$\",\"span\",null,{\"children\":\"The Boring Blog · lab\"}],[\"$\",\"nav\",null,{\"children\":[[\"$\",\"$L8\",null,{\"href\":\"/lab\",\"children\":\"All fifteen\"}],[\"$\",\"$L8\",null,{\"href\":\"/\",\"children\":\"Home page\"}]]}]]}],[\"$\",\"$L3\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L4\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]]}]}]]}],{\"children\":[[\"$\",\"$1\",\"c\",{\"children\":[null,[\"$\",\"$L3\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L4\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]]}],{\"children\":[\"$Lb\",{},null,false,null]},null,false,\"$@c\"]},null,false,null]},null,false,null],\"$Ld\",false]],\"m\":\"$undefined\",\"G\":[\"$e\",[\"$Lf\",\"$L10\"]],\"S\":true,\"h\":null,\"s\":\"$undefined\",\"l\":\"$undefined\",\"p\":\"$undefined\",\"d\":\"$undefined\"}\n",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "11:I[65970,[\"/_next/static/chunks/2lmlkwkj_6x80.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"/_next/static/chunks/3ainre9bxx0ob.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\"],\"ClientPageRoot\"]\n12:I[8978,[\"/_next/static/chunks/2hw39_eluoaeu.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"/_next/static/chunks/12swhg_iobbez.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"/_next/static/chunks/3pkxrnu89c2zl.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\"],\"default\"]\n15:I[14499,[\"/_next/static/chunks/2lmlkwkj_6x80.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"/_next/static/chunks/3ainre9bxx0ob.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\"],\"OutletBoundary\"]\n16:\"$Sreact.suspense\"\n19:I[14499,[\"/_next/static/chunks/2lmlkwkj_6x80.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"/_next/static/chunks/3ainre9bxx0ob.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\"],\"ViewportBoundary\"]\n1b:I[14499,[\"/_next/static/chunks/2lmlkwkj_6x80.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"/_next/static/chunks/3ainre9bxx0ob.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\"],\"MetadataBoundary\"]\nb:[\"$\",\"$1\",\"c\",{\"children\":[[\"$\",\"$L11\",null,{\"Component\":\"$12\",\"serverProvidedParams\":{\"searchParams\":{},\"params\":{},\"promises\":[\"$@13\",\"$@14\"]}}],[[\"$\",\"script\",\"script-0\",{\"src\":\"/_next/static/chunks/3pkxrnu89c2zl.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"async\":true,\"nonce\":\"$undefined\"}]],[\"$\",\"$L15\",null,{\"children\":[\"$\",\"$16\",null,{\"name\":\"Next.MetadataOutlet\",\"children\":\"$@17\"}]}]]}]\n18:[]\nc:\"$W18\"\nd:[\"$\",\"$1\",\"h\",{\"children\":[null,[\"$\",\"$L19\",null,{\"children\":\"$L1a\"}],[\"$\",\"div\",null,{\"hidden\":true,\"children\":[\"$\",\"$L1b\",null,{\"children\":[\"$\",\"$16\",null,{\"name\":\"Next.Metadata\",\"children\":\"$L1c\"}]}]}],[\"$\",\"meta\",null,{\"name\":\"next-size-adjust\",\"content\":\"\"}]]}]\nf:[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/chunks/2tf0yppvs3g3p.css?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}]\n10:[\"$\",\"link\",\"1\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/chunks/2cjnoq3jgy7c6.css?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}]\n",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "1c:[[\"$\",\"title\",\"0\",{\"children\":\"Lab — The Boring Blog\"}],[\"$\",\"meta\",\"1\",{\"name\":\"description\",\"content\":\"Fifteen sketches for the home page. None of them are the home page.\"}],[\"$\",\"meta\",\"2\",{\"name\":\"application-name\",\"content\":\"The Boring Blog\"}],[\"$\",\"link\",\"3\",{\"rel\":\"author\",\"href\":\"https://www.linkedin.com/in/khalil-alami-006432a7/\"}],[\"$\",\"meta\",\"4\",{\"name\":\"author\",\"content\":\"Khalil Alami\"}],[\"$\",\"link\",\"5\",{\"rel\":\"manifest\",\"href\":\"/manifest.webmanifest\",\"crossOrigin\":\"$undefined\"}],[\"$\",\"meta\",\"6\",{\"name\":\"creator\",\"content\":\"Khalil Alami\"}],[\"$\",\"meta\",\"7\",{\"name\":\"publisher\",\"content\":\"Khalil Alami\"}],[\"$\",\"meta\",\"8\",{\"name\":\"robots\",\"content\":\"noindex, nofollow\"}],[\"$\",\"meta\",\"9\",{\"name\":\"format-detection\",\"content\":\"telephone=no, address=no, email=no\"}],[\"$\",\"meta\",\"10\",{\"property\":\"og:title\",\"content\":\"Lab — The Boring Blog\"}],[\"$\",\"meta\",\"11\",{\"property\":\"og:description\",\"content\":\"Fifteen sketches for the home page. None of them are the home page.\"}],[\"$\",\"meta\",\"12\",{\"property\":\"og:image\",\"content\":\"https://www.theboringblog.ai/opengraph-image?fe69e1da4dd3ef4c\"}],[\"$\",\"meta\",\"13\",{\"property\":\"og:image:type\",\"content\":\"image/png\"}],[\"$\",\"meta\",\"14\",{\"property\":\"og:image:width\",\"content\":\"1200\"}],[\"$\",\"meta\",\"15\",{\"property\":\"og:image:height\",\"content\":\"630\"}],[\"$\",\"meta\",\"16\",{\"property\":\"og:image:alt\",\"content\":\"The Boring Blog — a boy reading in a meadow against a red keycap, a cat asleep beside him, under the words: boring stuff about art, engineering, AI, and the little things that rarely make noise.\"}],[\"$\",\"meta\",\"17\",{\"name\":\"twitter:card\",\"content\":\"summary_large_image\"}],[\"$\",\"meta\",\"18\",{\"name\":\"twitter:creator\",\"content\":\"@ALAMIKhalil1\"}],[\"$\",\"meta\",\"19\",{\"name\":\"twitter:title\",\"content\":\"Lab — The Boring Blog\"}],[\"$\",\"meta\",\"20\",{\"name\":\"twitter:description\",\"content\":\"Fifteen sketches for the home page. None of them are the home page.\"}],[\"$\",\"meta\",\"21\",{\"name\":\"twitter:image\",\"content\":\"https://www.theboringblog.ai/opengraph-image?fe69e1da4dd3ef4c\"}],[\"$\",\"meta\",\"22\",{\"name\":\"twitter:image:alt\",\"content\":\"The Boring Blog — a boy reading in a meadow against a red keycap, a cat asleep beside him, under the words: boring stuff about art, engineering, AI, and the little things that rarely make noise.\"}],[\"$\",\"meta\",\"23\",{\"name\":\"twitter:image:type\",\"content\":\"image/png\"}],[\"$\",\"meta\",\"24\",{\"name\":\"twitter:image:width\",\"content\":\"1200\"}],[\"$\",\"meta\",\"25\",{\"name\":\"twitter:image:height\",\"content\":\"630\"}],[\"$\",\"link\",\"26\",{\"rel\":\"icon\",\"href\":\"/favicon.ico?favicon.3pvdrb0xj02ql.ico?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"sizes\":\"48x48\",\"type\":\"image/x-icon\"}],[\"$\",\"link\",\"27\",{\"rel\":\"icon\",\"href\":\"/icon.svg?icon.20cku_k9b5npa.svg?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"sizes\":\"any\",\"type\":\"image/svg+xml\"}],[\"$\",\"link\",\"28\",{\"rel\":\"apple-touch-icon\",\"href\":\"/apple-icon.png?apple-icon.1csk4f7xy577-.png?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"sizes\":\"180x180\",\"type\":\"image/png\"}],[\"$\",\"$L1d\",\"29\",{}]]\n",
+   "fr": null,
+   "remplacer": false
+  }
+ ]
+}

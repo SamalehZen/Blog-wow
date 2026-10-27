@@ -1,0 +1,24 @@
+# Clone statique de www.theboringblog.ai — conteneur nginx:alpine
+# derriere l'edge Caddy partage (nao_gamme_caddy, reseau docker hyperfix-net).
+# Deploye sur le VPS dans /opt/photographer.
+#
+#   photo.hypeer.cloud -> Caddy (TLS) -> photographer:80 -> dist/ (statique)
+services:
+  photographer:
+    image: nginx:1.27-alpine
+    container_name: photographer
+    restart: unless-stopped
+    volumes:
+      - ./dist:/usr/share/nginx/html:ro
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro
+    networks:
+      - hyperfix-net
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://127.0.0.1/"]
+      interval: 30s
+      timeout: 3s
+      retries: 3
+
+networks:
+  hyperfix-net:
+    external: true

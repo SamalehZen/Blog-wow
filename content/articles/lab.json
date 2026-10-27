@@ -1,0 +1,615 @@
+{
+ "_lisezMoi": [
+  "Fichier de contenu de la page /lab",
+  "",
+  "Chaque entree de \"chaines\" se lit :",
+  "  { \"en\": \"texte d origine\", \"fr\": \"nouveau texte\", \"remplacer\": true }",
+  "  - remplacer: true  -> \"fr\" remplace \"en\" PARTOUT (HTML visible et payload RSC)",
+  "  - remplacer: false -> la chaine reste intacte",
+  "Vous pouvez ajouter, supprimer ou reordonner les entrees librement.",
+  "Puis : npm run build && npm run verify"
+ ],
+ "route": "/lab",
+ "title": {
+  "en": "Lab — The Boring Blog",
+  "fr": null,
+  "remplacer": false
+ },
+ "description": {
+  "en": "Fifteen sketches for the home page. None of them are the home page.",
+  "fr": null,
+  "remplacer": false
+ },
+ "chaines": [
+  {
+   "en": "The Boring Blog · lab",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "All fifteen",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "Home page",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "Thirty sketches, none of them the home page",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "Every idea here is isolated on its own page, with the knobs exposed, so it can be judged by turning it rather than by reading about it. Nothing in this directory is imported by the site — the sketches share the meadow’s vocabulary and none of its page.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "The dots are effort: one is an afternoon, three has unknowns in it. A line in red means the hook is already written and sitting unused.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "Round two — the page",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "the sheet as a designed object",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "The cursor",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "the pointer as an instrument",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "The loupe",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "The pointer is a printer's glass. What is under it resolves; what is not, does not.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "Registration marks",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "Two hairlines across the whole sheet, with ticks. It snaps to whatever it can act on.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "The ink is still wet",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "The pointer has weight, leaves a smear, and the smear dries.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "The type",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "letters as a physical event",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "Letterpress impression",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "The display type is pressed INTO the sheet, and the ink spreads at the edge.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "The red plate slips",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "Hover a heading and it comes apart into its ink plates, then registers again.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "Type that focuses",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "Weight and optical size track how close you are, the way a lens finds a subject.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "Type printed on the field",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "The headline drawn to a texture and handed to the shader, so the grass truly cuts it.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "The blades already sample a texture; this is one more",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "The layout",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "the grid, admitted",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "The grid, admitted",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "Baseline, gutter, trim marks, folios. Press a key and the sheet shows its work.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "The archive as a contact sheet",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "Every post as a frame on one plate, marked up in red chinagraph.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "The measure tightens as you read",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "Not scroll-driven animation — scroll-driven LAYOUT. The column narrows, the margin fills.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "The components",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "controls that are objects",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "The nav is a set of tabs",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "Index tabs down the edge of the sheet. The one you press comes forward.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "Buttons that stamp",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "Press and the ink lands — slightly off-square, and never twice the same.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "The Button already has a two-layer fill and a seam",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "Progress as an object",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "Not a bar. A ribbon down the gutter, and a stack of pages that thins.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "The press",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "plates, registration, and the page turn",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "The page turn",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "The outgoing sheet lifts away. The new one was underneath the whole time.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "View Transitions across the App Router",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "The plates register",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "Paper, then black, then red — each landing slightly off and snapping into place.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "Round one — the field",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "what the meadow could do",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "The light",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "the sun, the sky, the year",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "The dial is a day",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "Twenty-four detents, twenty-four hours. Turn the field and the light walks around you.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "The three-anchor SKY table and the two drivers in _theme/arc.js",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "The visitor's actual sky",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "The sun where it really is, for wherever the reader happens to be sitting.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "The same interpolation as 01",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "Weather that drifts through",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "Not a control. A condition the field is in when you arrive.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "uWind and uGust are already uniforms and already animated",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "Four seasons, one date",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "The greens go yellow in October. In February the field is bleached.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "The day / dusk / night anchor pattern, verbatim",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "The field",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "what lives in it and what it remembers",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "The grass remembers",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "A trail that takes half a minute to stand back up.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "world.footprints is declared in the engine and never written to",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "Something lives here",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "It wanders when you are still, and follows at a distance it chooses.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "The daisy heads already ride their own stems, re-pinned every frame",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "Cut a path through it",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "What you cut stays cut, because it lives in the field's own texture.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "The brush is fully implemented behind TUNING.tool",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "Every post plants something",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "The archive as a garden. Turn to Engineering and see nine years of it.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "stone.js, stump.js, chair.js, mug.js and five more are in git history",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "The writing",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "the words and the grass, arguing",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "Type that grows",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "The title sprouts on the same curve as the blades, and keeps the wind.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "uGrow and uReveal already ease the field in over three and a half seconds",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "Letters that know what is behind them",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "Warmer where the word is in the green, cooler where it is on the sheet.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "readGround() already samples the drawing buffer five times a second",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "The field leans away from the words",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "Give the headline weight, so the grass bends around it.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "uBall and uTrail already do exactly this for the pointer",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "The chrome",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "navigation that belongs to the picture",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "The menu is the horizon",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "Going somewhere means turning to face it.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "rig.goToScene() already picks the shorter way round",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "Something written at all twenty-four",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "Not titles, not links. Notes in a margin.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "rig.onDetent() fires the instant the target changes, not on arrival",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "The visitor",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "time spent, and leaving",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "Idle is the feature",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "Thirty seconds of stillness and a bird crosses. Two minutes, something rarer.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "Walk into the post",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "The camera dips, the field rises past you, and the article surfaces.",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "The camera's elevation and frustum are both live setters",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "1:\"$Sreact.fragment\"\n2:I[39266,[\"/_next/static/chunks/2hw39_eluoaeu.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\"],\"\"]\n3:I[16085,[\"/_next/static/chunks/2lmlkwkj_6x80.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"/_next/static/chunks/3ainre9bxx0ob.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\"],\"default\"]\n4:I[37027,[\"/_next/static/chunks/2lmlkwkj_6x80.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"/_next/static/chunks/3ainre9bxx0ob.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\"],\"default\"]\n5:I[89329,[\"/_next/static/chunks/2hw39_eluoaeu.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"/_next/static/chunks/1ypjhuq8-wket.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"/_next/static/chunks/0x3yu6y8gv9bv.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"/_next/static/chunks/420bf9zpcuklx.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"/_next/static/chunks/0ajkf_ww7o4ah.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\"],\"HomeMark\"]\n6:I[91626,[\"/_next/static/chunks/2hw39_eluoaeu.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"/_next/static/chunks/1ypjhuq8-wket.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"/_next/static/chunks/0x3yu6y8gv9bv.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"/_next/static/chunks/420bf9zpcuklx.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"/_next/static/chunks/0ajkf_ww7o4ah.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\"],\"MastEnd\"]\n7:I[81831,[\"/_next/static/chunks/2hw39_eluoaeu.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"/_next/static/chunks/1ypjhuq8-wket.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"/_next/static/chunks/0x3yu6y8gv9bv.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"/_next/static/chunks/420bf9zpcuklx.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"/_next/static/chunks/0ajkf_ww7o4ah.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\"],\"Button\"]\n8:I[49043,[\"/_next/static/chunks/2hw39_eluoaeu.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"/_next/static/chunks/12swhg_iobbez.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\"],\"\"]\n9:I[35415,[\"/_next/static/chunks/2hw39_eluoaeu.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\"],\"Analytics\"]\na:I[1367,[\"/_next/static/chunks/2hw39_eluoaeu.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\"],\"SpeedInsights\"]\n10:I[29671,[\"/_next/static/chunks/2hw39_eluoaeu.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\"],\"default\",1]\n:HL[\"/_next/static/chunks/2tf0yppvs3g3p.css?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"style\"]\n:HL[\"/_next/static/chunks/2cjnoq3jgy7c6.css?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"style\"]\n:HL[\"/_next/static/chunks/3ivigp5zxji8c.css?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"style\"]\n:HL[\"/_next/static/chunks/2kx-3xls3toog.css?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"style\"]\n:HL[\"/_next/static/media/54fc36028e2bb174-s.p.20jfceqj9zyw9.woff2?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/media/66b33cc02d8f8b9d-s.p.3slq8sz4zhb1g.woff2?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/media/Geist_Variable-s.p.0mrjj4bg00-he.woff2?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "0:{\"P\":null,\"c\":[\"\",\"lab\"],\"q\":\"\",\"i\":false,\"f\":[[[\"\",{\"children\":[\"lab\",{\"children\":[\"__PAGE__\",{}]}]},\"$undefined\",\"$undefined\",16],[[\"$\",\"$1\",\"c\",{\"children\":[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/chunks/2tf0yppvs3g3p.css?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}],[\"$\",\"link\",\"1\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/chunks/2cjnoq3jgy7c6.css?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}],[\"$\",\"script\",\"script-0\",{\"src\":\"/_next/static/chunks/2hw39_eluoaeu.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"async\":true,\"nonce\":\"$undefined\"}]],[\"$\",\"html\",null,{\"lang\":\"en\",\"className\":\"geistsans_d5a4f12f-module__7QEr8W__variable fraunces_3053e531-module__RZoG-q__variable\",\"suppressHydrationWarning\":true,\"children\":[\"$\",\"body\",null,{\"children\":[[\"$\",\"script\",null,{\"id\":\"sun\",\"dangerouslySetInnerHTML\":{\"__html\":\"(function(){try{var t=localStorage.getItem('bb-theme');if(t!=='day'&&t!=='night')t='day';if(t==='night'){var r=document.documentElement;r.classList.add('dark');r.style.setProperty('--night','1');r.style.setProperty('--gold','0');}}catch(e){}})()\"}}],[\"$\",\"script\",null,{\"id\":\"letter\",\"dangerouslySetInnerHTML\":{\"__html\":\"(function(){try{var k=JSON.parse(localStorage.getItem(\\\"bb-letter\\\")||'null');if(k&&typeof k.email==='string'&&k.email.indexOf('@')>=0)document.documentElement.setAttribute('data-letter','kept')}catch(e){}})()\"}}],[\"$\",\"$L2\",null,{\"id\":\"uncover\",\"strategy\":\"beforeInteractive\",\"children\":\"window.__uncover=setTimeout(function(){document.querySelector('.clearing')?.classList.remove('is-entering')},4000)\"}],[\"$\",\"$L3\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L4\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":[[[\"$\",\"header\",null,{\"className\":\"mast\",\"data-veiled\":true,\"data-route\":true,\"children\":[[\"$\",\"$L5\",null,{}],[\"$\",\"$L6\",null,{}]]}],[\"$\",\"main\",null,{\"className\":\"lost\",\"children\":[[\"$\",\"svg\",null,{\"className\":\"lost__tuft\",\"viewBox\":\"2.95 6.7 18 18\",\"aria-hidden\":\"true\",\"children\":[[\"$\",\"path\",null,{\"d\":\"M12 22c0-5.4.9-9.4 2.6-12.1\"}],[\"$\",\"path\",null,{\"d\":\"M12 22c0-4.6-1.1-8-3.2-10.4\"}],[\"$\",\"path\",null,{\"d\":\"M12 22c1.3-3.6 3.6-6.2 6.9-7.8\"}],[\"$\",\"path\",null,{\"d\":\"M12 22c-1.5-3.1-3.9-5.2-7-6.4\"}],[\"$\",\"path\",null,{\"d\":\"M12 22V9.4\"}]]}],[\"$\",\"p\",null,{\"className\":\"lost__kicker\",\"children\":\"404\"}],[\"$\",\"h1\",null,{\"className\":\"lost__title\",\"children\":\"Nothing grows here.\"}],[\"$\",\"p\",null,{\"className\":\"lost__lede\",\"children\":\"The page you were after is not on this blog. It may have moved, or it may not be written yet.\"}],[\"$\",\"div\",null,{\"className\":\"lost__actions\",\"children\":[[\"$\",\"$L7\",null,{\"asChild\":true,\"variant\":\"primary\",\"seam\":\"pill\",\"travel\":\"0.35em\",\"children\":[\"$\",\"$L8\",null,{\"href\":\"/\",\"children\":[[\"$\",\"svg\",null,{\"viewBox\":\"0 0 12 12\",\"fill\":\"none\",\"stroke\":\"currentColor\",\"strokeWidth\":1.25,\"strokeLinecap\":\"round\",\"strokeLinejoin\":\"round\",\"aria-hidden\":\"true\",\"style\":\"$undefined\",\"children\":[\"$\",\"path\",null,{\"d\":\"M10 6H2M5 3 2 6l3 3\"}]}],\"Back to the field\"]}]}],[\"$\",\"$L7\",null,{\"asChild\":true,\"variant\":\"outline\",\"children\":[\"$\",\"$L8\",null,{\"href\":\"/posts\",\"children\":\"All posts\"}]}]]}]]}]],[]],\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}],[\"$\",\"$L9\",null,{}],[\"$\",\"$La\",null,{}]]}]}]]}],{\"children\":[[\"$\",\"$1\",\"c\",{\"children\":[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/chunks/3ivigp5zxji8c.css?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}],[\"$\",\"link\",\"1\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/chunks/2kx-3xls3toog.css?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}],[\"$\",\"script\",\"script-0\",{\"src\":\"/_next/static/chunks/12swhg_iobbez.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"async\":true,\"nonce\":\"$undefined\"}]],[\"$\",\"div\",null,{\"className\":\"lab\",\"children\":[\"$\",\"div\",null,{\"className\":\"lab__wrap\",\"children\":[[\"$\",\"div\",null,{\"className\":\"lab__bar\",\"children\":[[\"$\",\"span\",null,{\"children\":\"The Boring Blog · lab\"}],[\"$\",\"nav\",null,{\"children\":[[\"$\",\"$L8\",null,{\"href\":\"/lab\",\"children\":\"All fifteen\"}],[\"$\",\"$L8\",null,{\"href\":\"/\",\"children\":\"Home page\"}]]}]]}],[\"$\",\"$L3\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L4\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]]}]}]]}],{\"children\":[[\"$\",\"$1\",\"c\",{\"children\":[[[\"$\",\"header\",null,{\"className\":\"lab__head\",\"children\":[[\"$\",\"h1\",null,{\"children\":\"Thirty sketches, none of them the home page\"}],[\"$\",\"p\",null,{\"children\":\"Every idea here is isolated on its own page, with the knobs exposed, so it can be judged by turning it rather than by reading about it. Nothing in this directory is imported by the site — the sketches share the meadow’s vocabulary and none of its page.\"}],\"$Lb\"]}],[\"$Lc\",\"$Ld\"]],null,\"$Le\"]}],{},null,false,null]},null,false,null]},null,false,null],\"$Lf\",false]],\"m\":\"$undefined\",\"G\":[\"$10\",[\"$L11\",\"$L12\"]],\"S\":true,\"h\":null,\"s\":\"$undefined\",\"l\":\"$undefined\",\"p\":\"$undefined\",\"d\":\"$undefined\"}\n",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "c:[\"$\",\"div\",\"2\",{\"children\":[[\"$\",\"section\",null,{\"className\":\"lab__round\",\"children\":[[\"$\",\"h2\",null,{\"children\":\"Round two — the page\"}],[\"$\",\"p\",null,{\"children\":\"the sheet as a designed object\"}]]}],[[\"$\",\"section\",\"cursor\",{\"className\":\"lab__group\",\"children\":[[\"$\",\"h2\",null,{\"children\":[\"The cursor\",[\"$\",\"span\",null,{\"children\":\"the pointer as an instrument\"}]]}],[[\"$\",\"$L8\",\"loupe\",{\"className\":\"card\",\"href\":\"/lab/loupe\",\"children\":[[\"$\",\"span\",null,{\"className\":\"card__no\",\"children\":\"16\"}],[\"$\",\"span\",null,{\"className\":\"card__title\",\"children\":\"The loupe\"}],[\"$\",\"span\",null,{\"className\":\"card__cost\",\"aria-label\":\"Effort 2 of 3\",\"children\":[[\"$\",\"i\",\"1\",{\"data-on\":\"\"}],[\"$\",\"i\",\"2\",{\"data-on\":\"\"}],[\"$\",\"i\",\"3\",{\"data-on\":\"$undefined\"}]]}],[\"$\",\"p\",null,{\"className\":\"card__blurb\",\"children\":\"The pointer is a printer's glass. What is under it resolves; what is not, does not.\"}],null]}],[\"$\",\"$L8\",\"registration\",{\"className\":\"card\",\"href\":\"/lab/registration\",\"children\":[[\"$\",\"span\",null,{\"className\":\"card__no\",\"children\":\"17\"}],[\"$\",\"span\",null,{\"className\":\"card__title\",\"children\":\"Registration marks\"}],[\"$\",\"span\",null,{\"className\":\"card__cost\",\"aria-label\":\"Effort 1 of 3\",\"children\":[[\"$\",\"i\",\"1\",{\"data-on\":\"\"}],[\"$\",\"i\",\"2\",{\"data-on\":\"$undefined\"}],[\"$\",\"i\",\"3\",{\"data-on\":\"$undefined\"}]]}],[\"$\",\"p\",null,{\"className\":\"card__blurb\",\"children\":\"Two hairlines across the whole sheet, with ticks. It snaps to whatever it can act on.\"}],null]}],[\"$\",\"$L8\",\"wet-ink\",{\"className\":\"card\",\"href\":\"/lab/wet-ink\",\"children\":[[\"$\",\"span\",null,{\"className\":\"card__no\",\"children\":\"18\"}],[\"$\",\"span\",null,{\"className\":\"card__title\",\"children\":\"The ink is still wet\"}],[\"$\",\"span\",null,{\"className\":\"card__cost\",\"aria-label\":\"Effort 1 of 3\",\"children\":[[\"$\",\"i\",\"1\",{\"data-on\":\"\"}],[\"$\",\"i\",\"2\",{\"data-on\":\"$undefined\"}],[\"$\",\"i\",\"3\",{\"data-on\":\"$undefined\"}]]}],[\"$\",\"p\",null,{\"className\":\"card__blurb\",\"children\":\"The pointer has weight, leaves a smear, and the smear dries.\"}],null]}]]]}],[\"$\",\"section\",\"type\",{\"className\":\"lab__group\",\"children\":[[\"$\",\"h2\",null,{\"children\":[\"The type\",[\"$\",\"span\",null,{\"children\":\"letters as a physical event\"}]]}],[[\"$\",\"$L8\",\"impression\",{\"className\":\"card\",\"href\":\"/lab/impression\",\"children\":[[\"$\",\"span\",null,{\"className\":\"card__no\",\"children\":\"19\"}],[\"$\",\"span\",null,{\"className\":\"card__title\",\"children\":\"Letterpress impression\"}],[\"$\",\"span\",null,{\"className\":\"card__cost\",\"aria-label\":\"Effort 1 of 3\",\"children\":[[\"$\",\"i\",\"1\",{\"data-on\":\"\"}],[\"$\",\"i\",\"2\",{\"data-on\":\"$undefined\"}],[\"$\",\"i\",\"3\",{\"data-on\":\"$undefined\"}]]}],[\"$\",\"p\",null,{\"className\":\"card__blurb\",\"children\":\"The display type is pressed INTO the sheet, and the ink spreads at the edge.\"}],null]}],[\"$\",\"$L8\",\"misregistration\",{\"className\":\"card\",\"href\":\"/lab/misregistration\",\"children\":[[\"$\",\"span\",null,{\"className\":\"card__no\",\"children\":\"20\"}],[\"$\",\"span\",null,{\"className\":\"card__title\",\"children\":\"The red plate slips\"}],[\"$\",\"span\",null,{\"className\":\"card__cost\",\"aria-label\":\"Effort 1 of 3\",\"children\":[[\"$\",\"i\",\"1\",{\"data-on\":\"\"}],[\"$\",\"i\",\"2\",{\"data-on\":\"$undefined\"}],[\"$\",\"i\",\"3\",{\"data-on\":\"$undefined\"}]]}],[\"$\",\"p\",null,{\"className\":\"card__blurb\",\"children\":\"Hover a heading and it comes apart into its ink plates, then registers again.\"}],null]}],[\"$\",\"$L8\",\"focus-pull\",{\"className\":\"card\",\"href\":\"/lab/focus-pull\",\"children\":[[\"$\",\"span\",null,{\"className\":\"card__no\",\"children\":\"21\"}],[\"$\",\"span\",null,{\"className\":\"card__title\",\"children\":\"Type that focuses\"}],[\"$\",\"span\",null,{\"className\":\"card__cost\",\"aria-label\":\"Effort 2 of 3\",\"children\":[[\"$\",\"i\",\"1\",{\"data-on\":\"\"}],[\"$\",\"i\",\"2\",{\"data-on\":\"\"}],[\"$\",\"i\",\"3\",{\"data-on\":\"$undefined\"}]]}],[\"$\",\"p\",null,{\"className\":\"card__blurb\",\"children\":\"Weight and optical size track how close you are, the way a lens finds a subject.\"}],null]}],[\"$\",\"$L8\",\"type-in-the-field\",{\"className\":\"card\",\"href\":\"/lab/type-in-the-field\",\"children\":[[\"$\",\"span\",null,{\"className\":\"card__no\",\"children\":\"22\"}],[\"$\",\"span\",null,{\"className\":\"card__title\",\"children\":\"Type printed on the field\"}],[\"$\",\"span\",null,{\"className\":\"card__cost\",\"aria-label\":\"Effort 3 of 3\",\"children\":[[\"$\",\"i\",\"1\",{\"data-on\":\"\"}],[\"$\",\"i\",\"2\",{\"data-on\":\"\"}],[\"$\",\"i\",\"3\",{\"data-on\":\"\"}]]}],[\"$\",\"p\",null,{\"className\":\"card__blurb\",\"children\":\"The headline drawn to a texture and handed to the shader, so the grass truly cuts it.\"}],[\"$\",\"p\",null,{\"className\":\"card__hook\",\"children\":\"The blades already sample a texture; this is one more\"}]]}]]]}],[\"$\",\"section\",\"layout\",{\"className\":\"lab__group\",\"children\":[[\"$\",\"h2\",null,{\"children\":[\"The layout\",[\"$\",\"span\",null,{\"children\":\"the grid, admitted\"}]]}],[[\"$\",\"$L8\",\"the-grid\",{\"className\":\"card\",\"href\":\"/lab/the-grid\",\"children\":[[\"$\",\"span\",null,{\"className\":\"card__no\",\"children\":\"23\"}],[\"$\",\"span\",null,{\"className\":\"card__title\",\"children\":\"The grid, admitted\"}],\"$L13\",\"$L14\",null]}],\"$L15\",\"$L16\"]]}],\"$L17\",\"$L18\"]]}]\n",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "d:[\"$\",\"div\",\"1\",{\"children\":[[\"$\",\"section\",null,{\"className\":\"lab__round\",\"children\":[[\"$\",\"h2\",null,{\"children\":\"Round one — the field\"}],[\"$\",\"p\",null,{\"children\":\"what the meadow could do\"}]]}],[[\"$\",\"section\",\"light\",{\"className\":\"lab__group\",\"children\":[[\"$\",\"h2\",null,{\"children\":[\"The light\",[\"$\",\"span\",null,{\"children\":\"the sun, the sky, the year\"}]]}],[[\"$\",\"$L8\",\"dial-is-a-day\",{\"className\":\"card\",\"href\":\"/lab/dial-is-a-day\",\"children\":[[\"$\",\"span\",null,{\"className\":\"card__no\",\"children\":\"01\"}],[\"$\",\"span\",null,{\"className\":\"card__title\",\"children\":\"The dial is a day\"}],[\"$\",\"span\",null,{\"className\":\"card__cost\",\"aria-label\":\"Effort 2 of 3\",\"children\":[[\"$\",\"i\",\"1\",{\"data-on\":\"\"}],[\"$\",\"i\",\"2\",{\"data-on\":\"\"}],[\"$\",\"i\",\"3\",{\"data-on\":\"$undefined\"}]]}],[\"$\",\"p\",null,{\"className\":\"card__blurb\",\"children\":\"Twenty-four detents, twenty-four hours. Turn the field and the light walks around you.\"}],[\"$\",\"p\",null,{\"className\":\"card__hook\",\"children\":\"The three-anchor SKY table and the two drivers in _theme/arc.js\"}]]}],[\"$\",\"$L8\",\"local-sky\",{\"className\":\"card\",\"href\":\"/lab/local-sky\",\"children\":[[\"$\",\"span\",null,{\"className\":\"card__no\",\"children\":\"02\"}],[\"$\",\"span\",null,{\"className\":\"card__title\",\"children\":\"The visitor's actual sky\"}],[\"$\",\"span\",null,{\"className\":\"card__cost\",\"aria-label\":\"Effort 1 of 3\",\"children\":[[\"$\",\"i\",\"1\",{\"data-on\":\"\"}],[\"$\",\"i\",\"2\",{\"data-on\":\"$undefined\"}],[\"$\",\"i\",\"3\",{\"data-on\":\"$undefined\"}]]}],[\"$\",\"p\",null,{\"className\":\"card__blurb\",\"children\":\"The sun where it really is, for wherever the reader happens to be sitting.\"}],[\"$\",\"p\",null,{\"className\":\"card__hook\",\"children\":\"The same interpolation as 01\"}]]}],[\"$\",\"$L8\",\"weather\",{\"className\":\"card\",\"href\":\"/lab/weather\",\"children\":[[\"$\",\"span\",null,{\"className\":\"card__no\",\"children\":\"03\"}],[\"$\",\"span\",null,{\"className\":\"card__title\",\"children\":\"Weather that drifts through\"}],[\"$\",\"span\",null,{\"className\":\"card__cost\",\"aria-label\":\"Effort 2 of 3\",\"children\":[[\"$\",\"i\",\"1\",{\"data-on\":\"\"}],[\"$\",\"i\",\"2\",{\"data-on\":\"\"}],[\"$\",\"i\",\"3\",{\"data-on\":\"$undefined\"}]]}],[\"$\",\"p\",null,{\"className\":\"card__blurb\",\"children\":\"Not a control. A condition the field is in when you arrive.\"}],[\"$\",\"p\",null,{\"className\":\"card__hook\",\"children\":\"uWind and uGust are already uniforms and already animated\"}]]}],[\"$\",\"$L8\",\"seasons\",{\"className\":\"card\",\"href\":\"/lab/seasons\",\"children\":[[\"$\",\"span\",null,{\"className\":\"card__no\",\"children\":\"04\"}],[\"$\",\"span\",null,{\"className\":\"card__title\",\"children\":\"Four seasons, one date\"}],[\"$\",\"span\",null,{\"className\":\"card__cost\",\"aria-label\":\"Effort 2 of 3\",\"children\":[[\"$\",\"i\",\"1\",{\"data-on\":\"\"}],[\"$\",\"i\",\"2\",{\"data-on\":\"\"}],[\"$\",\"i\",\"3\",{\"data-on\":\"$undefined\"}]]}],[\"$\",\"p\",null,{\"className\":\"card__blurb\",\"children\":\"The greens go yellow in October. In February the field is bleached.\"}],[\"$\",\"p\",null,{\"className\":\"card__hook\",\"children\":\"The day / dusk / night anchor pattern, verbatim\"}]]}]]]}],[\"$\",\"section\",\"field\",{\"className\":\"lab__group\",\"children\":[[\"$\",\"h2\",null,{\"children\":[\"The field\",[\"$\",\"span\",null,{\"children\":\"what lives in it and what it remembers\"}]]}],[[\"$\",\"$L8\",\"footprints\",{\"className\":\"card\",\"href\":\"/lab/footprints\",\"children\":[[\"$\",\"span\",null,{\"className\":\"card__no\",\"children\":\"05\"}],[\"$\",\"span\",null,{\"className\":\"card__title\",\"children\":\"The grass remembers\"}],[\"$\",\"span\",null,{\"className\":\"card__cost\",\"aria-label\":\"Effort 1 of 3\",\"children\":[[\"$\",\"i\",\"1\",{\"data-on\":\"\"}],[\"$\",\"i\",\"2\",{\"data-on\":\"$undefined\"}],[\"$\",\"i\",\"3\",{\"data-on\":\"$undefined\"}]]}],[\"$\",\"p\",null,{\"className\":\"card__blurb\",\"children\":\"A trail that takes half a minute to stand back up.\"}],[\"$\",\"p\",null,{\"className\":\"card__hook\",\"children\":\"world.footprints is declared in the engine and never written to\"}]]}],[\"$\",\"$L8\",\"companion\",{\"className\":\"card\",\"href\":\"/lab/companion\",\"children\":[[\"$\",\"span\",null,{\"className\":\"card__no\",\"children\":\"06\"}],[\"$\",\"span\",null,{\"className\":\"card__title\",\"children\":\"Something lives here\"}],[\"$\",\"span\",null,{\"className\":\"card__cost\",\"aria-label\":\"Effort 2 of 3\",\"children\":[[\"$\",\"i\",\"1\",{\"data-on\":\"\"}],[\"$\",\"i\",\"2\",{\"data-on\":\"\"}],[\"$\",\"i\",\"3\",{\"data-on\":\"$undefined\"}]]}],[\"$\",\"p\",null,{\"className\":\"card__blurb\",\"children\":\"It wanders when you are still, and follows at a distance it chooses.\"}],[\"$\",\"p\",null,{\"className\":\"card__hook\",\"children\":\"The daisy heads already ride their own stems, re-pinned every frame\"}]]}],[\"$\",\"$L8\",\"mow\",{\"className\":\"card\",\"href\":\"/lab/mow\",\"children\":[[\"$\",\"span\",null,{\"className\":\"card__no\",\"children\":\"07\"}],[\"$\",\"span\",null,{\"className\":\"card__title\",\"children\":\"Cut a path through it\"}],[\"$\",\"span\",null,{\"className\":\"card__cost\",\"aria-label\":\"Effort 1 of 3\",\"children\":[[\"$\",\"i\",\"1\",{\"data-on\":\"\"}],\"$L19\",\"$L1a\"]}],\"$L1b\",\"$L1c\"]}],\"$L1d\"]]}],\"$L1e\",\"$L1f\",\"$L20\"]]}]\n",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "13:[\"$\",\"span\",null,{\"className\":\"card__cost\",\"aria-label\":\"Effort 1 of 3\",\"children\":[[\"$\",\"i\",\"1\",{\"data-on\":\"\"}],[\"$\",\"i\",\"2\",{\"data-on\":\"$undefined\"}],[\"$\",\"i\",\"3\",{\"data-on\":\"$undefined\"}]]}]\n14:[\"$\",\"p\",null,{\"className\":\"card__blurb\",\"children\":\"Baseline, gutter, trim marks, folios. Press a key and the sheet shows its work.\"}]\n15:[\"$\",\"$L8\",\"contact-sheet\",{\"className\":\"card\",\"href\":\"/lab/contact-sheet\",\"children\":[[\"$\",\"span\",null,{\"className\":\"card__no\",\"children\":\"24\"}],[\"$\",\"span\",null,{\"className\":\"card__title\",\"children\":\"The archive as a contact sheet\"}],[\"$\",\"span\",null,{\"className\":\"card__cost\",\"aria-label\":\"Effort 2 of 3\",\"children\":[[\"$\",\"i\",\"1\",{\"data-on\":\"\"}],[\"$\",\"i\",\"2\",{\"data-on\":\"\"}],[\"$\",\"i\",\"3\",{\"data-on\":\"$undefined\"}]]}],[\"$\",\"p\",null,{\"className\":\"card__blurb\",\"children\":\"Every post as a frame on one plate, marked up in red chinagraph.\"}],null]}]\n16:[\"$\",\"$L8\",\"reflow\",{\"className\":\"card\",\"href\":\"/lab/reflow\",\"children\":[[\"$\",\"span\",null,{\"className\":\"card__no\",\"children\":\"25\"}],[\"$\",\"span\",null,{\"className\":\"card__title\",\"children\":\"The measure tightens as you read\"}],[\"$\",\"span\",null,{\"className\":\"card__cost\",\"aria-label\":\"Effort 2 of 3\",\"children\":[[\"$\",\"i\",\"1\",{\"data-on\":\"\"}],[\"$\",\"i\",\"2\",{\"data-on\":\"\"}],[\"$\",\"i\",\"3\",{\"data-on\":\"$undefined\"}]]}],[\"$\",\"p\",null,{\"className\":\"card__blurb\",\"children\":\"Not scroll-driven animation — scroll-driven LAYOUT. The column narrows, the margin fills.\"}],null]}]\n",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "17:[\"$\",\"section\",\"component\",{\"className\":\"lab__group\",\"children\":[[\"$\",\"h2\",null,{\"children\":[\"The components\",[\"$\",\"span\",null,{\"children\":\"controls that are objects\"}]]}],[[\"$\",\"$L8\",\"tab-index\",{\"className\":\"card\",\"href\":\"/lab/tab-index\",\"children\":[[\"$\",\"span\",null,{\"className\":\"card__no\",\"children\":\"26\"}],[\"$\",\"span\",null,{\"className\":\"card__title\",\"children\":\"The nav is a set of tabs\"}],[\"$\",\"span\",null,{\"className\":\"card__cost\",\"aria-label\":\"Effort 2 of 3\",\"children\":[[\"$\",\"i\",\"1\",{\"data-on\":\"\"}],[\"$\",\"i\",\"2\",{\"data-on\":\"\"}],[\"$\",\"i\",\"3\",{\"data-on\":\"$undefined\"}]]}],[\"$\",\"p\",null,{\"className\":\"card__blurb\",\"children\":\"Index tabs down the edge of the sheet. The one you press comes forward.\"}],null]}],[\"$\",\"$L8\",\"stamp\",{\"className\":\"card\",\"href\":\"/lab/stamp\",\"children\":[[\"$\",\"span\",null,{\"className\":\"card__no\",\"children\":\"27\"}],[\"$\",\"span\",null,{\"className\":\"card__title\",\"children\":\"Buttons that stamp\"}],[\"$\",\"span\",null,{\"className\":\"card__cost\",\"aria-label\":\"Effort 1 of 3\",\"children\":[[\"$\",\"i\",\"1\",{\"data-on\":\"\"}],[\"$\",\"i\",\"2\",{\"data-on\":\"$undefined\"}],[\"$\",\"i\",\"3\",{\"data-on\":\"$undefined\"}]]}],[\"$\",\"p\",null,{\"className\":\"card__blurb\",\"children\":\"Press and the ink lands — slightly off-square, and never twice the same.\"}],[\"$\",\"p\",null,{\"className\":\"card__hook\",\"children\":\"The Button already has a two-layer fill and a seam\"}]]}],[\"$\",\"$L8\",\"ribbon\",{\"className\":\"card\",\"href\":\"/lab/ribbon\",\"children\":[[\"$\",\"span\",null,{\"className\":\"card__no\",\"children\":\"28\"}],[\"$\",\"span\",null,{\"className\":\"card__title\",\"children\":\"Progress as an object\"}],[\"$\",\"span\",null,{\"className\":\"card__cost\",\"aria-label\":\"Effort 1 of 3\",\"children\":[[\"$\",\"i\",\"1\",{\"data-on\":\"\"}],[\"$\",\"i\",\"2\",{\"data-on\":\"$undefined\"}],[\"$\",\"i\",\"3\",{\"data-on\":\"$undefined\"}]]}],[\"$\",\"p\",null,{\"className\":\"card__blurb\",\"children\":\"Not a bar. A ribbon down the gutter, and a stack of pages that thins.\"}],null]}]]]}]\n",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "18:[\"$\",\"section\",\"press\",{\"className\":\"lab__group\",\"children\":[[\"$\",\"h2\",null,{\"children\":[\"The press\",[\"$\",\"span\",null,{\"children\":\"plates, registration, and the page turn\"}]]}],[[\"$\",\"$L8\",\"page-turn\",{\"className\":\"card\",\"href\":\"/lab/page-turn\",\"children\":[[\"$\",\"span\",null,{\"className\":\"card__no\",\"children\":\"29\"}],[\"$\",\"span\",null,{\"className\":\"card__title\",\"children\":\"The page turn\"}],[\"$\",\"span\",null,{\"className\":\"card__cost\",\"aria-label\":\"Effort 2 of 3\",\"children\":[[\"$\",\"i\",\"1\",{\"data-on\":\"\"}],[\"$\",\"i\",\"2\",{\"data-on\":\"\"}],[\"$\",\"i\",\"3\",{\"data-on\":\"$undefined\"}]]}],[\"$\",\"p\",null,{\"className\":\"card__blurb\",\"children\":\"The outgoing sheet lifts away. The new one was underneath the whole time.\"}],[\"$\",\"p\",null,{\"className\":\"card__hook\",\"children\":\"View Transitions across the App Router\"}]]}],[\"$\",\"$L8\",\"plates\",{\"className\":\"card\",\"href\":\"/lab/plates\",\"children\":[[\"$\",\"span\",null,{\"className\":\"card__no\",\"children\":\"30\"}],[\"$\",\"span\",null,{\"className\":\"card__title\",\"children\":\"The plates register\"}],[\"$\",\"span\",null,{\"className\":\"card__cost\",\"aria-label\":\"Effort 1 of 3\",\"children\":[[\"$\",\"i\",\"1\",{\"data-on\":\"\"}],[\"$\",\"i\",\"2\",{\"data-on\":\"$undefined\"}],[\"$\",\"i\",\"3\",{\"data-on\":\"$undefined\"}]]}],[\"$\",\"p\",null,{\"className\":\"card__blurb\",\"children\":\"Paper, then black, then red — each landing slightly off and snapping into place.\"}],null]}]]]}]\n19:[\"$\",\"i\",\"2\",{\"data-on\":\"$undefined\"}]\n1a:[\"$\",\"i\",\"3\",{\"data-on\":\"$undefined\"}]\n1b:[\"$\",\"p\",null,{\"className\":\"card__blurb\",\"children\":\"What you cut stays cut, because it lives in the field's own texture.\"}]\n1c:[\"$\",\"p\",null,{\"className\":\"card__hook\",\"children\":\"The brush is fully implemented behind TUNING.tool\"}]\n1d:[\"$\",\"$L8\",\"planted\",{\"className\":\"card\",\"href\":\"/lab/planted\",\"children\":[[\"$\",\"span\",null,{\"className\":\"card__no\",\"children\":\"08\"}],[\"$\",\"span\",null,{\"className\":\"card__title\",\"children\":\"Every post plants something\"}],[\"$\",\"span\",null,{\"className\":\"card__cost\",\"aria-label\":\"Effort 3 of 3\",\"children\":[[\"$\",\"i\",\"1\",{\"data-on\":\"\"}],[\"$\",\"i\",\"2\",{\"data-on\":\"\"}],[\"$\",\"i\",\"3\",{\"data-on\":\"\"}]]}],[\"$\",\"p\",null,{\"className\":\"card__blurb\",\"children\":\"The archive as a garden. Turn to Engineering and see nine years of it.\"}],[\"$\",\"p\",null,{\"className\":\"card__hook\",\"children\":\"stone.js, stump.js, chair.js, mug.js and five more are in git history\"}]]}]\n",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "1e:[\"$\",\"section\",\"writing\",{\"className\":\"lab__group\",\"children\":[[\"$\",\"h2\",null,{\"children\":[\"The writing\",[\"$\",\"span\",null,{\"children\":\"the words and the grass, arguing\"}]]}],[[\"$\",\"$L8\",\"growing-type\",{\"className\":\"card\",\"href\":\"/lab/growing-type\",\"children\":[[\"$\",\"span\",null,{\"className\":\"card__no\",\"children\":\"09\"}],[\"$\",\"span\",null,{\"className\":\"card__title\",\"children\":\"Type that grows\"}],[\"$\",\"span\",null,{\"className\":\"card__cost\",\"aria-label\":\"Effort 2 of 3\",\"children\":[[\"$\",\"i\",\"1\",{\"data-on\":\"\"}],[\"$\",\"i\",\"2\",{\"data-on\":\"\"}],[\"$\",\"i\",\"3\",{\"data-on\":\"$undefined\"}]]}],[\"$\",\"p\",null,{\"className\":\"card__blurb\",\"children\":\"The title sprouts on the same curve as the blades, and keeps the wind.\"}],[\"$\",\"p\",null,{\"className\":\"card__hook\",\"children\":\"uGrow and uReveal already ease the field in over three and a half seconds\"}]]}],[\"$\",\"$L8\",\"letters-in-the-grass\",{\"className\":\"card\",\"href\":\"/lab/letters-in-the-grass\",\"children\":[[\"$\",\"span\",null,{\"className\":\"card__no\",\"children\":\"10\"}],[\"$\",\"span\",null,{\"className\":\"card__title\",\"children\":\"Letters that know what is behind them\"}],[\"$\",\"span\",null,{\"className\":\"card__cost\",\"aria-label\":\"Effort 1 of 3\",\"children\":[[\"$\",\"i\",\"1\",{\"data-on\":\"\"}],[\"$\",\"i\",\"2\",{\"data-on\":\"$undefined\"}],[\"$\",\"i\",\"3\",{\"data-on\":\"$undefined\"}]]}],[\"$\",\"p\",null,{\"className\":\"card__blurb\",\"children\":\"Warmer where the word is in the green, cooler where it is on the sheet.\"}],[\"$\",\"p\",null,{\"className\":\"card__hook\",\"children\":\"readGround() already samples the drawing buffer five times a second\"}]]}],[\"$\",\"$L8\",\"leaning-field\",{\"className\":\"card\",\"href\":\"/lab/leaning-field\",\"children\":[[\"$\",\"span\",null,{\"className\":\"card__no\",\"children\":\"11\"}],[\"$\",\"span\",null,{\"className\":\"card__title\",\"children\":\"The field leans away from the words\"}],[\"$\",\"span\",null,{\"className\":\"card__cost\",\"aria-label\":\"Effort 2 of 3\",\"children\":[[\"$\",\"i\",\"1\",{\"data-on\":\"\"}],[\"$\",\"i\",\"2\",{\"data-on\":\"\"}],[\"$\",\"i\",\"3\",{\"data-on\":\"$undefined\"}]]}],[\"$\",\"p\",null,{\"className\":\"card__blurb\",\"children\":\"Give the headline weight, so the grass bends around it.\"}],[\"$\",\"p\",null,{\"className\":\"card__hook\",\"children\":\"uBall and uTrail already do exactly this for the pointer\"}]]}]]]}]\n",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "1f:[\"$\",\"section\",\"chrome\",{\"className\":\"lab__group\",\"children\":[[\"$\",\"h2\",null,{\"children\":[\"The chrome\",[\"$\",\"span\",null,{\"children\":\"navigation that belongs to the picture\"}]]}],[[\"$\",\"$L8\",\"horizon-menu\",{\"className\":\"card\",\"href\":\"/lab/horizon-menu\",\"children\":[[\"$\",\"span\",null,{\"className\":\"card__no\",\"children\":\"12\"}],[\"$\",\"span\",null,{\"className\":\"card__title\",\"children\":\"The menu is the horizon\"}],[\"$\",\"span\",null,{\"className\":\"card__cost\",\"aria-label\":\"Effort 3 of 3\",\"children\":[[\"$\",\"i\",\"1\",{\"data-on\":\"\"}],[\"$\",\"i\",\"2\",{\"data-on\":\"\"}],[\"$\",\"i\",\"3\",{\"data-on\":\"\"}]]}],[\"$\",\"p\",null,{\"className\":\"card__blurb\",\"children\":\"Going somewhere means turning to face it.\"}],[\"$\",\"p\",null,{\"className\":\"card__hook\",\"children\":\"rig.goToScene() already picks the shorter way round\"}]]}],[\"$\",\"$L8\",\"marginalia\",{\"className\":\"card\",\"href\":\"/lab/marginalia\",\"children\":[[\"$\",\"span\",null,{\"className\":\"card__no\",\"children\":\"13\"}],[\"$\",\"span\",null,{\"className\":\"card__title\",\"children\":\"Something written at all twenty-four\"}],[\"$\",\"span\",null,{\"className\":\"card__cost\",\"aria-label\":\"Effort 1 of 3\",\"children\":[[\"$\",\"i\",\"1\",{\"data-on\":\"\"}],[\"$\",\"i\",\"2\",{\"data-on\":\"$undefined\"}],[\"$\",\"i\",\"3\",{\"data-on\":\"$undefined\"}]]}],[\"$\",\"p\",null,{\"className\":\"card__blurb\",\"children\":\"Not titles, not links. Notes in a margin.\"}],[\"$\",\"p\",null,{\"className\":\"card__hook\",\"children\":\"rig.onDetent() fires the instant the target changes, not on arrival\"}]]}]]]}]\n",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "20:[\"$\",\"section\",\"visitor\",{\"className\":\"lab__group\",\"children\":[[\"$\",\"h2\",null,{\"children\":[\"The visitor\",[\"$\",\"span\",null,{\"children\":\"time spent, and leaving\"}]]}],[[\"$\",\"$L8\",\"idle\",{\"className\":\"card\",\"href\":\"/lab/idle\",\"children\":[[\"$\",\"span\",null,{\"className\":\"card__no\",\"children\":\"14\"}],[\"$\",\"span\",null,{\"className\":\"card__title\",\"children\":\"Idle is the feature\"}],[\"$\",\"span\",null,{\"className\":\"card__cost\",\"aria-label\":\"Effort 2 of 3\",\"children\":[[\"$\",\"i\",\"1\",{\"data-on\":\"\"}],[\"$\",\"i\",\"2\",{\"data-on\":\"\"}],[\"$\",\"i\",\"3\",{\"data-on\":\"$undefined\"}]]}],[\"$\",\"p\",null,{\"className\":\"card__blurb\",\"children\":\"Thirty seconds of stillness and a bird crosses. Two minutes, something rarer.\"}],null]}],[\"$\",\"$L8\",\"walk-in\",{\"className\":\"card\",\"href\":\"/lab/walk-in\",\"children\":[[\"$\",\"span\",null,{\"className\":\"card__no\",\"children\":\"15\"}],[\"$\",\"span\",null,{\"className\":\"card__title\",\"children\":\"Walk into the post\"}],[\"$\",\"span\",null,{\"className\":\"card__cost\",\"aria-label\":\"Effort 2 of 3\",\"children\":[[\"$\",\"i\",\"1\",{\"data-on\":\"\"}],[\"$\",\"i\",\"2\",{\"data-on\":\"\"}],[\"$\",\"i\",\"3\",{\"data-on\":\"$undefined\"}]]}],[\"$\",\"p\",null,{\"className\":\"card__blurb\",\"children\":\"The camera dips, the field rises past you, and the article surfaces.\"}],[\"$\",\"p\",null,{\"className\":\"card__hook\",\"children\":\"The camera's elevation and frustum are both live setters\"}]]}]]]}]\n",
+   "fr": null,
+   "remplacer": false
+  },
+  {
+   "en": "27:[[\"$\",\"title\",\"0\",{\"children\":\"Lab — The Boring Blog\"}],[\"$\",\"meta\",\"1\",{\"name\":\"description\",\"content\":\"Fifteen sketches for the home page. None of them are the home page.\"}],[\"$\",\"meta\",\"2\",{\"name\":\"application-name\",\"content\":\"The Boring Blog\"}],[\"$\",\"link\",\"3\",{\"rel\":\"author\",\"href\":\"https://www.linkedin.com/in/khalil-alami-006432a7/\"}],[\"$\",\"meta\",\"4\",{\"name\":\"author\",\"content\":\"Khalil Alami\"}],[\"$\",\"link\",\"5\",{\"rel\":\"manifest\",\"href\":\"/manifest.webmanifest\",\"crossOrigin\":\"$undefined\"}],[\"$\",\"meta\",\"6\",{\"name\":\"creator\",\"content\":\"Khalil Alami\"}],[\"$\",\"meta\",\"7\",{\"name\":\"publisher\",\"content\":\"Khalil Alami\"}],[\"$\",\"meta\",\"8\",{\"name\":\"robots\",\"content\":\"noindex, nofollow\"}],[\"$\",\"meta\",\"9\",{\"name\":\"format-detection\",\"content\":\"telephone=no, address=no, email=no\"}],[\"$\",\"meta\",\"10\",{\"property\":\"og:title\",\"content\":\"Lab — The Boring Blog\"}],[\"$\",\"meta\",\"11\",{\"property\":\"og:description\",\"content\":\"Fifteen sketches for the home page. None of them are the home page.\"}],[\"$\",\"meta\",\"12\",{\"property\":\"og:image\",\"content\":\"https://www.theboringblog.ai/opengraph-image?fe69e1da4dd3ef4c\"}],[\"$\",\"meta\",\"13\",{\"property\":\"og:image:type\",\"content\":\"image/png\"}],[\"$\",\"meta\",\"14\",{\"property\":\"og:image:width\",\"content\":\"1200\"}],[\"$\",\"meta\",\"15\",{\"property\":\"og:image:height\",\"content\":\"630\"}],[\"$\",\"meta\",\"16\",{\"property\":\"og:image:alt\",\"content\":\"The Boring Blog — a boy reading in a meadow against a red keycap, a cat asleep beside him, under the words: boring stuff about art, engineering, AI, and the little things that rarely make noise.\"}],[\"$\",\"meta\",\"17\",{\"name\":\"twitter:card\",\"content\":\"summary_large_image\"}],[\"$\",\"meta\",\"18\",{\"name\":\"twitter:creator\",\"content\":\"@ALAMIKhalil1\"}],[\"$\",\"meta\",\"19\",{\"name\":\"twitter:title\",\"content\":\"Lab — The Boring Blog\"}],[\"$\",\"meta\",\"20\",{\"name\":\"twitter:description\",\"content\":\"Fifteen sketches for the home page. None of them are the home page.\"}],[\"$\",\"meta\",\"21\",{\"name\":\"twitter:image\",\"content\":\"https://www.theboringblog.ai/opengraph-image?fe69e1da4dd3ef4c\"}],[\"$\",\"meta\",\"22\",{\"name\":\"twitter:image:alt\",\"content\":\"The Boring Blog — a boy reading in a meadow against a red keycap, a cat asleep beside him, under the words: boring stuff about art, engineering, AI, and the little things that rarely make noise.\"}],[\"$\",\"meta\",\"23\",{\"name\":\"twitter:image:type\",\"content\":\"image/png\"}],[\"$\",\"meta\",\"24\",{\"name\":\"twitter:image:width\",\"content\":\"1200\"}],[\"$\",\"meta\",\"25\",{\"name\":\"twitter:image:height\",\"content\":\"630\"}],[\"$\",\"link\",\"26\",{\"rel\":\"icon\",\"href\":\"/favicon.ico?favicon.3pvdrb0xj02ql.ico?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"sizes\":\"48x48\",\"type\":\"image/x-icon\"}],[\"$\",\"link\",\"27\",{\"rel\":\"icon\",\"href\":\"/icon.svg?icon.20cku_k9b5npa.svg?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"sizes\":\"any\",\"type\":\"image/svg+xml\"}],[\"$\",\"link\",\"28\",{\"rel\":\"apple-touch-icon\",\"href\":\"/apple-icon.png?apple-icon.1csk4f7xy577-.png?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF\",\"sizes\":\"180x180\",\"type\":\"image/png\"}],[\"$\",\"$L28\",\"29\",{}]]\n",
+   "fr": null,
+   "remplacer": false
+  }
+ ]
+}

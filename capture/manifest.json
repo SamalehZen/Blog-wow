@@ -1,0 +1,1669 @@
+{
+ "origin": "https://www.theboringblog.ai",
+ "capturedAt": "2026-10-27T15:34:46.809Z",
+ "deploymentId": "dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+ "counts": {
+  "pages": 46,
+  "assets": 161
+ },
+ "pages": [
+  {
+   "route": "/",
+   "file": "pages/index.html",
+   "bytes": 381597,
+   "sha256": "27ba6f8442d2b70585307e1f7613f7f43b5a20c81feaaaad87396aef2e968553",
+   "title": "The Boring Blog — art, engineering and AI",
+   "status": 200
+  },
+  {
+   "route": "/404-probe-does-not-exist",
+   "file": "pages/404-probe-does-not-exist/index.html",
+   "bytes": 37862,
+   "sha256": "5e39d2aa64f533429f9ab2fc60d2ea66f884b73e0ddf599369d6fec7ee3d6c49",
+   "title": "Not here — The Boring Blog",
+   "status": 200
+  },
+  {
+   "route": "/lab",
+   "file": "pages/lab/index.html",
+   "bytes": 59294,
+   "sha256": "bea594a8f2b190d08c296785a2fc1966b0bf8ff11098a4d2b4ea4ac23f64cbbc",
+   "title": "Lab — The Boring Blog",
+   "status": 200
+  },
+  {
+   "route": "/lab/companion",
+   "file": "pages/lab/companion/index.html",
+   "bytes": 24451,
+   "sha256": "11ccbb9d63751ac4d06908b128c2a4f856cc8d566a1ca06c612daa8224676309",
+   "title": "Lab — The Boring Blog",
+   "status": 200
+  },
+  {
+   "route": "/lab/contact-sheet",
+   "file": "pages/lab/contact-sheet/index.html",
+   "bytes": 24268,
+   "sha256": "e8c8a183a7feee81ef2024ed7358c66ff4513396cfc519a154518dd9fb1bcf8c",
+   "title": "Lab — The Boring Blog",
+   "status": 200
+  },
+  {
+   "route": "/lab/dial-is-a-day",
+   "file": "pages/lab/dial-is-a-day/index.html",
+   "bytes": 24285,
+   "sha256": "f0086295dbcd902e751e2a563b3f2466c3653782906ebdf138473eeb18d08d85",
+   "title": "Lab — The Boring Blog",
+   "status": 200
+  },
+  {
+   "route": "/lab/focus-pull",
+   "file": "pages/lab/focus-pull/index.html",
+   "bytes": 24467,
+   "sha256": "82ab30cedec7dce539d019ec3d565ecf1db7b2a869df39c22fa0d220d64b3774",
+   "title": "Lab — The Boring Blog",
+   "status": 200
+  },
+  {
+   "route": "/lab/footprints",
+   "file": "pages/lab/footprints/index.html",
+   "bytes": 24403,
+   "sha256": "b19a9e556fb3e78165c1e2802fb3545b21408fd0d9f296f401415865e6d1c581",
+   "title": "Lab — The Boring Blog",
+   "status": 200
+  },
+  {
+   "route": "/lab/growing-type",
+   "file": "pages/lab/growing-type/index.html",
+   "bytes": 24454,
+   "sha256": "edb4c881b0403dec08ffcef5d516c6a2f6751b51b0506c30c47d88b70a2dabe0",
+   "title": "Lab — The Boring Blog",
+   "status": 200
+  },
+  {
+   "route": "/lab/horizon-menu",
+   "file": "pages/lab/horizon-menu/index.html",
+   "bytes": 24390,
+   "sha256": "c941700329f134986b4fe03b47bcf62190eab0bdbff7a9f1b504fe3fb376915a",
+   "title": "Lab — The Boring Blog",
+   "status": 200
+  },
+  {
+   "route": "/lab/idle",
+   "file": "pages/lab/idle/index.html",
+   "bytes": 24197,
+   "sha256": "63721256cf062076e8c4a53cf2f8e438e60b8c52639b9c8c8915b1fe2311f861",
+   "title": "Lab — The Boring Blog",
+   "status": 200
+  },
+  {
+   "route": "/lab/impression",
+   "file": "pages/lab/impression/index.html",
+   "bytes": 24325,
+   "sha256": "68f08b625a4968dea027ee051e9fa0983601228efd22b8fa946bddd036f99769",
+   "title": "Lab — The Boring Blog",
+   "status": 200
+  },
+  {
+   "route": "/lab/leaning-field",
+   "file": "pages/lab/leaning-field/index.html",
+   "bytes": 24446,
+   "sha256": "dd06539fa351d7d0575bf3ada51c313fc1e59029d7607d5c8e3d5b3fa8d4ed48",
+   "title": "Lab — The Boring Blog",
+   "status": 200
+  },
+  {
+   "route": "/lab/letters-in-the-grass",
+   "file": "pages/lab/letters-in-the-grass/index.html",
+   "bytes": 24477,
+   "sha256": "509a70a308acdb7d5a99f8353c76e51c67215109de3d651f8911192c60ecab73",
+   "title": "Lab — The Boring Blog",
+   "status": 200
+  },
+  {
+   "route": "/lab/local-sky",
+   "file": "pages/lab/local-sky/index.html",
+   "bytes": 24241,
+   "sha256": "1bd2665b93964c0f81ecd7ae13dfaadb7a362deba69d9fd218437ceefa822b74",
+   "title": "Lab — The Boring Blog",
+   "status": 200
+  },
+  {
+   "route": "/lab/loupe",
+   "file": "pages/lab/loupe/index.html",
+   "bytes": 24500,
+   "sha256": "c3b5858158e40de1733b1c84609916aec5f5b687627dfc3dc8d0f6dc893de256",
+   "title": "Lab — The Boring Blog",
+   "status": 200
+  },
+  {
+   "route": "/lab/marginalia",
+   "file": "pages/lab/marginalia/index.html",
+   "bytes": 24254,
+   "sha256": "b2bad84ae5342ec553247c9aa0fbfe2592b1b28887bc25f2dd6dd8b5e1e93b58",
+   "title": "Lab — The Boring Blog",
+   "status": 200
+  },
+  {
+   "route": "/lab/misregistration",
+   "file": "pages/lab/misregistration/index.html",
+   "bytes": 24453,
+   "sha256": "7ac06379fefb6ee9c5eee921065d2cd23dde5ac91fb371f3f593fae9239417c6",
+   "title": "Lab — The Boring Blog",
+   "status": 200
+  },
+  {
+   "route": "/lab/mow",
+   "file": "pages/lab/mow/index.html",
+   "bytes": 24354,
+   "sha256": "43a2cf0a00c0054c08ea5215b40c4cb220b34827cbc462621be01d4ac2e1a614",
+   "title": "Lab — The Boring Blog",
+   "status": 200
+  },
+  {
+   "route": "/lab/page-turn",
+   "file": "pages/lab/page-turn/index.html",
+   "bytes": 24479,
+   "sha256": "e1dadd98962114b2042f102d54541ca2af0c63e58bd944401ab08c11a5988c76",
+   "title": "Lab — The Boring Blog",
+   "status": 200
+  },
+  {
+   "route": "/lab/planted",
+   "file": "pages/lab/planted/index.html",
+   "bytes": 24343,
+   "sha256": "ec8759fa03161d766345ef873b86c7689b655b2bfa48a904f8212c60b634912b",
+   "title": "Lab — The Boring Blog",
+   "status": 200
+  },
+  {
+   "route": "/lab/plates",
+   "file": "pages/lab/plates/index.html",
+   "bytes": 24385,
+   "sha256": "b93f430c0ba36c6a8133e8790bcb23114039086a6589c9c8f59cdd99f1d28fdc",
+   "title": "Lab — The Boring Blog",
+   "status": 200
+  },
+  {
+   "route": "/lab/reflow",
+   "file": "pages/lab/reflow/index.html",
+   "bytes": 24447,
+   "sha256": "ad1386310447cfaf6582172af93db0a7205879d6dcb838ef6d027dfe8b72e6d3",
+   "title": "Lab — The Boring Blog",
+   "status": 200
+  },
+  {
+   "route": "/lab/registration",
+   "file": "pages/lab/registration/index.html",
+   "bytes": 24337,
+   "sha256": "0b8f242ea70e26cfc1caee41be250295c214ac8454e2b3d0db3521f9cda1278a",
+   "title": "Lab — The Boring Blog",
+   "status": 200
+  },
+  {
+   "route": "/lab/ribbon",
+   "file": "pages/lab/ribbon/index.html",
+   "bytes": 24132,
+   "sha256": "9f7837b1c13e3a105b45dc82344b238a63747c2699365d46c15fadb539af010f",
+   "title": "Lab — The Boring Blog",
+   "status": 200
+  },
+  {
+   "route": "/lab/seasons",
+   "file": "pages/lab/seasons/index.html",
+   "bytes": 24063,
+   "sha256": "03c2d7d5484007a7a752fc054020772cfacb3fddb6555cc3853c545693b7e415",
+   "title": "Lab — The Boring Blog",
+   "status": 200
+  },
+  {
+   "route": "/lab/stamp",
+   "file": "pages/lab/stamp/index.html",
+   "bytes": 24398,
+   "sha256": "519c4a62dda2694d1508a2018cf668a148f7d95c2e34dc8aed0806a595a058df",
+   "title": "Lab — The Boring Blog",
+   "status": 200
+  },
+  {
+   "route": "/lab/tab-index",
+   "file": "pages/lab/tab-index/index.html",
+   "bytes": 24383,
+   "sha256": "5eea6e2ff3cd591c46bcdcd0bb10e95f3670592535f96c51320d0ef4c00c9183",
+   "title": "Lab — The Boring Blog",
+   "status": 200
+  },
+  {
+   "route": "/lab/the-grid",
+   "file": "pages/lab/the-grid/index.html",
+   "bytes": 24381,
+   "sha256": "80d7266d9bb26fcd75c1981e5725c577ebab8596364e1f433eb7f5d84902007a",
+   "title": "Lab — The Boring Blog",
+   "status": 200
+  },
+  {
+   "route": "/lab/type-in-the-field",
+   "file": "pages/lab/type-in-the-field/index.html",
+   "bytes": 24421,
+   "sha256": "cce8e88e7cb49a5c754ec2030848c7e9efee01e7a74d46a35a8ace0ff2ec383e",
+   "title": "Lab — The Boring Blog",
+   "status": 200
+  },
+  {
+   "route": "/lab/walk-in",
+   "file": "pages/lab/walk-in/index.html",
+   "bytes": 24451,
+   "sha256": "97694ffe749419d57162145f6bfa4bfd70cce71d320fab344ae44ae9c40a1960",
+   "title": "Lab — The Boring Blog",
+   "status": 200
+  },
+  {
+   "route": "/lab/weather",
+   "file": "pages/lab/weather/index.html",
+   "bytes": 24354,
+   "sha256": "e684c3ea4025367720daef6fcb39beb630e90ff543e01a49ed229f05aa9e8842",
+   "title": "Lab — The Boring Blog",
+   "status": 200
+  },
+  {
+   "route": "/lab/wet-ink",
+   "file": "pages/lab/wet-ink/index.html",
+   "bytes": 24376,
+   "sha256": "3727828aeee03a7ef148a6732eab742e36da4a72a3f065c03a0b524e17e6282f",
+   "title": "Lab — The Boring Blog",
+   "status": 200
+  },
+  {
+   "route": "/posts",
+   "file": "pages/posts/index.html",
+   "bytes": 395974,
+   "sha256": "cb176e6de8d0638e9cdfce1a7bb79c2cba3871ba8009f1ec3406132c0416c79a",
+   "title": "Posts — The Boring Blog",
+   "status": 200
+  },
+  {
+   "route": "/posts/agent-replay",
+   "file": "pages/posts/agent-replay/index.html",
+   "bytes": 247237,
+   "sha256": "1ee65f954f789ceca53ce58af7d3517e31ea359eabfa056812957fae3b9d50fb",
+   "title": "Agent Replay: a calmer way to review code — The Boring Blog",
+   "status": 200
+  },
+  {
+   "route": "/posts/agent-replay/transcript",
+   "file": "pages/posts/agent-replay/transcript/index.html",
+   "bytes": 66885,
+   "sha256": "3b83b7c3915a0dd8734737cf5f945355fefa8f5969d760bf3349e61296810886",
+   "title": "Transcript: Agent Replay: a calmer way to review code — The Boring Blog",
+   "status": 200
+  },
+  {
+   "route": "/posts/eskiz-number-input",
+   "file": "pages/posts/eskiz-number-input/index.html",
+   "bytes": 369831,
+   "sha256": "aa6e748002ca98818d2d3d4f72d4b5b7e9066cbb3eaa8d6777d1349159b9f310",
+   "title": "Building Eskiz, chapter one: the number input — The Boring Blog",
+   "status": 200
+  },
+  {
+   "route": "/posts/eskiz-number-input/transcript",
+   "file": "pages/posts/eskiz-number-input/transcript/index.html",
+   "bytes": 83828,
+   "sha256": "acc7d3388f95f8b38ed32e6942ffe359c79a56b643e225ee8705c64bf5864c1a",
+   "title": "Transcript: Building Eskiz, chapter one: the number input — The Boring Blog",
+   "status": 200
+  },
+  {
+   "route": "/posts/gtm-engineering-explained-badly",
+   "file": "pages/posts/gtm-engineering-explained-badly/index.html",
+   "bytes": 284567,
+   "sha256": "5bc211fc3b6df82bece0d8adf95cdff894e11a10c141498cf9ee413efdb7abf6",
+   "title": "GTM engineering, explained badly — The Boring Blog",
+   "status": 200
+  },
+  {
+   "route": "/posts/gtm-engineering-explained-badly/transcript",
+   "file": "pages/posts/gtm-engineering-explained-badly/transcript/index.html",
+   "bytes": 113315,
+   "sha256": "6a415cb4020b80c6033c9eeaa8e8ffe83c5288e1a2b3656b85eb1e3a3a8736b7",
+   "title": "Transcript: GTM engineering, explained badly — The Boring Blog",
+   "status": 200
+  },
+  {
+   "route": "/posts/it-was-supposed-to-be-a-small-change",
+   "file": "pages/posts/it-was-supposed-to-be-a-small-change/index.html",
+   "bytes": 325497,
+   "sha256": "2a3353629092bd64236df173208ee31e8336a4e6f8126c274e38b5c2651c4bd2",
+   "title": "Why is 3D modeling still so complicated? — The Boring Blog",
+   "status": 200
+  },
+  {
+   "route": "/posts/it-was-supposed-to-be-a-small-change/transcript",
+   "file": "pages/posts/it-was-supposed-to-be-a-small-change/transcript/index.html",
+   "bytes": 116464,
+   "sha256": "52bdf9f2c45966b7593985fbea70087a595bb04f194ccf2be77073a59204a9ce",
+   "title": "Transcript: Why is 3D modeling still so complicated? — The Boring Blog",
+   "status": 200
+  },
+  {
+   "route": "/posts/making-stylized-grass",
+   "file": "pages/posts/making-stylized-grass/index.html",
+   "bytes": 303549,
+   "sha256": "ce7adf294bab055e724e3dd5dcdb14f0ecfd148bb2db449677f5fb52fcc908c1",
+   "title": "Making stylized grass — The Boring Blog",
+   "status": 200
+  },
+  {
+   "route": "/posts/making-stylized-grass/transcript",
+   "file": "pages/posts/making-stylized-grass/transcript/index.html",
+   "bytes": 94827,
+   "sha256": "f4529396eb0f642a32c58eebdb489eae24b6e6306b315fc411f5f90aac8f7585",
+   "title": "Transcript: Making stylized grass — The Boring Blog",
+   "status": 200
+  },
+  {
+   "route": "/posts/the-boring-state-of-artificial-intelligence",
+   "file": "pages/posts/the-boring-state-of-artificial-intelligence/index.html",
+   "bytes": 339581,
+   "sha256": "0ff44ba45884ee1f09708c51b1b970f855d128d7f0c6c2b2e687d313ce77935b",
+   "title": "The boring state of artificial intelligence — The Boring Blog",
+   "status": 200
+  },
+  {
+   "route": "/posts/the-boring-state-of-artificial-intelligence/transcript",
+   "file": "pages/posts/the-boring-state-of-artificial-intelligence/transcript/index.html",
+   "bytes": 131391,
+   "sha256": "14607cb23e10bee879ecc9cfb404003da801978fc7fbecec330862e6c49bf39f",
+   "title": "Transcript: The boring state of artificial intelligence — The Boring Blog",
+   "status": 200
+  }
+ ],
+ "assets": [
+  {
+   "url": "https://www.theboringblog.ai/_next/static/chunks/07hpq_il8nsw_.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/_next/static/chunks/07hpq_il8nsw_.js",
+   "bytes": 13909,
+   "sha256": "5f563ade5e8b933195df15f7272cc6fa7fc214c7c337b55667e65967c27f4abe",
+   "contentType": "application/javascript; charset=utf-8",
+   "from": "lab/misregistration/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/_next/static/chunks/0ajkf_ww7o4ah.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/_next/static/chunks/0ajkf_ww7o4ah.js",
+   "bytes": 37059,
+   "sha256": "c4881b07ca70d99e3f8d233ab9171561520b72c536bdc0d20c8dcd98090ce66b",
+   "contentType": "application/javascript; charset=utf-8",
+   "from": "404-probe-does-not-exist/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/_next/static/chunks/0cz1d0mv5g_q7.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/_next/static/chunks/0cz1d0mv5g_q7.js",
+   "bytes": 112594,
+   "sha256": "0973c1d64c88adc8e3c950410cb58b288f72118d5965b78049438deb8f2f9683",
+   "contentType": "application/javascript; charset=utf-8",
+   "from": "404-probe-does-not-exist/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/_next/static/chunks/0p0tft-q78xnp.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/_next/static/chunks/0p0tft-q78xnp.js",
+   "bytes": 14356,
+   "sha256": "9f3a5dbf9cfe55b6b27ca83beb9d010096cc6d07e375911ffedc0313ad15490d",
+   "contentType": "application/javascript; charset=utf-8",
+   "from": "lab/walk-in/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/_next/static/chunks/0r6taj9ljfp5_.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/_next/static/chunks/0r6taj9ljfp5_.js",
+   "bytes": 14447,
+   "sha256": "d6937053a50cdccd0cfa5de8b9c4660cbd6eb99f405476fa5b23486d6a71c958",
+   "contentType": "application/javascript; charset=utf-8",
+   "from": "lab/idle/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/_next/static/chunks/0rfd_9wfybchk.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/_next/static/chunks/0rfd_9wfybchk.js",
+   "bytes": 13683,
+   "sha256": "b507075987b086986d1130b855ebb027ac44935e8dd9a04f6422acc20136afca",
+   "contentType": "application/javascript; charset=utf-8",
+   "from": "lab/seasons/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/_next/static/chunks/0ri-9ikisn0e-.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/_next/static/chunks/0ri-9ikisn0e-.js",
+   "bytes": 13794,
+   "sha256": "f41efaf816dd72e0b95d42c236c5990ade8a5d144f28d67c5bc0afee40501fe1",
+   "contentType": "application/javascript; charset=utf-8",
+   "from": "lab/impression/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/_next/static/chunks/0uvksk3l63zp_.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/_next/static/chunks/0uvksk3l63zp_.js",
+   "bytes": 15122,
+   "sha256": "56cb186d3b3a55b14e03bfd5ed1bfde90675004ac56e13a1caacf9bdec468ad9",
+   "contentType": "application/javascript; charset=utf-8",
+   "from": "lab/planted/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/_next/static/chunks/0x3yu6y8gv9bv.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/_next/static/chunks/0x3yu6y8gv9bv.js",
+   "bytes": 33513,
+   "sha256": "50c5bafb2ca78ffee998aabe104e33532c532dc47b9b7640f5a63fcc55d34257",
+   "contentType": "application/javascript; charset=utf-8",
+   "from": "404-probe-does-not-exist/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/_next/static/chunks/10fa-h31-ulst.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/_next/static/chunks/10fa-h31-ulst.js",
+   "bytes": 9354,
+   "sha256": "0030df8b0bf971487c11a256db8ff206fcfa03bcfccb9e48ba9a3305e3234925",
+   "contentType": "application/javascript; charset=utf-8",
+   "from": "index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/_next/static/chunks/12hw0lfhdiqf0.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/_next/static/chunks/12hw0lfhdiqf0.js",
+   "bytes": 15170,
+   "sha256": "680fb40780d5ab4ced7a97a4dfc0e30373bbeae926c2634a7887d58428a13ade",
+   "contentType": "application/javascript; charset=utf-8",
+   "from": "lab/the-grid/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/_next/static/chunks/12swhg_iobbez.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/_next/static/chunks/12swhg_iobbez.js",
+   "bytes": 9087,
+   "sha256": "d7d4539b4e857d9bab090ac83720a18a5ab7f89c0c87e0c122f1166d3f17c89d",
+   "contentType": "application/javascript; charset=utf-8",
+   "from": "lab/companion/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/_next/static/chunks/13c5hw1fzq3t4.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/_next/static/chunks/13c5hw1fzq3t4.js",
+   "bytes": 22944,
+   "sha256": "6f6e341ab2b94973363e001abcdaf674dd732ca7a13805f715ee828063922ccc",
+   "contentType": "application/javascript; charset=utf-8",
+   "from": "posts/agent-replay/transcript/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/_next/static/chunks/19-sgfb9pvngo.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/_next/static/chunks/19-sgfb9pvngo.js",
+   "bytes": 14652,
+   "sha256": "a921680ba06f39c7245023488db25724a40f073f1f2e95b81a47f786eb287495",
+   "contentType": "application/javascript; charset=utf-8",
+   "from": "lab/dial-is-a-day/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/_next/static/chunks/1ad4jsuvmtkvf.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/_next/static/chunks/1ad4jsuvmtkvf.js",
+   "bytes": 23920,
+   "sha256": "13f9af694bca25388c4c43f47dddf0e7905e3ec132b3c0b8c31d765f29c9cd2c",
+   "contentType": "application/javascript; charset=utf-8",
+   "from": "posts/agent-replay/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/_next/static/chunks/1e93m300zisfg.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/_next/static/chunks/1e93m300zisfg.js",
+   "bytes": 14615,
+   "sha256": "25aa6b61ceceace73f2e1d8fef6cfc7d10cb5dc4ef6499dbc3b81dc7ced45a81",
+   "contentType": "application/javascript; charset=utf-8",
+   "from": "lab/growing-type/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/_next/static/chunks/1eityjul_jo6b.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/_next/static/chunks/1eityjul_jo6b.js",
+   "bytes": 6546,
+   "sha256": "01af3c3666638ccbf7e47f2fd2c29a30a8d6badd7b264cbd55f39d257d96c805",
+   "contentType": "application/javascript; charset=utf-8",
+   "from": "404-probe-does-not-exist/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/_next/static/chunks/1fif2bryazlhy.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/_next/static/chunks/1fif2bryazlhy.js",
+   "bytes": 15111,
+   "sha256": "984e7bc82d3d1f91a5673f9e46ccd460b12cd20a2651a7884fc661abe49d57e7",
+   "contentType": "application/javascript; charset=utf-8",
+   "from": "lab/page-turn/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/_next/static/chunks/1g5rc0qzmf3ta.css?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/_next/static/chunks/1g5rc0qzmf3ta.css",
+   "bytes": 5763,
+   "sha256": "3ec44370959ebc5e9e20d14111cf85a93ab694c930813d237248663319e92875",
+   "contentType": "text/css",
+   "from": "index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/_next/static/chunks/1qymm4pcsq03r.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/_next/static/chunks/1qymm4pcsq03r.js",
+   "bytes": 21251,
+   "sha256": "9e45d19c0518520ebf5470dd2ff3d5bce08102058b4bca5882fb507a039aca05",
+   "contentType": "application/javascript; charset=utf-8",
+   "from": "index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/_next/static/chunks/1ri8w-mos1kcl.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/_next/static/chunks/1ri8w-mos1kcl.js",
+   "bytes": 226356,
+   "sha256": "a4c1840f1a78dad7400c05f4ec11b00c67d1e8d165fec70f0c72f3540914766c",
+   "contentType": "application/javascript; charset=utf-8",
+   "from": "404-probe-does-not-exist/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/_next/static/chunks/1wemra2zy2bf1.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/_next/static/chunks/1wemra2zy2bf1.js",
+   "bytes": 14618,
+   "sha256": "3a24c00268d319fe2d5b0c8c8948185d6b5613f07d526f649ffaccd5732dd15c",
+   "contentType": "application/javascript; charset=utf-8",
+   "from": "lab/local-sky/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/_next/static/chunks/1x-ky8lzz79n4.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/_next/static/chunks/1x-ky8lzz79n4.js",
+   "bytes": 13936,
+   "sha256": "c05d7552f0f44febc9a78c3b7abf71289ac9d6578dbd4202024696127c51a763",
+   "contentType": "application/javascript; charset=utf-8",
+   "from": "lab/mow/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/_next/static/chunks/1ypjhuq8-wket.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/_next/static/chunks/1ypjhuq8-wket.js",
+   "bytes": 23739,
+   "sha256": "a0ebd803171a669844f4925137a9704883b973a3827f618f61764e7d07935384",
+   "contentType": "application/javascript; charset=utf-8",
+   "from": "404-probe-does-not-exist/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/_next/static/chunks/1zwoj6amnsrsw.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/_next/static/chunks/1zwoj6amnsrsw.js",
+   "bytes": 33513,
+   "sha256": "4db02fb615a27ce5e6344d11bb84ab8dfc3c98ea88495c709e845c8e76da07a4",
+   "contentType": "application/javascript; charset=utf-8",
+   "from": "posts/agent-replay/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/_next/static/chunks/2_cjej_p18x9b.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/_next/static/chunks/2_cjej_p18x9b.js",
+   "bytes": 13640,
+   "sha256": "429b213a056b61721d7722afa769b1cfc809972d57034bb2e258d032fc30e824",
+   "contentType": "application/javascript; charset=utf-8",
+   "from": "lab/letters-in-the-grass/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/_next/static/chunks/204h8d6ixm5kz.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/_next/static/chunks/204h8d6ixm5kz.js",
+   "bytes": 15666,
+   "sha256": "2214a26544e15e5e6bc0838b7ea5efd4a3855543e02882d00debc0b9493fbce5",
+   "contentType": "application/javascript; charset=utf-8",
+   "from": "lab/registration/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/_next/static/chunks/21v5mf-jh1hu_.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/_next/static/chunks/21v5mf-jh1hu_.js",
+   "bytes": 14751,
+   "sha256": "1b2ce0c2438c363e20c4ebac79db0b703cf005de8df1f650b8202cf6c78d312a",
+   "contentType": "application/javascript; charset=utf-8",
+   "from": "lab/stamp/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/_next/static/chunks/22pgn44g91y_q.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/_next/static/chunks/22pgn44g91y_q.js",
+   "bytes": 15177,
+   "sha256": "d4ebb8244a27ee42c1728c18e70ff5f0d05947d972c60240a59235664521d5d6",
+   "contentType": "application/javascript; charset=utf-8",
+   "from": "lab/tab-index/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/_next/static/chunks/25jrg_bvg5ex9.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/_next/static/chunks/25jrg_bvg5ex9.js",
+   "bytes": 30962,
+   "sha256": "00bebd2d1f5e6aa7272a7b51024877334bc4e213b490bd3ae885568859386523",
+   "contentType": "application/javascript; charset=utf-8",
+   "from": "404-probe-does-not-exist/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/_next/static/chunks/25t9625jqk0hk.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/_next/static/chunks/25t9625jqk0hk.js",
+   "bytes": 46802,
+   "sha256": "e27609d9ca4390dc55b20e6437c3938e4950ec21b4f3adce40f16df7bb0bee20",
+   "contentType": "application/javascript; charset=utf-8",
+   "from": "index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/_next/static/chunks/28khjnakgx6oy.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/_next/static/chunks/28khjnakgx6oy.js",
+   "bytes": 15543,
+   "sha256": "ae726620d8d7e78cd87502c7924cc07e3aa528891bf80f47b63fcd3580987fbd",
+   "contentType": "application/javascript; charset=utf-8",
+   "from": "lab/reflow/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/_next/static/chunks/29mgvvsosb2g_.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/_next/static/chunks/29mgvvsosb2g_.js",
+   "bytes": 33513,
+   "sha256": "555bc5acd0976bf23c9daed67ab1cd866da31739737a3acbfa6cdf77dfbfe505",
+   "contentType": "application/javascript; charset=utf-8",
+   "from": "index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/_next/static/chunks/2anh8lrxca2jo.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/_next/static/chunks/2anh8lrxca2jo.js",
+   "bytes": 14609,
+   "sha256": "f359bccf5b253551f47dc47ab38b60ffb3d1e5367b9b7b1fda7e6cf9da737b84",
+   "contentType": "application/javascript; charset=utf-8",
+   "from": "lab/companion/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/_next/static/chunks/2cjnoq3jgy7c6.css?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/_next/static/chunks/2cjnoq3jgy7c6.css",
+   "bytes": 198992,
+   "sha256": "479c56c415d1277a936c5784e86cde582f9236dbbefb53158db3915ae86ebdf1",
+   "contentType": "text/css",
+   "from": "404-probe-does-not-exist/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/_next/static/chunks/2hw39_eluoaeu.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/_next/static/chunks/2hw39_eluoaeu.js",
+   "bytes": 12573,
+   "sha256": "8cdaf26afbddc700a1e23c0b4f26c0eaa9b41b912336bcddb303419adf97970b",
+   "contentType": "application/javascript; charset=utf-8",
+   "from": "404-probe-does-not-exist/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/_next/static/chunks/2kx-3xls3toog.css?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/_next/static/chunks/2kx-3xls3toog.css",
+   "bytes": 8915,
+   "sha256": "dd0f446c56852b022ec7e77b09ddebc7b90414c5096812133e385e4a067bbf9d",
+   "contentType": "text/css",
+   "from": "lab/companion/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/_next/static/chunks/2lmlkwkj_6x80.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/_next/static/chunks/2lmlkwkj_6x80.js",
+   "bytes": 3375,
+   "sha256": "4906bd4001cf4721dfb21125dbbdc70ab7cb54ed55e9d453aa8f0600d87231d7",
+   "contentType": "application/javascript; charset=utf-8",
+   "from": "404-probe-does-not-exist/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/_next/static/chunks/2oaoobw-ynm0m.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/_next/static/chunks/2oaoobw-ynm0m.js",
+   "bytes": 14081,
+   "sha256": "23116e64a46bf24a48167958b536986e2b1db104a1f347975013641e94eacced",
+   "contentType": "application/javascript; charset=utf-8",
+   "from": "lab/leaning-field/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/_next/static/chunks/2oys8tt80adoc.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/_next/static/chunks/2oys8tt80adoc.js",
+   "bytes": 14722,
+   "sha256": "23d4734ae25d70e96f7b1794c23eed3091e96d473cb6a39b0a56a06b002995a2",
+   "contentType": "application/javascript; charset=utf-8",
+   "from": "lab/plates/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/_next/static/chunks/2tf0yppvs3g3p.css?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/_next/static/chunks/2tf0yppvs3g3p.css",
+   "bytes": 2962,
+   "sha256": "e8a6b442433e4744ea94ab9d9dbbcada8b586faae06c87400087abf6fd1ca1b7",
+   "contentType": "text/css",
+   "from": "404-probe-does-not-exist/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/_next/static/chunks/2wlcbd6cq9gtt.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/_next/static/chunks/2wlcbd6cq9gtt.js",
+   "bytes": 14867,
+   "sha256": "c83fb0de355d7da912b9ad04633fe02add5b8ffa37d8fd9b8efb4ae161ba5e0d",
+   "contentType": "application/javascript; charset=utf-8",
+   "from": "lab/ribbon/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/_next/static/chunks/2yj_sy6pk3s14.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/_next/static/chunks/2yj_sy6pk3s14.js",
+   "bytes": 14129,
+   "sha256": "485ff3d117d07d22eeb68d6f4c4a604217feccdecdf6bfcc09246392a4185359",
+   "contentType": "application/javascript; charset=utf-8",
+   "from": "lab/weather/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/_next/static/chunks/3-_11pszparir.css?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/_next/static/chunks/3-_11pszparir.css",
+   "bytes": 23196,
+   "sha256": "efaf6fa0deb5c3b9a1d50f1837b20caa3325482a875b54a873b296e03fbf56c6",
+   "contentType": "text/css",
+   "from": "index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/_next/static/chunks/30idfz6h2k35b.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/_next/static/chunks/30idfz6h2k35b.js",
+   "bytes": 14092,
+   "sha256": "919651352e7118dc529f1e6715990c05fedad0990f7c16a3ba4297d190d3b6c1",
+   "contentType": "application/javascript; charset=utf-8",
+   "from": "lab/horizon-menu/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/_next/static/chunks/371wgv5k3278m.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/_next/static/chunks/371wgv5k3278m.js",
+   "bytes": 13959,
+   "sha256": "f007c6afb56331e8575ef299bedbf5f6cd5e0029c45bc7cf82e381b2cd6ad125",
+   "contentType": "application/javascript; charset=utf-8",
+   "from": "lab/footprints/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/_next/static/chunks/39i-ri8gaw-57.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/_next/static/chunks/39i-ri8gaw-57.js",
+   "bytes": 13889,
+   "sha256": "7b1feca92580c0b092d0ccbaa21deca4a58af21b6dcead5d9375b1c3a7ba046a",
+   "contentType": "application/javascript; charset=utf-8",
+   "from": "lab/focus-pull/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/_next/static/chunks/3ainre9bxx0ob.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/_next/static/chunks/3ainre9bxx0ob.js",
+   "bytes": 54647,
+   "sha256": "7e96eae94a02a04f06686908f1686d5ded27b88e08eb02712233e74a480bb8dd",
+   "contentType": "application/javascript; charset=utf-8",
+   "from": "404-probe-does-not-exist/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/_next/static/chunks/3ajkdfqgdfrk6.css?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/_next/static/chunks/3ajkdfqgdfrk6.css",
+   "bytes": 13040,
+   "sha256": "9754493df47c55d059ff3cbe022ecef9b3bea61681ebc70d0c44587fe7cc9475",
+   "contentType": "text/css",
+   "from": "index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/_next/static/chunks/3ezek9_ii8zrb.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/_next/static/chunks/3ezek9_ii8zrb.js",
+   "bytes": 14752,
+   "sha256": "fb44168b47393be20e255a88897ece27dda39c8b5df6f110c69dba839e632c1c",
+   "contentType": "application/javascript; charset=utf-8",
+   "from": "lab/wet-ink/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/_next/static/chunks/3f86m3flkpz0s.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/_next/static/chunks/3f86m3flkpz0s.js",
+   "bytes": 44412,
+   "sha256": "e435297c9978f8d4a97ef748465d420fe080297b934649b160385e64196be989",
+   "contentType": "application/javascript; charset=utf-8",
+   "from": "404-probe-does-not-exist/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/_next/static/chunks/3ivigp5zxji8c.css?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/_next/static/chunks/3ivigp5zxji8c.css",
+   "bytes": 5711,
+   "sha256": "aff32bcca4fb1d9b7636ff390703b58399adf4bab209b57c25100fe42da00acc",
+   "contentType": "text/css",
+   "from": "lab/companion/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/_next/static/chunks/3ixas6v9yss4w.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/_next/static/chunks/3ixas6v9yss4w.js",
+   "bytes": 37059,
+   "sha256": "95313262b738f1677ca20fbdc41fa9ac66df48ab737d7aa83e15c38ff3fd8ed4",
+   "contentType": "application/javascript; charset=utf-8",
+   "from": "index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/_next/static/chunks/3kfh-2sfowvre.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/_next/static/chunks/3kfh-2sfowvre.js",
+   "bytes": 13963,
+   "sha256": "222e6b5e12bbddd7dcd1b05a82ff0c92db2f31da6b93b1d197d90332ea66263e",
+   "contentType": "application/javascript; charset=utf-8",
+   "from": "lab/type-in-the-field/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/_next/static/chunks/3pkxrnu89c2zl.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/_next/static/chunks/3pkxrnu89c2zl.js",
+   "bytes": 15353,
+   "sha256": "0a2240a201509029ed60530b2417181808ddb3de2f897ce9b0f3257b8874581d",
+   "contentType": "application/javascript; charset=utf-8",
+   "from": "lab/loupe/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/_next/static/chunks/3r3b1gg5sns3o.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/_next/static/chunks/3r3b1gg5sns3o.js",
+   "bytes": 15087,
+   "sha256": "c0f66d2b6360527487e9f9e33e82bf4dfe68eec86f63a3b29ccdb9f4ca99fa83",
+   "contentType": "application/javascript; charset=utf-8",
+   "from": "lab/contact-sheet/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/_next/static/chunks/3rigmzhu8_xcg.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/_next/static/chunks/3rigmzhu8_xcg.js",
+   "bytes": 127754,
+   "sha256": "a8ff9fc1f7f8eacc71ac1ed85105780189cb78bafc87d88ed0fd3a6e7335ae7a",
+   "contentType": "application/javascript; charset=utf-8",
+   "from": "index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/_next/static/chunks/3t-5e5-eiab2e.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/_next/static/chunks/3t-5e5-eiab2e.js",
+   "bytes": 116312,
+   "sha256": "64b98078ec8ed625bfa5e77a313964a5744718928b51acd71731a633c0f95ac7",
+   "contentType": "application/javascript; charset=utf-8",
+   "from": "index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/_next/static/chunks/3vo6ztc26_c9n.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/_next/static/chunks/3vo6ztc26_c9n.js",
+   "bytes": 15098,
+   "sha256": "6fad73459102ba1ec44f04a5461ef607f29bc34eafd29dc9173874ca451ec0dc",
+   "contentType": "application/javascript; charset=utf-8",
+   "from": "lab/marginalia/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/_next/static/chunks/420bf9zpcuklx.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/_next/static/chunks/420bf9zpcuklx.js",
+   "bytes": 51105,
+   "sha256": "81b3b99e1a2aa81b46dcacc2d62bd6b66899543901ae9a1b178b18d70d9419b4",
+   "contentType": "application/javascript; charset=utf-8",
+   "from": "404-probe-does-not-exist/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/_next/static/chunks/45b4r3bbj9zib.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/_next/static/chunks/45b4r3bbj9zib.js",
+   "bytes": 138236,
+   "sha256": "01408abb813e89e9660aa5b4463cf955c38dd5bb57c78992e65723567a2febc0",
+   "contentType": "application/javascript; charset=utf-8",
+   "from": "404-probe-does-not-exist/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/_next/static/chunks/turbopack-33j2kopr_e-to.js?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/_next/static/chunks/turbopack-33j2kopr_e-to.js",
+   "bytes": 11074,
+   "sha256": "eaf4cca98e15a19f29fa3b9aad235263371fcc0912a2ee773283270eb67de226",
+   "contentType": "application/javascript; charset=utf-8",
+   "from": "404-probe-does-not-exist/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/_next/static/media/54fc36028e2bb174-s.p.20jfceqj9zyw9.woff2?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/_next/static/media/54fc36028e2bb174-s.p.20jfceqj9zyw9.woff2",
+   "bytes": 120800,
+   "sha256": "94bb7e04bb1a32237a67935c72526e42a3e52ee4aebd50299802b18a93114251",
+   "contentType": "font/woff2",
+   "from": "lab/companion/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/_next/static/media/66b33cc02d8f8b9d-s.p.3slq8sz4zhb1g.woff2?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/_next/static/media/66b33cc02d8f8b9d-s.p.3slq8sz4zhb1g.woff2",
+   "bytes": 149512,
+   "sha256": "f6cb5ecfce80bdb07f44a1a330e7258d0c7618eb6b0a8043b7ba2afe19fcbfa8",
+   "contentType": "font/woff2",
+   "from": "lab/companion/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/_next/static/media/Geist_Variable-s.p.0mrjj4bg00-he.woff2?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/_next/static/media/Geist_Variable-s.p.0mrjj4bg00-he.woff2",
+   "bytes": 69652,
+   "sha256": "a369fcf5628ea2aa4e1b9e2ec6a5b3624e365bda588e1f0f2f12b564f728fbb8",
+   "contentType": "font/woff2",
+   "from": "lab/companion/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/apple-icon.png?apple-icon.1csk4f7xy577-.png?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/apple-icon.png",
+   "bytes": 2673,
+   "sha256": "9aa9abbdce26ac1af9a9c5419a7e7e5e118933521b8adc732d0c8bd48cb0cce8",
+   "contentType": "image/png",
+   "from": "404-probe-does-not-exist/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/apple-icon.png?apple-icon.1csk4f7xy577-.png",
+   "path": "assets/apple-icon.png",
+   "bytes": 2673,
+   "sha256": "9aa9abbdce26ac1af9a9c5419a7e7e5e118933521b8adc732d0c8bd48cb0cce8",
+   "from": "index.html",
+   "cached": true
+  },
+  {
+   "url": "https://www.theboringblog.ai/favicon.ico?favicon.3pvdrb0xj02ql.ico?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/favicon.ico",
+   "bytes": 2523,
+   "sha256": "b77f5e0650754544ed8469f115167846af987bbf5b3fe0a27de381e8b86fd6c0",
+   "contentType": "image/vnd.microsoft.icon",
+   "from": "404-probe-does-not-exist/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/favicon.ico?favicon.3pvdrb0xj02ql.ico",
+   "path": "assets/favicon.ico",
+   "bytes": 2523,
+   "sha256": "b77f5e0650754544ed8469f115167846af987bbf5b3fe0a27de381e8b86fd6c0",
+   "from": "index.html",
+   "cached": true
+  },
+  {
+   "url": "https://www.theboringblog.ai/icon.svg?icon.20cku_k9b5npa.svg?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/icon.svg",
+   "bytes": 619,
+   "sha256": "4211c3efc9bc02ce8a68a5c2f965487a87984bb67bf758cdba3cb99c18955d67",
+   "contentType": "image/svg+xml",
+   "from": "404-probe-does-not-exist/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/icon.svg?icon.20cku_k9b5npa.svg",
+   "path": "assets/icon.svg",
+   "bytes": 619,
+   "sha256": "4211c3efc9bc02ce8a68a5c2f965487a87984bb67bf758cdba3cb99c18955d67",
+   "from": "index.html",
+   "cached": true
+  },
+  {
+   "url": "https://www.theboringblog.ai/manifest.webmanifest",
+   "path": "assets/manifest.webmanifest",
+   "bytes": 512,
+   "sha256": "e3bb793fb463f7a0d302857b405bb9491bee55f6031fc3cde9389abbfe31abd0",
+   "contentType": "application/manifest+json; charset=utf-8",
+   "from": "404-probe-does-not-exist/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/posts/agent-replay/01-review-focus.jpg?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/posts/agent-replay/01-review-focus.jpg",
+   "bytes": 132504,
+   "sha256": "dd9cfd12ecdd6f9dac6b9a91d296e77190e104a4703d9600505de28a72cb45ed",
+   "contentType": "image/jpeg",
+   "from": "posts/agent-replay/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/posts/agent-replay/01-review-focus.jpg",
+   "path": "assets/posts/agent-replay/01-review-focus.jpg",
+   "bytes": 132504,
+   "sha256": "dd9cfd12ecdd6f9dac6b9a91d296e77190e104a4703d9600505de28a72cb45ed",
+   "from": "posts/agent-replay/index.html",
+   "cached": true
+  },
+  {
+   "url": "https://www.theboringblog.ai/posts/agent-replay/02-evidence.jpg?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/posts/agent-replay/02-evidence.jpg",
+   "bytes": 131629,
+   "sha256": "821706d85a6f4f130b7dd535fabe597e0305ea91caae82c7122d5030c6bda638",
+   "contentType": "image/jpeg",
+   "from": "posts/agent-replay/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/posts/agent-replay/02-evidence.jpg",
+   "path": "assets/posts/agent-replay/02-evidence.jpg",
+   "bytes": 131629,
+   "sha256": "821706d85a6f4f130b7dd535fabe597e0305ea91caae82c7122d5030c6bda638",
+   "from": "posts/agent-replay/index.html",
+   "cached": true
+  },
+  {
+   "url": "https://www.theboringblog.ai/posts/agent-replay/03-learn.jpg?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/posts/agent-replay/03-learn.jpg",
+   "bytes": 162213,
+   "sha256": "1fbfc1dbe0406c69b28445916da75a4f7f0fbb1d9520c81b3f777e8fa539cd2b",
+   "contentType": "image/jpeg",
+   "from": "posts/agent-replay/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/posts/agent-replay/03-learn.jpg",
+   "path": "assets/posts/agent-replay/03-learn.jpg",
+   "bytes": 162213,
+   "sha256": "1fbfc1dbe0406c69b28445916da75a4f7f0fbb1d9520c81b3f777e8fa539cd2b",
+   "from": "posts/agent-replay/index.html",
+   "cached": true
+  },
+  {
+   "url": "https://www.theboringblog.ai/posts/agent-replay/audio/discussion-v1-signoff-v1.mp3",
+   "path": "assets/posts/agent-replay/audio/discussion-v1-signoff-v1.mp3",
+   "bytes": 5309170,
+   "sha256": "e1dbe5c1152f22031ad20c0d4832fd392e1b087706895e54b62d187f94857704",
+   "contentType": "audio/mpeg",
+   "from": "posts/agent-replay/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/posts/eskiz-number-input/01-small-box.png?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/posts/eskiz-number-input/01-small-box.png",
+   "bytes": 3423180,
+   "sha256": "dff7be42a9768958c7c7b41b719280741093fb44b26f51dbc539703dff4b955b",
+   "contentType": "image/png",
+   "from": "posts/eskiz-number-input/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/posts/eskiz-number-input/01-small-box.png",
+   "path": "assets/posts/eskiz-number-input/01-small-box.png",
+   "bytes": 3423180,
+   "sha256": "dff7be42a9768958c7c7b41b719280741093fb44b26f51dbc539703dff4b955b",
+   "from": "posts/eskiz-number-input/index.html",
+   "cached": true
+  },
+  {
+   "url": "https://www.theboringblog.ai/posts/eskiz-number-input/02-same-adjustment.png?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/posts/eskiz-number-input/02-same-adjustment.png",
+   "bytes": 3339008,
+   "sha256": "dce2697f9aa8662a91d9a2724d2613224fe0b8f4406a75ac780cd225a589d698",
+   "contentType": "image/png",
+   "from": "posts/eskiz-number-input/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/posts/eskiz-number-input/02-same-adjustment.png",
+   "path": "assets/posts/eskiz-number-input/02-same-adjustment.png",
+   "bytes": 3339008,
+   "sha256": "dce2697f9aa8662a91d9a2724d2613224fe0b8f4406a75ac780cd225a589d698",
+   "from": "posts/eskiz-number-input/index.html",
+   "cached": true
+  },
+  {
+   "url": "https://www.theboringblog.ai/posts/eskiz-number-input/audio/discussion-v1-signoff-v1.mp3",
+   "path": "assets/posts/eskiz-number-input/audio/discussion-v1-signoff-v1.mp3",
+   "bytes": 8561937,
+   "sha256": "c70541c863ef2c35bd8eb84122a2ef7dc45cbd9e07f3693afc4b0caaa54ba14c",
+   "contentType": "audio/mpeg",
+   "from": "posts/eskiz-number-input/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/posts/gtm-engineering-explained-badly/audio/discussion-v1-signoff-v1.mp3",
+   "path": "assets/posts/gtm-engineering-explained-badly/audio/discussion-v1-signoff-v1.mp3",
+   "bytes": 12280729,
+   "sha256": "2d1fde25791f7903606db2acd31e93078348dd0a105a046141a24191447d1966",
+   "contentType": "audio/mpeg",
+   "from": "posts/gtm-engineering-explained-badly/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/posts/gtm-engineering-explained-badly/celebrating-connections.png?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/posts/gtm-engineering-explained-badly/celebrating-connections.png",
+   "bytes": 3115018,
+   "sha256": "4fbedab7ac601aaf7313ec9334f074eeab4e7bae6c5eacbfb854af181d3e2c7b",
+   "contentType": "image/png",
+   "from": "posts/gtm-engineering-explained-badly/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/posts/gtm-engineering-explained-badly/celebrating-connections.png",
+   "path": "assets/posts/gtm-engineering-explained-badly/celebrating-connections.png",
+   "bytes": 3115018,
+   "sha256": "4fbedab7ac601aaf7313ec9334f074eeab4e7bae6c5eacbfb854af181d3e2c7b",
+   "from": "posts/gtm-engineering-explained-badly/index.html",
+   "cached": true
+  },
+  {
+   "url": "https://www.theboringblog.ai/posts/gtm-engineering-explained-badly/doorbell-workflow.png?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/posts/gtm-engineering-explained-badly/doorbell-workflow.png",
+   "bytes": 3231852,
+   "sha256": "e3d8a3e22ee5a17eb46df0731676204ddc9a8dae0032f4f3515575a4fcfe7a12",
+   "contentType": "image/png",
+   "from": "posts/gtm-engineering-explained-badly/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/posts/gtm-engineering-explained-badly/doorbell-workflow.png",
+   "path": "assets/posts/gtm-engineering-explained-badly/doorbell-workflow.png",
+   "bytes": 3231852,
+   "sha256": "e3d8a3e22ee5a17eb46df0731676204ddc9a8dae0032f4f3515575a4fcfe7a12",
+   "from": "posts/gtm-engineering-explained-badly/index.html",
+   "cached": true
+  },
+  {
+   "url": "https://www.theboringblog.ai/posts/gtm-engineering-explained-badly/machine.png?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/posts/gtm-engineering-explained-badly/machine.png",
+   "bytes": 3523803,
+   "sha256": "54c176fdba600ab00ddd8dc6cd536e89e957a0385407368821395944835c091b",
+   "contentType": "image/png",
+   "from": "posts/gtm-engineering-explained-badly/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/posts/gtm-engineering-explained-badly/machine.png",
+   "path": "assets/posts/gtm-engineering-explained-badly/machine.png",
+   "bytes": 3523803,
+   "sha256": "54c176fdba600ab00ddd8dc6cd536e89e957a0385407368821395944835c091b",
+   "from": "posts/gtm-engineering-explained-badly/index.html",
+   "cached": true
+  },
+  {
+   "url": "https://www.theboringblog.ai/posts/gtm-engineering-explained-badly/offsite.png?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/posts/gtm-engineering-explained-badly/offsite.png",
+   "bytes": 3220507,
+   "sha256": "ced147090cf39239bf06690801fdda69b1015515e593719153b79917d17d3944",
+   "contentType": "image/png",
+   "from": "posts/gtm-engineering-explained-badly/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/posts/gtm-engineering-explained-badly/offsite.png",
+   "path": "assets/posts/gtm-engineering-explained-badly/offsite.png",
+   "bytes": 3220507,
+   "sha256": "ced147090cf39239bf06690801fdda69b1015515e593719153b79917d17d3944",
+   "from": "posts/gtm-engineering-explained-badly/index.html",
+   "cached": true
+  },
+  {
+   "url": "https://www.theboringblog.ai/posts/gtm-engineering-explained-badly/uncertainty-tie.png?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/posts/gtm-engineering-explained-badly/uncertainty-tie.png",
+   "bytes": 2868146,
+   "sha256": "106d0e06d5401d6e2df7612cb036516494b230b6611a156755168234fa5ff689",
+   "contentType": "image/png",
+   "from": "posts/gtm-engineering-explained-badly/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/posts/gtm-engineering-explained-badly/uncertainty-tie.png",
+   "path": "assets/posts/gtm-engineering-explained-badly/uncertainty-tie.png",
+   "bytes": 2868146,
+   "sha256": "106d0e06d5401d6e2df7612cb036516494b230b6611a156755168234fa5ff689",
+   "from": "posts/gtm-engineering-explained-badly/index.html",
+   "cached": true
+  },
+  {
+   "url": "https://www.theboringblog.ai/posts/it-was-supposed-to-be-a-small-change/02-beautiful-delivery.png?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/posts/it-was-supposed-to-be-a-small-change/02-beautiful-delivery.png",
+   "bytes": 3058954,
+   "sha256": "a0a7f20c39f96b2e10459c1c45f828717b6f927483461b62959651ec886f24c3",
+   "contentType": "image/png",
+   "from": "posts/it-was-supposed-to-be-a-small-change/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/posts/it-was-supposed-to-be-a-small-change/02-beautiful-delivery.png",
+   "path": "assets/posts/it-was-supposed-to-be-a-small-change/02-beautiful-delivery.png",
+   "bytes": 3058954,
+   "sha256": "a0a7f20c39f96b2e10459c1c45f828717b6f927483461b62959651ec886f24c3",
+   "from": "posts/it-was-supposed-to-be-a-small-change/index.html",
+   "cached": true
+  },
+  {
+   "url": "https://www.theboringblog.ai/posts/it-was-supposed-to-be-a-small-change/03-shared-rule.png?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/posts/it-was-supposed-to-be-a-small-change/03-shared-rule.png",
+   "bytes": 3082996,
+   "sha256": "4717128b45af515674d4cc7824b08cc405fe3db0a45a549a000d78fb011082ef",
+   "contentType": "image/png",
+   "from": "posts/it-was-supposed-to-be-a-small-change/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/posts/it-was-supposed-to-be-a-small-change/03-shared-rule.png",
+   "path": "assets/posts/it-was-supposed-to-be-a-small-change/03-shared-rule.png",
+   "bytes": 3082996,
+   "sha256": "4717128b45af515674d4cc7824b08cc405fe3db0a45a549a000d78fb011082ef",
+   "from": "posts/it-was-supposed-to-be-a-small-change/index.html",
+   "cached": true
+  },
+  {
+   "url": "https://www.theboringblog.ai/posts/it-was-supposed-to-be-a-small-change/04-design-journey.png?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/posts/it-was-supposed-to-be-a-small-change/04-design-journey.png",
+   "bytes": 2997199,
+   "sha256": "bb4fdb9033167adefff34f4161094168777482210b3d28598b79f2172d5954e2",
+   "contentType": "image/png",
+   "from": "posts/it-was-supposed-to-be-a-small-change/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/posts/it-was-supposed-to-be-a-small-change/04-design-journey.png",
+   "path": "assets/posts/it-was-supposed-to-be-a-small-change/04-design-journey.png",
+   "bytes": 2997199,
+   "sha256": "bb4fdb9033167adefff34f4161094168777482210b3d28598b79f2172d5954e2",
+   "from": "posts/it-was-supposed-to-be-a-small-change/index.html",
+   "cached": true
+  },
+  {
+   "url": "https://www.theboringblog.ai/posts/it-was-supposed-to-be-a-small-change/audio/discussion-v1-signoff-v1.mp3",
+   "path": "assets/posts/it-was-supposed-to-be-a-small-change/audio/discussion-v1-signoff-v1.mp3",
+   "bytes": 19190117,
+   "sha256": "ae70a2d7463f20b89afcc68a03086d0fd0f07bf711846c6b9467254111282026",
+   "contentType": "audio/mpeg",
+   "from": "posts/it-was-supposed-to-be-a-small-change/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/posts/making-stylized-grass/audio/discussion-v1-signoff-v1.mp3",
+   "path": "assets/posts/making-stylized-grass/audio/discussion-v1-signoff-v1.mp3",
+   "bytes": 13314133,
+   "sha256": "24759715666e76e9e23b37cc981bcd4d7c278ca67335dd87237754d42590b59d",
+   "contentType": "audio/mpeg",
+   "from": "posts/making-stylized-grass/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/posts/making-stylized-grass/growth.png?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/posts/making-stylized-grass/growth.png",
+   "bytes": 2763689,
+   "sha256": "1df1aae4adf701c71d96210e9f722095db35ebb6a3c73cf701caa2e436e030c8",
+   "contentType": "image/png",
+   "from": "posts/making-stylized-grass/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/posts/making-stylized-grass/growth.png",
+   "path": "assets/posts/making-stylized-grass/growth.png",
+   "bytes": 2763689,
+   "sha256": "1df1aae4adf701c71d96210e9f722095db35ebb6a3c73cf701caa2e436e030c8",
+   "from": "posts/making-stylized-grass/index.html",
+   "cached": true
+  },
+  {
+   "url": "https://www.theboringblog.ai/posts/making-stylized-grass/wind.png?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/posts/making-stylized-grass/wind.png",
+   "bytes": 2512402,
+   "sha256": "9239894e037015b69d2a806e76b0d1b894cbafd0a0d5fe68086e9961fcf53315",
+   "contentType": "image/png",
+   "from": "posts/making-stylized-grass/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/posts/making-stylized-grass/wind.png",
+   "path": "assets/posts/making-stylized-grass/wind.png",
+   "bytes": 2512402,
+   "sha256": "9239894e037015b69d2a806e76b0d1b894cbafd0a0d5fe68086e9961fcf53315",
+   "from": "posts/making-stylized-grass/index.html",
+   "cached": true
+  },
+  {
+   "url": "https://www.theboringblog.ai/posts/the-boring-state-of-artificial-intelligence/01.gif?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/posts/the-boring-state-of-artificial-intelligence/01.gif",
+   "bytes": 1424179,
+   "sha256": "c967e8a769d305ed03344c1708163ba2adb6e94bb515d7baa2fc80175366ad0d",
+   "contentType": "image/gif",
+   "from": "posts/the-boring-state-of-artificial-intelligence/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/posts/the-boring-state-of-artificial-intelligence/02.png?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/posts/the-boring-state-of-artificial-intelligence/02.png",
+   "bytes": 838628,
+   "sha256": "c1c8c5a37222b0e0e4ad7f26c75f9974524414a9fd7c6d0ba4f56acac5376def",
+   "contentType": "image/png",
+   "from": "posts/the-boring-state-of-artificial-intelligence/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/posts/the-boring-state-of-artificial-intelligence/02.png",
+   "path": "assets/posts/the-boring-state-of-artificial-intelligence/02.png",
+   "bytes": 838628,
+   "sha256": "c1c8c5a37222b0e0e4ad7f26c75f9974524414a9fd7c6d0ba4f56acac5376def",
+   "from": "posts/the-boring-state-of-artificial-intelligence/index.html",
+   "cached": true
+  },
+  {
+   "url": "https://www.theboringblog.ai/posts/the-boring-state-of-artificial-intelligence/03.png",
+   "path": "assets/posts/the-boring-state-of-artificial-intelligence/03.png",
+   "bytes": 1449468,
+   "sha256": "c8db3e27c2efa9b022c9c738a3db86a7d163fa16ae8001589566c5463ed1022f",
+   "contentType": "image/png",
+   "from": "posts/the-boring-state-of-artificial-intelligence/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/posts/the-boring-state-of-artificial-intelligence/04.jpeg?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/posts/the-boring-state-of-artificial-intelligence/04.jpeg",
+   "bytes": 69353,
+   "sha256": "0fb6b49462664bc5aada1ce727be6d042d3ba34263b50c4d5fa0ef56c2a6643c",
+   "contentType": "image/jpeg",
+   "from": "posts/the-boring-state-of-artificial-intelligence/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/posts/the-boring-state-of-artificial-intelligence/04.jpeg",
+   "path": "assets/posts/the-boring-state-of-artificial-intelligence/04.jpeg",
+   "bytes": 69353,
+   "sha256": "0fb6b49462664bc5aada1ce727be6d042d3ba34263b50c4d5fa0ef56c2a6643c",
+   "from": "posts/the-boring-state-of-artificial-intelligence/index.html",
+   "cached": true
+  },
+  {
+   "url": "https://www.theboringblog.ai/posts/the-boring-state-of-artificial-intelligence/05.jpeg?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/posts/the-boring-state-of-artificial-intelligence/05.jpeg",
+   "bytes": 76520,
+   "sha256": "019e581b8b651bc2c875aa7a2c219aa7080c6debb9dce2024bcd2381103fd114",
+   "contentType": "image/jpeg",
+   "from": "posts/the-boring-state-of-artificial-intelligence/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/posts/the-boring-state-of-artificial-intelligence/05.jpeg",
+   "path": "assets/posts/the-boring-state-of-artificial-intelligence/05.jpeg",
+   "bytes": 76520,
+   "sha256": "019e581b8b651bc2c875aa7a2c219aa7080c6debb9dce2024bcd2381103fd114",
+   "from": "posts/the-boring-state-of-artificial-intelligence/index.html",
+   "cached": true
+  },
+  {
+   "url": "https://www.theboringblog.ai/posts/the-boring-state-of-artificial-intelligence/06.jpeg?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/posts/the-boring-state-of-artificial-intelligence/06.jpeg",
+   "bytes": 184411,
+   "sha256": "bdb2d6d9d4b6db3a5d372b258559d2ade11baef71a424da123e863edeec0e067",
+   "contentType": "image/jpeg",
+   "from": "posts/the-boring-state-of-artificial-intelligence/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/posts/the-boring-state-of-artificial-intelligence/06.jpeg",
+   "path": "assets/posts/the-boring-state-of-artificial-intelligence/06.jpeg",
+   "bytes": 184411,
+   "sha256": "bdb2d6d9d4b6db3a5d372b258559d2ade11baef71a424da123e863edeec0e067",
+   "from": "posts/the-boring-state-of-artificial-intelligence/index.html",
+   "cached": true
+  },
+  {
+   "url": "https://www.theboringblog.ai/posts/the-boring-state-of-artificial-intelligence/07.png?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/posts/the-boring-state-of-artificial-intelligence/07.png",
+   "bytes": 1537282,
+   "sha256": "45f66ed78e554d42c5843f2c4fff63312443bf9d010a625423380985a32211e3",
+   "contentType": "image/png",
+   "from": "posts/the-boring-state-of-artificial-intelligence/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/posts/the-boring-state-of-artificial-intelligence/07.png",
+   "path": "assets/posts/the-boring-state-of-artificial-intelligence/07.png",
+   "bytes": 1537282,
+   "sha256": "45f66ed78e554d42c5843f2c4fff63312443bf9d010a625423380985a32211e3",
+   "from": "posts/the-boring-state-of-artificial-intelligence/index.html",
+   "cached": true
+  },
+  {
+   "url": "https://www.theboringblog.ai/posts/the-boring-state-of-artificial-intelligence/08.jpeg?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/posts/the-boring-state-of-artificial-intelligence/08.jpeg",
+   "bytes": 134823,
+   "sha256": "85fa069708089474bdf8e5a3cbf37b23f72bda66f7ca96d982db5fbab8cbbdc1",
+   "contentType": "image/jpeg",
+   "from": "posts/the-boring-state-of-artificial-intelligence/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/posts/the-boring-state-of-artificial-intelligence/08.jpeg",
+   "path": "assets/posts/the-boring-state-of-artificial-intelligence/08.jpeg",
+   "bytes": 134823,
+   "sha256": "85fa069708089474bdf8e5a3cbf37b23f72bda66f7ca96d982db5fbab8cbbdc1",
+   "from": "posts/the-boring-state-of-artificial-intelligence/index.html",
+   "cached": true
+  },
+  {
+   "url": "https://www.theboringblog.ai/posts/the-boring-state-of-artificial-intelligence/09.png?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/posts/the-boring-state-of-artificial-intelligence/09.png",
+   "bytes": 367570,
+   "sha256": "b0a88e401d8871487f0f651afa86d24c05cb7057ac14b0437abad2b32799b1d5",
+   "contentType": "image/png",
+   "from": "posts/the-boring-state-of-artificial-intelligence/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/posts/the-boring-state-of-artificial-intelligence/09.png",
+   "path": "assets/posts/the-boring-state-of-artificial-intelligence/09.png",
+   "bytes": 367570,
+   "sha256": "b0a88e401d8871487f0f651afa86d24c05cb7057ac14b0437abad2b32799b1d5",
+   "from": "posts/the-boring-state-of-artificial-intelligence/index.html",
+   "cached": true
+  },
+  {
+   "url": "https://www.theboringblog.ai/posts/the-boring-state-of-artificial-intelligence/10.png?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/posts/the-boring-state-of-artificial-intelligence/10.png",
+   "bytes": 33698,
+   "sha256": "f612c9f5846ec9fdb8a447853763fa5968752f0c3259b3331867dce6c5bccb6e",
+   "contentType": "image/png",
+   "from": "posts/the-boring-state-of-artificial-intelligence/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/posts/the-boring-state-of-artificial-intelligence/10.png",
+   "path": "assets/posts/the-boring-state-of-artificial-intelligence/10.png",
+   "bytes": 33698,
+   "sha256": "f612c9f5846ec9fdb8a447853763fa5968752f0c3259b3331867dce6c5bccb6e",
+   "from": "posts/the-boring-state-of-artificial-intelligence/index.html",
+   "cached": true
+  },
+  {
+   "url": "https://www.theboringblog.ai/posts/the-boring-state-of-artificial-intelligence/11.png?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/posts/the-boring-state-of-artificial-intelligence/11.png",
+   "bytes": 48141,
+   "sha256": "3e8ee94406df43a06c7fe71f566bc7ee84f72307c7a258d93095c13cd62a099a",
+   "contentType": "image/png",
+   "from": "posts/the-boring-state-of-artificial-intelligence/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/posts/the-boring-state-of-artificial-intelligence/11.png",
+   "path": "assets/posts/the-boring-state-of-artificial-intelligence/11.png",
+   "bytes": 48141,
+   "sha256": "3e8ee94406df43a06c7fe71f566bc7ee84f72307c7a258d93095c13cd62a099a",
+   "from": "posts/the-boring-state-of-artificial-intelligence/index.html",
+   "cached": true
+  },
+  {
+   "url": "https://www.theboringblog.ai/posts/the-boring-state-of-artificial-intelligence/12.png?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/posts/the-boring-state-of-artificial-intelligence/12.png",
+   "bytes": 55504,
+   "sha256": "1843fab4484f8da5d16b44a4cc798df7c2143eafcd88b2aa7f7a135a941190d8",
+   "contentType": "image/png",
+   "from": "posts/the-boring-state-of-artificial-intelligence/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/posts/the-boring-state-of-artificial-intelligence/12.png",
+   "path": "assets/posts/the-boring-state-of-artificial-intelligence/12.png",
+   "bytes": 55504,
+   "sha256": "1843fab4484f8da5d16b44a4cc798df7c2143eafcd88b2aa7f7a135a941190d8",
+   "from": "posts/the-boring-state-of-artificial-intelligence/index.html",
+   "cached": true
+  },
+  {
+   "url": "https://www.theboringblog.ai/posts/the-boring-state-of-artificial-intelligence/13.png?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/posts/the-boring-state-of-artificial-intelligence/13.png",
+   "bytes": 115916,
+   "sha256": "6fc845e17695b8fffa968a82e6955b1b2292885d9a95aa163aea9b5ef1cc079b",
+   "contentType": "image/png",
+   "from": "posts/the-boring-state-of-artificial-intelligence/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/posts/the-boring-state-of-artificial-intelligence/13.png",
+   "path": "assets/posts/the-boring-state-of-artificial-intelligence/13.png",
+   "bytes": 115916,
+   "sha256": "6fc845e17695b8fffa968a82e6955b1b2292885d9a95aa163aea9b5ef1cc079b",
+   "from": "posts/the-boring-state-of-artificial-intelligence/index.html",
+   "cached": true
+  },
+  {
+   "url": "https://www.theboringblog.ai/posts/the-boring-state-of-artificial-intelligence/14.png?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/posts/the-boring-state-of-artificial-intelligence/14.png",
+   "bytes": 162947,
+   "sha256": "8cd57cea61b4cf3fba4bd87a1d2a799c463758a1e06f87096f868e6214890036",
+   "contentType": "image/png",
+   "from": "posts/the-boring-state-of-artificial-intelligence/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/posts/the-boring-state-of-artificial-intelligence/14.png",
+   "path": "assets/posts/the-boring-state-of-artificial-intelligence/14.png",
+   "bytes": 162947,
+   "sha256": "8cd57cea61b4cf3fba4bd87a1d2a799c463758a1e06f87096f868e6214890036",
+   "from": "posts/the-boring-state-of-artificial-intelligence/index.html",
+   "cached": true
+  },
+  {
+   "url": "https://www.theboringblog.ai/posts/the-boring-state-of-artificial-intelligence/15.png?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/posts/the-boring-state-of-artificial-intelligence/15.png",
+   "bytes": 323364,
+   "sha256": "84a734918d678aac46b4af1ccfac66825f871e0f15b275873778230407e5473d",
+   "contentType": "image/png",
+   "from": "posts/the-boring-state-of-artificial-intelligence/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/posts/the-boring-state-of-artificial-intelligence/15.png",
+   "path": "assets/posts/the-boring-state-of-artificial-intelligence/15.png",
+   "bytes": 323364,
+   "sha256": "84a734918d678aac46b4af1ccfac66825f871e0f15b275873778230407e5473d",
+   "from": "posts/the-boring-state-of-artificial-intelligence/index.html",
+   "cached": true
+  },
+  {
+   "url": "https://www.theboringblog.ai/posts/the-boring-state-of-artificial-intelligence/16.png?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/posts/the-boring-state-of-artificial-intelligence/16.png",
+   "bytes": 578409,
+   "sha256": "e9181bce4680432362135967f2f43b25dc0d6a3b659700971621da999097cd25",
+   "contentType": "image/png",
+   "from": "posts/the-boring-state-of-artificial-intelligence/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/posts/the-boring-state-of-artificial-intelligence/16.png",
+   "path": "assets/posts/the-boring-state-of-artificial-intelligence/16.png",
+   "bytes": 578409,
+   "sha256": "e9181bce4680432362135967f2f43b25dc0d6a3b659700971621da999097cd25",
+   "from": "posts/the-boring-state-of-artificial-intelligence/index.html",
+   "cached": true
+  },
+  {
+   "url": "https://www.theboringblog.ai/posts/the-boring-state-of-artificial-intelligence/17.png?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/posts/the-boring-state-of-artificial-intelligence/17.png",
+   "bytes": 876548,
+   "sha256": "840105ea84dbf9ba3a6cf73f798c653c7afb7692866b56e4d0407c399e08385c",
+   "contentType": "image/png",
+   "from": "posts/the-boring-state-of-artificial-intelligence/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/posts/the-boring-state-of-artificial-intelligence/17.png",
+   "path": "assets/posts/the-boring-state-of-artificial-intelligence/17.png",
+   "bytes": 876548,
+   "sha256": "840105ea84dbf9ba3a6cf73f798c653c7afb7692866b56e4d0407c399e08385c",
+   "from": "posts/the-boring-state-of-artificial-intelligence/index.html",
+   "cached": true
+  },
+  {
+   "url": "https://www.theboringblog.ai/posts/the-boring-state-of-artificial-intelligence/18.png?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/posts/the-boring-state-of-artificial-intelligence/18.png",
+   "bytes": 418688,
+   "sha256": "808609f9440f1936d559ac6b76021410cfbd08a3016df014e405193959639605",
+   "contentType": "image/png",
+   "from": "posts/the-boring-state-of-artificial-intelligence/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/posts/the-boring-state-of-artificial-intelligence/18.png",
+   "path": "assets/posts/the-boring-state-of-artificial-intelligence/18.png",
+   "bytes": 418688,
+   "sha256": "808609f9440f1936d559ac6b76021410cfbd08a3016df014e405193959639605",
+   "from": "posts/the-boring-state-of-artificial-intelligence/index.html",
+   "cached": true
+  },
+  {
+   "url": "https://www.theboringblog.ai/posts/the-boring-state-of-artificial-intelligence/19.png?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/posts/the-boring-state-of-artificial-intelligence/19.png",
+   "bytes": 569204,
+   "sha256": "76a7ac6c8a149bd6561ae15cefe6f94cb5ecd18dd2de7f56de4186419c89ddbc",
+   "contentType": "image/png",
+   "from": "posts/the-boring-state-of-artificial-intelligence/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/posts/the-boring-state-of-artificial-intelligence/19.png",
+   "path": "assets/posts/the-boring-state-of-artificial-intelligence/19.png",
+   "bytes": 569204,
+   "sha256": "76a7ac6c8a149bd6561ae15cefe6f94cb5ecd18dd2de7f56de4186419c89ddbc",
+   "from": "posts/the-boring-state-of-artificial-intelligence/index.html",
+   "cached": true
+  },
+  {
+   "url": "https://www.theboringblog.ai/posts/the-boring-state-of-artificial-intelligence/20.png?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/posts/the-boring-state-of-artificial-intelligence/20.png",
+   "bytes": 230342,
+   "sha256": "e177566a58eb60dfecfe1b4c537f07c37c941d64ff0a1f8f3bfff9c244f34d1d",
+   "contentType": "image/png",
+   "from": "posts/the-boring-state-of-artificial-intelligence/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/posts/the-boring-state-of-artificial-intelligence/20.png",
+   "path": "assets/posts/the-boring-state-of-artificial-intelligence/20.png",
+   "bytes": 230342,
+   "sha256": "e177566a58eb60dfecfe1b4c537f07c37c941d64ff0a1f8f3bfff9c244f34d1d",
+   "from": "posts/the-boring-state-of-artificial-intelligence/index.html",
+   "cached": true
+  },
+  {
+   "url": "https://www.theboringblog.ai/posts/the-boring-state-of-artificial-intelligence/21.png?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/posts/the-boring-state-of-artificial-intelligence/21.png",
+   "bytes": 292332,
+   "sha256": "a45bf70ad15c8b263e460d252f803d849309b78460bee5074263cf196305d57c",
+   "contentType": "image/png",
+   "from": "posts/the-boring-state-of-artificial-intelligence/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/posts/the-boring-state-of-artificial-intelligence/21.png",
+   "path": "assets/posts/the-boring-state-of-artificial-intelligence/21.png",
+   "bytes": 292332,
+   "sha256": "a45bf70ad15c8b263e460d252f803d849309b78460bee5074263cf196305d57c",
+   "from": "posts/the-boring-state-of-artificial-intelligence/index.html",
+   "cached": true
+  },
+  {
+   "url": "https://www.theboringblog.ai/posts/the-boring-state-of-artificial-intelligence/22.png?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/posts/the-boring-state-of-artificial-intelligence/22.png",
+   "bytes": 152732,
+   "sha256": "93e026f431b1d226b0ebdfbf4d4410afc358f93c45adeb681a73cf0419038df6",
+   "contentType": "image/png",
+   "from": "posts/the-boring-state-of-artificial-intelligence/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/posts/the-boring-state-of-artificial-intelligence/22.png",
+   "path": "assets/posts/the-boring-state-of-artificial-intelligence/22.png",
+   "bytes": 152732,
+   "sha256": "93e026f431b1d226b0ebdfbf4d4410afc358f93c45adeb681a73cf0419038df6",
+   "from": "posts/the-boring-state-of-artificial-intelligence/index.html",
+   "cached": true
+  },
+  {
+   "url": "https://www.theboringblog.ai/posts/the-boring-state-of-artificial-intelligence/23.png?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/posts/the-boring-state-of-artificial-intelligence/23.png",
+   "bytes": 602502,
+   "sha256": "ba76ddfa1c52bfb1f8b4dd909fc1637172e54734fe6b5d28a30faed22e80b4c1",
+   "contentType": "image/png",
+   "from": "posts/the-boring-state-of-artificial-intelligence/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/posts/the-boring-state-of-artificial-intelligence/23.png",
+   "path": "assets/posts/the-boring-state-of-artificial-intelligence/23.png",
+   "bytes": 602502,
+   "sha256": "ba76ddfa1c52bfb1f8b4dd909fc1637172e54734fe6b5d28a30faed22e80b4c1",
+   "from": "posts/the-boring-state-of-artificial-intelligence/index.html",
+   "cached": true
+  },
+  {
+   "url": "https://www.theboringblog.ai/posts/the-boring-state-of-artificial-intelligence/24.png?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/posts/the-boring-state-of-artificial-intelligence/24.png",
+   "bytes": 66897,
+   "sha256": "edbfbe07c8f9509040113802367f8914d59ab37a6650f32b786d01e30fd02184",
+   "contentType": "image/png",
+   "from": "posts/the-boring-state-of-artificial-intelligence/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/posts/the-boring-state-of-artificial-intelligence/24.png",
+   "path": "assets/posts/the-boring-state-of-artificial-intelligence/24.png",
+   "bytes": 66897,
+   "sha256": "edbfbe07c8f9509040113802367f8914d59ab37a6650f32b786d01e30fd02184",
+   "from": "posts/the-boring-state-of-artificial-intelligence/index.html",
+   "cached": true
+  },
+  {
+   "url": "https://www.theboringblog.ai/posts/the-boring-state-of-artificial-intelligence/25.png?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/posts/the-boring-state-of-artificial-intelligence/25.png",
+   "bytes": 361022,
+   "sha256": "1e7bc5a8074be940ae8dcd7c158bdcb89b22b2a1e1b214eaae3dbf9a77e3deb9",
+   "contentType": "image/png",
+   "from": "posts/the-boring-state-of-artificial-intelligence/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/posts/the-boring-state-of-artificial-intelligence/25.png",
+   "path": "assets/posts/the-boring-state-of-artificial-intelligence/25.png",
+   "bytes": 361022,
+   "sha256": "1e7bc5a8074be940ae8dcd7c158bdcb89b22b2a1e1b214eaae3dbf9a77e3deb9",
+   "from": "posts/the-boring-state-of-artificial-intelligence/index.html",
+   "cached": true
+  },
+  {
+   "url": "https://www.theboringblog.ai/posts/the-boring-state-of-artificial-intelligence/26.png?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/posts/the-boring-state-of-artificial-intelligence/26.png",
+   "bytes": 405965,
+   "sha256": "c43d4c577ed090cec6d2d79716faf573b5aebe801e447e41543a05b36dc35e54",
+   "contentType": "image/png",
+   "from": "posts/the-boring-state-of-artificial-intelligence/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/posts/the-boring-state-of-artificial-intelligence/26.png",
+   "path": "assets/posts/the-boring-state-of-artificial-intelligence/26.png",
+   "bytes": 405965,
+   "sha256": "c43d4c577ed090cec6d2d79716faf573b5aebe801e447e41543a05b36dc35e54",
+   "from": "posts/the-boring-state-of-artificial-intelligence/index.html",
+   "cached": true
+  },
+  {
+   "url": "https://www.theboringblog.ai/posts/the-boring-state-of-artificial-intelligence/27.png?dpl=dpl_GuLUPYS9NPkCKya9tbP8oRypFzgF",
+   "path": "assets/posts/the-boring-state-of-artificial-intelligence/27.png",
+   "bytes": 1335522,
+   "sha256": "176bd01ddab21bb26f09ca770b9f2a7a2dccdf62b65b4ec45a4731d658dde778",
+   "contentType": "image/png",
+   "from": "posts/the-boring-state-of-artificial-intelligence/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/posts/the-boring-state-of-artificial-intelligence/27.png",
+   "path": "assets/posts/the-boring-state-of-artificial-intelligence/27.png",
+   "bytes": 1335522,
+   "sha256": "176bd01ddab21bb26f09ca770b9f2a7a2dccdf62b65b4ec45a4731d658dde778",
+   "from": "posts/the-boring-state-of-artificial-intelligence/index.html",
+   "cached": true
+  },
+  {
+   "url": "https://www.theboringblog.ai/posts/the-boring-state-of-artificial-intelligence/audio/discussion-v4-signoff-v1.mp3",
+   "path": "assets/posts/the-boring-state-of-artificial-intelligence/audio/discussion-v4-signoff-v1.mp3",
+   "bytes": 20080893,
+   "sha256": "167e30e6af0d06ce349d2dbdc908420d721fbf69b39360cbeb2a20618b3ea94d",
+   "contentType": "audio/mpeg",
+   "from": "posts/the-boring-state-of-artificial-intelligence/index.html"
+  },
+  {
+   "url": "https://www.theboringblog.ai/sky/dawn.png",
+   "path": "assets/sky/dawn.png",
+   "bytes": 1227043,
+   "sha256": "1b754de6dd8f3aa5d94ddeb0920de75806df03cc1ab2c06c7b6b987c187f3058",
+   "contentType": "image/png",
+   "from": "index.html [_next/image]"
+  }
+ ]
+}
